@@ -1,0 +1,56 @@
+nav {
+    background-color: $primary-color;
+    height: 53px;
+
+    .flex {
+        display: flex;
+
+        ul {
+            @include flex-center;
+            list-style: none;
+
+            li {
+                @include flex-center;
+                padding: 0 17px;
+                height: 100%;
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 700;
+                cursor: pointer;
+                position: relative;
+                transition: all 0.35s;
+
+                span {
+                    z-index: 2;
+                    margin-bottom: 10px;
+                    transition: all 0.35s;
+                }
+
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 6px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    transition: all 0.35s;
+                }
+
+                &.active::after {
+                    height: 100%;
+                }
+
+                &.active span {
+                    margin-bottom: 0;
+                }
+            }
+
+            @for $i from 1 through length($colors) {
+                li:nth-child(#{$i}):after {
+                    background-color: nth($colors, $i);
+                }
+            }
+        }
+    }
+}
+

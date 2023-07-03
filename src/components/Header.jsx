@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <header>
-        <div className="wrapper">
+        <div className="wrapper flex">
           <div className="logo">
             <div className="logo-div">
               <img src={Logo} alt="logo" />

@@ -2,10 +2,7 @@ header {
     background-color: $secondary-color;
     height: 53px;
   
-    .wrapper {
-      width: 940px;
-      height: 100%;
-      margin: 0 auto;
+    .flex {
       display: flex;
   
       .logo {
@@ -41,6 +38,7 @@ header {
         justify-content: end;
         align-items: center;
         gap: 17px;
+        height: 100%;
   
         ul {
           display: flex;
