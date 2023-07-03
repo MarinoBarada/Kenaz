@@ -1,0 +1,71 @@
+header {
+    background-color: $secondary-color;
+    height: 53px;
+  
+    .wrapper {
+      width: 940px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+  
+      .logo {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        gap: 9px;
+  
+        h1 {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 27px;
+          cursor: pointer;
+        }
+  
+        .logo-div {
+          width: 63px;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          background-color: #3a3a3a;
+          cursor: pointer;
+  
+          img {
+            padding: 15px;
+          }
+        }
+      }
+  
+      .sub-nav {
+        display: flex;
+        flex-grow: 1;
+        justify-content: end;
+        align-items: center;
+        gap: 17px;
+  
+        ul {
+          display: flex;
+          gap: 9px;
+          height: 100%;
+          font-family: $text-font;
+  
+          li {
+            @include flex-center;
+            list-style: none;
+            padding: 0 10px;
+            height: 100%;
+            font-size: 14px;
+            line-height: 27px;
+            cursor: pointer;
+          }
+        }
+  
+        .search {
+          width: 63px;
+          height: 100%;
+          @include flex-center;
+          background-color: #3a3a3a;
+          cursor: pointer;
+        }
+      }
+    }
+  }
