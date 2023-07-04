@@ -14,6 +14,13 @@ Install SASS/SCSS
   npm add -D sass
 ```
 
+Install React Slick
+
+```bash
+  npm install react-slick --save  
+  npm install slick-carousel --save
+```
+
 ## Run Locally
 
 Clone the project
