@@ -1,0 +1,106 @@
+.first-slider {
+    width: 100%;
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .info {
+        height: 240px;
+        padding-left: 30px;
+        padding-bottom: 28px;
+        background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.89), black);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+        gap: 10px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+
+        .comments {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-family: $text-font;
+            font-weight: 400;
+            font-size: 12px;
+            color: #eef6fa;
+
+            .comment {
+                @include flex-center;
+                gap: 6px;
+            }
+        }
+
+        h1 {
+            max-width: 558px;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: 40.8px;
+        }
+
+        button {
+            padding: 8px 22px;
+            background-color: transparent;
+            border: 1px solid #ffffff;
+            color: #eef6fa;
+            font-family: $text-font;
+            font-weight: 400;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    }
+
+    .controls {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .control {
+            padding: 0 12px;
+            cursor: pointer;
+            height: 100%;
+            @include flex-center;
+        }
+    }
+}
+
+.first-slider-wrapper div.slick-arrow.slick-next::before {
+    content: url("./assets/rightArrow.svg");
+    position: absolute;
+    right: 28px;
+}
+
+.first-slider-wrapper div.slick-arrow.slick-next {
+    right: 0px;
+    height: 53px;
+    width: 60px;
+}
+
+.first-slider-wrapper div.slick-arrow.slick-prev {
+    height: 53px;
+    width: 60px;
+    left: 0;
+    z-index: 1;
+}
+
+.first-slider-wrapper div.slick-arrow.slick-prev::before {
+    content: url("./assets/leftArrow.svg");
+    position: absolute;
+    left: 28px;
+}
