@@ -1,0 +1,99 @@
+.sidebar {
+    height: 668px;
+    background-color: $primary-color;
+
+    .sidebar-posts-nav {
+        height: 53px;
+        background-color: $darker-primary-color;
+        @include container-wrapper;
+        @include flex-center;
+
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 100%;
+
+            li {
+                @include varela-14;
+                cursor: pointer;
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    left: 0;
+                    bottom: -3px;
+                    content: "";
+                    width: 100%;
+                    height: 2px;
+                    background-color: $sidebar-underline-color;
+                }
+
+                &.active::after {
+                    background-color: $sidebar-underline-color-active;
+                }
+
+                &.active {
+                    color: $sidebar-underline-color-active;
+                }
+            }
+        }
+    }
+
+    .sidebar-post {
+        height: 114px;
+        @include container-wrapper;
+        border-top: solid 2px $darker-primary-color;
+        border-bottom: solid 2px $darker-primary-color;
+        @include flex-center;
+        gap: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $sidebar-acitve-post-color;
+        }
+
+        .info {
+            @include flex-column;
+            align-items: start;
+            justify-content: center;
+            height: 70px;
+            max-width: 160px;
+
+            .comments {
+                align-self: end;
+                padding-right: 20px;
+                @include flex-center;
+                gap: 3px;
+                cursor: pointer;
+
+                span {
+                    @include varela-10;
+                }
+            }
+
+            p {
+                @include varela-10;
+                color: $sidebar-underline-color;
+                padding-bottom: 3px;
+            }
+
+            h2 {
+                @include bitter-14-bold;
+            }
+        }
+
+        .image {
+            height: 70px;
+            width: 70px;
+            border: solid 2px $white-color;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

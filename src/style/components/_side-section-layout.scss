@@ -1,0 +1,16 @@
+.news-sidebar-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 18px;
+
+    .news-wrapper {
+        background-color: green;
+        width: 622px;
+    }
+
+    .side-wrapper {
+        width: 300px;
+        padding: 0;
+        gap: 18px;
+    }
+}
