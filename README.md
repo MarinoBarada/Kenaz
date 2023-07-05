@@ -21,6 +21,14 @@ Install React Slick
   npm install slick-carousel --save
 ```
 
+Install React Video
+
+```bash
+  npm install --save video-react react react-dom
+```
+
+
+
 ## Run Locally
 
 Clone the project
