@@ -1,7 +1,18 @@
+// Flex
 @mixin flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+// Wrappers
+@mixin container-wrapper {
+    padding: 0 30px;
 }
 
 .wrapper {
@@ -11,8 +22,64 @@
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     gap: 18px;
     padding-top: 18px;
 }
+
+// Bitter font
+@mixin bitter-14-bold {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@mixin bitter-18-bold {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@mixin bitter-24 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+@mixin bitter-24-bold {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+@mixin bitter-34-bold {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40.8px;
+}
+
+// Varela font
+@mixin varela-10 {
+    font-family: $text-font;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+@mixin varela-12 {
+    font-family: $text-font;
+    font-weight: 400;
+    font-size: 12px;
+    color: $font-varela-color;
+}
+
+@mixin varela-14 {
+    font-family: $text-font;
+    font-weight: 400;
+    font-size: 14px;
+    color: $font-varela-color;
+}
+
+// Others
+@mixin arrow-slider {
+    height: 53px;
+    width: 60px;
+}
+

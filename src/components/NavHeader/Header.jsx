@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../assets/logo.svg";
-import Search from "../assets/search.svg";
+import Logo from "../../assets/logo.svg";
+import Search from "../../assets/search.svg";
 
 function Header() {
   return (

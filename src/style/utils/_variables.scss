@@ -1,9 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&display=swap");
 
-$title-font:'Bitter', serif;
-$text-font:'Varela Round', sans-serif;
+// Colors
 $secondary-color: #252525;
-$primary-color: #4D4382;
-$backgorind-color: #EEEEEE;
-$colors: #299EC3, #EE6151, #84C14F, #5DCFF3, #FCC44D, #A99765;
-$banner-color: #D7D7D7;
+$primary-color: #4d4382;
+$backgorind-color: #eeeeee;
+$white-color: #ffffff;
+
+// Header and Categories Colors
+$colors: #299ec3, #ee6151, #84c14f, #5dcff3, #fcc44d, #a99765;
+$header-light-color: #3a3a3a;
+
+// Banner-color
+$banner-color: #d7d7d7;
+
+// Fonts color
+$font-varela-color: #eef6fa;
+$title-color: #363f48;
+
+// Side bar colors
+$darker-primary-color: #3a3261;
+$sidebar-underline-color: #acb3ba;
+$sidebar-underline-color-active: #fcc44d;
+$sidebar-acitve-post-color: #40376b;
+$background-color-social: #dddddd;
+
+// Font family
+$title-font: "Bitter", serif;
+$text-font: "Varela Round", sans-serif;

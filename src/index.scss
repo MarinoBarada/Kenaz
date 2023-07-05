@@ -1,11 +1,11 @@
-@import './style/utils/all';
-@import './style/components/all';
+@import "./style/utils/all";
+@import "./style/components/all";
 
 :root {
   margin: 0;
   padding: 0;
   font-family: $title-font;
-  color: #FFFFFF;
+  color: $white-color;
   background-color: $backgorind-color;
 
   font-synthesis: none;
@@ -19,4 +19,3 @@
   margin: 0;
   padding: 0;
 }
-
