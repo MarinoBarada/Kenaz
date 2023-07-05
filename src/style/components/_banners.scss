@@ -1,0 +1,18 @@
+.banner {
+    background-color: $white-color;
+    height: 120px;
+    width: 100%;
+    border: 1px solid $banner-color;
+}
+
+.banner-side {
+    background-color: $background-color-social;
+    @include flex-center;
+    height: 127px;
+    padding: 20px;
+    gap: 8px;
+
+    .banner {
+        height: 100%;
+    }
+}
