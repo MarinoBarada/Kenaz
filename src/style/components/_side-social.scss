@@ -1,0 +1,45 @@
+.side-social {
+    height: 191px;
+    @include flex-column;
+    gap: 15px;
+
+    h2 {
+        @include bitter-24-bold;
+        color: $title-color;
+    }
+
+    .social-wrapper {
+        @include flex-column;
+        gap: 10px;
+
+        .social {
+            height: 40px;
+            display: flex;
+            justify-content: start;
+            background-color: $background-color-social;
+            cursor: pointer;
+
+            .lfs {
+                @include flex-center;
+                @include bitter-18-bold;
+                flex-grow: 1;
+                justify-content: start;
+                padding-left: 15px;
+                color: $title-color;
+            }
+
+            .info {
+                width: 130px;
+                background-color: $primary-color;
+                @include flex-center;
+                justify-content: start;
+                padding-left: 15px;
+
+                p {
+                    @include varela-14;
+                    color: $white-color;
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import SideBar from "../components/SideSection/SideBar";
+import SideSocial from "../components/SideSection/SideSocial";
 
 function SideSectionLayout(props) {
   return (
@@ -10,6 +11,7 @@ function SideSectionLayout(props) {
         </div>
         <div className="side-wrapper flex-column">
           <SideBar />
+          <SideSocial />
         </div>
       </div>
     </>
