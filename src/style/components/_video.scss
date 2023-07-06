@@ -1,9 +1,9 @@
 .video-container {
     background-color: $white-color;
     height: 324px;
-    padding-top: 15px;
 
     h2 {
+        margin-top: 15px;
         @include bitter-24-bold;
         @include container-wrapper;
         color: $title-color;
