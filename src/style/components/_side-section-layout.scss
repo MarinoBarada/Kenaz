@@ -4,8 +4,9 @@
     gap: 18px;
 
     .news-wrapper {
-        background-color: green;
         width: 622px;
+        @include flex-column;
+        gap: 18px;
     }
 
     .side-wrapper {

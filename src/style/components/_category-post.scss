@@ -1,0 +1,57 @@
+.posts {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+
+    .post {
+        width: 170px;
+        height: 100%;
+        @include flex-column;
+        gap: 6px;
+        cursor: pointer;
+
+        img {
+            width: 100%;
+            height: 128px;
+        }
+    }
+}
+
+.posts-2 {
+    max-width: 610px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 20px;
+
+    .post-2 {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        gap: 15px;
+        cursor: pointer;
+
+        img {
+            width: 120px;
+            height: 100%;
+        }
+    }
+}
+
+.const {
+    .info {
+        @include flex-column;
+        gap: 6px;
+
+        p {
+            @include varela-12;
+            color: #666666;
+        }
+
+        h3 {
+            @include bitter-14-bold;
+            color: $title-color;
+        }
+    }
+}
