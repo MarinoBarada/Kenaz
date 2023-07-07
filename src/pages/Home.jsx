@@ -5,6 +5,7 @@ import ContainerCategoryLayout from "../layouts/ContainerCategoryLayout";
 import Post from "../components/CategoryPostContainer/Post";
 import Banner from "../components/Banners/Banner";
 import SmallSlidersLayout from "../layouts/SmallSlidersLayout";
+import SecondSlider from "../components/Sliders/SecondSlider";
 
 function Home() {
   const data = [
@@ -147,6 +148,8 @@ function Home() {
       </SideSectionLayout>
 
       <Banner />
+
+      <SecondSlider />
     </>
   );
 }
