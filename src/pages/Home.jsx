@@ -36,6 +36,7 @@ function Home() {
   return (
     <>
       <FirstSlider />
+
       <SideSectionLayout>
         <ContainerCategoryLayout title="News" color="#3677B5" clasName="posts">
           {data.slice(0, 3).map((item) => (
@@ -48,6 +49,7 @@ function Home() {
             />
           ))}
         </ContainerCategoryLayout>
+
         <ContainerCategoryLayout title="Sport" color="#84C14F" clasName="posts">
           {data.slice(0, 3).map((item) => (
             <Post
@@ -59,7 +61,9 @@ function Home() {
             />
           ))}
         </ContainerCategoryLayout>
+
         <Banner />
+
         <ContainerCategoryLayout
           title="Business"
           color="#EE6151"
@@ -75,7 +79,9 @@ function Home() {
             />
           ))}
         </ContainerCategoryLayout>
+
         <Banner />
+
         <SmallSlidersLayout
           title="News Carousel"
           color="#FCC44D"
@@ -94,6 +100,7 @@ function Home() {
             />
           ))}
         </SmallSlidersLayout>
+
         <div className="two-small-sliders">
           <div className="small-slider">
             <SmallSlidersLayout
@@ -115,6 +122,7 @@ function Home() {
               ))}
             </SmallSlidersLayout>
           </div>
+
           <div className="small-slider">
             <SmallSlidersLayout
               title="Local News"
@@ -137,6 +145,8 @@ function Home() {
           </div>
         </div>
       </SideSectionLayout>
+
+      <Banner />
     </>
   );
 }
