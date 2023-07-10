@@ -88,14 +88,10 @@ function SecondSlider() {
       <div className="second-slider-wrapper">
         <Slider {...settings}>
           {data.map((item) => (
-            <div
-              className="second-slider"
-              key={item.id}
-              onClick={() => setPopupImage(item)}
-            >
+            <div className="second-slider" key={item.id}>
               <img src={item.imageUrl} alt={item.title} />
               <div className="shadow"></div>
-              <div className="zoom-picture">
+              <div className="zoom-picture" onClick={() => setPopupImage(item)}>
                 <img src={SearchIcon} alt="search-icon" />
               </div>
             </div>

@@ -1,0 +1,11 @@
+.wrapper {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.flex-column {
+    @include flex-column;
+    gap: 18px;
+    padding-top: 18px;
+}

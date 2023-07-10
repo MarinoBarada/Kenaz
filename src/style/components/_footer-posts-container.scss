@@ -21,7 +21,7 @@
             border-bottom: solid 2px rgba(102, 102, 102, 0.2);
 
             .info {
-                width: 214px;
+                max-width: 215px;
                 @include flex-column;
                 gap: 10px;
 

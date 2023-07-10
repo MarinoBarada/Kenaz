@@ -8,10 +8,12 @@ function Header() {
       <header>
         <div className="wrapper flex">
           <div className="logo">
-            <div className="logo-div">
+            <a className="logo-div" href="">
               <img src={Logo} alt="logo" />
-            </div>
-            <h1>Kenaz</h1>
+            </a>
+            <a href="">
+              <h1>Kenaz</h1>
+            </a>
           </div>
           <div className="sub-nav">
             <ul>

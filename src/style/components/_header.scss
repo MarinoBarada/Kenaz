@@ -10,9 +10,14 @@ header {
       height: 100%;
       gap: 9px;
 
-      h1 {
-        @include bitter-24;
-        cursor: pointer;
+      a {
+        text-decoration: none;
+        color: $white-color;
+
+        h1 {
+          @include bitter-24;
+          cursor: pointer;
+        }
       }
 
       .logo-div {

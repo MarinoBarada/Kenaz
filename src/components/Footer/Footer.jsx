@@ -61,22 +61,39 @@ function Footer() {
         <div className="wrapper">
           <div className="first-wrapper">
             <div className="social">
-              <div className="logo">
+              <a className="logo" href="">
                 <img src={Logo} alt="logo" />
                 <h1>Kenaz</h1>
-              </div>
+              </a>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 leo ante.
               </p>
               <div className="social-icons">
-                <img src={Rss} alt="Rss" />
-                <img src={Facebook} alt="Facebook" />
-                <img src={Twitter} alt="Twitter" />
-                <img src={Dribble} alt="Dribble" />
-                <img src={Linkedin} alt="Linkedin" />
-                <img src={YouTube} alt="YouTube" />
-                <img src={Skype} alt="Skype" />
+                <a href="" target="_blank">
+                  <img src={Rss} alt="Rss" />
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src={Facebook} alt="Facebook" />
+                </a>
+                <a
+                  href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin"
+                  target="_blank"
+                >
+                  <img src={Twitter} alt="Twitter" />
+                </a>
+                <a href="https://dribbble.com/" target="_blank">
+                  <img src={Dribble} alt="Dribble" />
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <img src={Linkedin} alt="Linkedin" />
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                  <img src={YouTube} alt="YouTube" />
+                </a>
+                <a href="https://www.skype.com/en/" target="_blank">
+                  <img src={Skype} alt="Skype" />
+                </a>
               </div>
             </div>
             <div className="newsletter">
@@ -130,7 +147,10 @@ function Footer() {
             <p>
               © 2013 - Kenaz Template - Proudly made at Plava tvornica Croatia
             </p>
-            <p>Typography - Templates - Contact Form - 404 Page</p>
+            <p>
+              <a href="">Typography</a> - <a href="">Templates</a> -{" "}
+              <a href="">Contact Form</a> - <a href="">404 Page</a>
+            </p>
           </div>
         </div>
       </footer>
