@@ -70,11 +70,26 @@
     color: $font-varela-color;
 }
 
+@mixin varela-13 {
+    font-family: $text-font;
+    font-weight: 400;
+    font-size: 13px;
+    color: #CCCCCC;
+    line-height: 18px;
+}
+
 @mixin varela-14 {
     font-family: $text-font;
     font-weight: 400;
     font-size: 14px;
     color: $font-varela-color;
+}
+
+@mixin varela-16 {
+    font-family: $text-font;
+    font-weight: 400;
+    font-size: 14px;
+    color: #CCCCCC;
 }
 
 // Others
