@@ -6,61 +6,42 @@ import Post from "../components/CategoryPostContainer/Post";
 import Banner from "../components/Banners/Banner";
 import SmallSlidersLayout from "../layouts/SmallSlidersLayout";
 import SecondSlider from "../components/Sliders/SecondSlider";
+import Articles from "../data/articles.json";
 
 function Home() {
-  const data = [
-    {
-      id: 1,
-      date: "August 26, 2013",
-      title: "For Obama, MLK's shadow looms large ahead of speech",
-      imageUrl: "src/images/slika1.png",
-    },
-    {
-      id: 2,
-      date: "August 15, 2013",
-      title: "For Obama, MLK's shadow looms large ahead of speech",
-      imageUrl: "src/images/slika2.jpg",
-    },
-    {
-      id: 3,
-      date: "August 26, 2013",
-      title: "For Obama, MLK's shadow looms large ahead of speech",
-      imageUrl: "src/images/slika1.png",
-    },
-    {
-      id: 4,
-      date: "August 15, 2013",
-      title: "For Obama, MLK's shadow looms large ahead of speech",
-      imageUrl: "src/images/slika2.jpg",
-    },
-  ];
   return (
     <>
       <FirstSlider />
 
       <SideSectionLayout>
         <ContainerCategoryLayout title="News" color="#3677B5" clasName="posts">
-          {data.slice(0, 3).map((item) => (
-            <Post
-              key={item.id}
-              date={item.date}
-              title={item.title}
-              imageUrl={item.imageUrl}
-              className={"post"}
-            />
-          ))}
+          {Articles.filter((item) => item.category === "news")
+            .sort((a, b) => new Date(b.date) - new Date(a.date))
+            .slice(0, 3)
+            .map((item) => (
+              <Post
+                key={item.id}
+                date={item.date}
+                title={item.title}
+                imageUrl={item.imageUrl}
+                className={"post"}
+              />
+            ))}
         </ContainerCategoryLayout>
 
         <ContainerCategoryLayout title="Sport" color="#84C14F" clasName="posts">
-          {data.slice(0, 3).map((item) => (
-            <Post
-              key={item.id}
-              date={item.date}
-              title={item.title}
-              imageUrl={item.imageUrl}
-              className={"post"}
-            />
-          ))}
+          {Articles.filter((item) => item.category === "sport")
+            .sort((a, b) => new Date(b.date) - new Date(a.date))
+            .slice(0, 3)
+            .map((item) => (
+              <Post
+                key={item.id}
+                date={item.date}
+                title={item.title}
+                imageUrl={item.imageUrl}
+                className={"post"}
+              />
+            ))}
         </ContainerCategoryLayout>
 
         <Banner />
@@ -70,15 +51,18 @@ function Home() {
           color="#EE6151"
           clasName="posts-2"
         >
-          {data.slice(0, 4).map((item) => (
-            <Post
-              key={item.id}
-              date={item.date}
-              title={item.title}
-              imageUrl={item.imageUrl}
-              className={"post-2"}
-            />
-          ))}
+          {Articles.filter((item) => item.category === "business")
+            .sort((a, b) => new Date(b.date) - new Date(a.date))
+            .slice(0, 4)
+            .map((item) => (
+              <Post
+                key={item.id}
+                date={item.date}
+                title={item.title}
+                imageUrl={item.imageUrl}
+                className={"post-2"}
+              />
+            ))}
         </ContainerCategoryLayout>
 
         <Banner />
@@ -91,15 +75,17 @@ function Home() {
           rightArrow="src/assets/rightArrowYello.svg"
           postNumber={2}
         >
-          {data.slice(0, 4).map((item) => (
-            <Post
-              key={item.id}
-              date={item.date}
-              title={item.title}
-              imageUrl={item.imageUrl}
-              className={"post-3"}
-            />
-          ))}
+          {Articles.filter((item) => item.category === "life")
+            .slice(0, 10)
+            .map((item) => (
+              <Post
+                key={item.id}
+                date={item.date}
+                title={item.title}
+                imageUrl={item.imageUrl}
+                className={"post-3"}
+              />
+            ))}
         </SmallSlidersLayout>
 
         <div className="two-small-sliders">
@@ -112,15 +98,17 @@ function Home() {
               rightArrow="src/assets/rightArrowBrown.svg"
               postNumber={1}
             >
-              {data.slice(0, 2).map((item) => (
-                <Post
-                  key={item.id}
-                  date={item.date}
-                  title={item.title}
-                  imageUrl={item.imageUrl}
-                  className={"post-4"}
-                />
-              ))}
+              {Articles.filter((item) => item.category === "tech")
+                .slice(0, 10)
+                .map((item) => (
+                  <Post
+                    key={item.id}
+                    date={item.date}
+                    title={item.title}
+                    imageUrl={item.imageUrl}
+                    className={"post-4"}
+                  />
+                ))}
             </SmallSlidersLayout>
           </div>
 
@@ -133,15 +121,17 @@ function Home() {
               rightArrow="src/assets/rightArrowBrown.svg"
               postNumber={1}
             >
-              {data.slice(0, 2).map((item) => (
-                <Post
-                  key={item.id}
-                  date={item.date}
-                  title={item.title}
-                  imageUrl={item.imageUrl}
-                  className={"post-4"}
-                />
-              ))}
+              {Articles.filter((item) => item.category === "travel")
+                .slice(0, 10)
+                .map((item) => (
+                  <Post
+                    key={item.id}
+                    date={item.date}
+                    title={item.title}
+                    imageUrl={item.imageUrl}
+                    className={"post-4"}
+                  />
+                ))}
             </SmallSlidersLayout>
           </div>
         </div>

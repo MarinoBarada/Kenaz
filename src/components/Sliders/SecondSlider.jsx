@@ -31,7 +31,7 @@ function SecondSlider() {
     customPaging: function (i) {
       return (
         <a>
-          <img src={`src/images/secondSlider/slika${i + 1}.jpg`} />
+          <img src={`src/images/secondSlider/image${i + 1}.jpg`} />
         </a>
       );
     },
@@ -48,38 +48,38 @@ function SecondSlider() {
   const data = [
     {
       id: 1,
-      title: "Slika1",
-      imageUrl: "src/images/secondSlider/slika1.jpg",
+      title: "image1",
+      imageUrl: "src/images/secondSlider/image1.jpg",
     },
     {
       id: 2,
-      title: "slika2",
-      imageUrl: "src/images/secondSlider/slika2.jpg",
+      title: "image2",
+      imageUrl: "src/images/secondSlider/image2.jpg",
     },
     {
       id: 3,
-      title: "slika3",
-      imageUrl: "src/images/secondSlider/slika3.jpg",
+      title: "image3",
+      imageUrl: "src/images/secondSlider/image3.jpg",
     },
     {
       id: 4,
-      title: "slika4",
-      imageUrl: "src/images/secondSlider/slika4.jpg",
+      title: "image4",
+      imageUrl: "src/images/secondSlider/image4.jpg",
     },
     {
       id: 5,
-      title: "slika5",
-      imageUrl: "src/images/secondSlider/slika5.jpg",
+      title: "image5",
+      imageUrl: "src/images/secondSlider/image5.jpg",
     },
     {
       id: 6,
-      title: "slika6",
-      imageUrl: "src/images/secondSlider/slika6.jpg",
+      title: "image6",
+      imageUrl: "src/images/secondSlider/image6.jpg",
     },
     {
       id: 7,
-      title: "slika7",
-      imageUrl: "src/images/secondSlider/slika7.jpg",
+      title: "image7",
+      imageUrl: "src/images/secondSlider/image7.jpg",
     },
   ];
 

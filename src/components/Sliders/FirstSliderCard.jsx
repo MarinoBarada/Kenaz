@@ -4,7 +4,7 @@ import CommentIcon from "../../assets/comment-ico.png";
 function FirstSliderCard({ date, comments, title, imageUrl }) {
   return (
     <div className="first-slider">
-      <img src={imageUrl} alt="slika" />
+      <img src={imageUrl} alt="image" />
       <div className="info">
         <div className="comments">
           <p>{date}</p>

@@ -7,7 +7,7 @@ function Video() {
       <h2>Kenaz TV</h2>
       <div className="video-wrapper">
         <Player
-          poster="src/images/slika1.png"
+          poster="src/images/articleImages/image17.png"
           src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
         >
           <BigPlayButton position="center" />
