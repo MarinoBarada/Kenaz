@@ -9,6 +9,7 @@
         @include flex-column;
         gap: 6px;
         cursor: pointer;
+        text-decoration: none;
 
         img {
             width: 100%;
@@ -32,6 +33,7 @@
         display: flex;
         gap: 15px;
         cursor: pointer;
+        text-decoration: none;
 
         img {
             width: 120px;

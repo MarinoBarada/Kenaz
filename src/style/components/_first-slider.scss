@@ -49,12 +49,13 @@
             @include bitter-34-bold;
         }
 
-        button {
+        a {
             padding: 8px 22px;
             background-color: transparent;
             border: 1px solid $white-color;
             @include varela-14;
             cursor: pointer;
+            text-decoration: none;
         }
     }
 }

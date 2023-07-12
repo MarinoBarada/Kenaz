@@ -10,6 +10,7 @@ nav {
             list-style: none;
 
             li {
+                width: 100%;
                 @include flex-center;
                 @include bitter-18-bold;
                 padding: 0 17px;
@@ -19,8 +20,13 @@ nav {
                 position: relative;
                 transition: all 0.35s;
 
-                span {
+                a {
+                    display: flex;
                     z-index: 2;
+                    align-items: center;
+                    height: 100%;
+                    color: white;
+                    text-decoration: none;
                     transition: all 0.35s;
                 }
 

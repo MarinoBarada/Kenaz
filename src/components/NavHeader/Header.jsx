@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../assets/logo.svg";
 import Search from "../../assets/search.svg";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -8,12 +9,12 @@ function Header() {
       <header>
         <div className="wrapper flex">
           <div className="logo">
-            <a className="logo-div" href="">
+            <NavLink className="logo-div" to="/">
               <img src={Logo} alt="logo" />
-            </a>
-            <a href="">
+            </NavLink>
+            <NavLink to="/">
               <h1>Kenaz</h1>
-            </a>
+            </NavLink>
           </div>
           <div className="sub-nav">
             <ul>

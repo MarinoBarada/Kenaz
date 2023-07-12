@@ -49,6 +49,7 @@
         @include flex-column;
         gap: 6px;
         cursor: pointer;
+        text-decoration: none;
 
         img {
             width: 100%;

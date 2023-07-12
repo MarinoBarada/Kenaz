@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ContainerCategoryLayout(props) {
   const style = {
@@ -11,7 +12,7 @@ function ContainerCategoryLayout(props) {
       <div className="info-wrapper">
         <div className="title">
           <h2>{props.title}</h2>
-          <a href="">See all</a>
+          <Link to={`/${props.title.toLowerCase()}`}>See all</Link>
         </div>
         <div className={props.clasName}>{props.children}</div>
       </div>

@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import CommentIcon from "../../assets/comment-ico.png";
 import Articles from "../../data/articles.json";
+import { NavLink } from "react-router-dom";
 
 function PostContainer({ title }) {
   const [randomArticles, setRandomArticles] = useState([]);
+  const baseUrl = "http://localhost:5173";
 
   useEffect(() => {
     const generatedRandomArticles = generateRandomArticles();
@@ -21,7 +23,7 @@ function PostContainer({ title }) {
       <h1>{title}</h1>
       <div className="posts">
         {randomArticles.map((item) => (
-          <div className="post" key={item.id}>
+          <NavLink className="post" key={item.id} to={`/${item.category}/${item.id}`}>
             <div className="info">
               <div className="date-comments">
                 <p>{item.date}</p>
@@ -33,9 +35,9 @@ function PostContainer({ title }) {
               <p>{item.title}</p>
             </div>
             <div className="image">
-              <img src={item.imageUrl} alt="image" />
+              <img src={`${baseUrl}/${item.imageUrl}`} alt="image" />
             </div>
-          </div>
+          </NavLink>
         ))}
       </div>
     </div>

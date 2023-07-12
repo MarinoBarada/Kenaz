@@ -39,6 +39,8 @@ function SideBar() {
             comments={item.comments}
             title={item.title}
             imageUrl={item.imageUrl}
+            category={item.category}
+            id={item.id}
           />
         ))}
     </div>

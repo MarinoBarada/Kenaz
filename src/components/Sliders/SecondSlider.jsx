@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import SearchIcon from "../../assets/searc-big.png";
+import Articles from "../../data/articles.json";
 
 function SecondSlider() {
+  const baseUrl = "http://localhost:5173";
   const [popupImage, setPopupImage] = useState(null);
 
   function SampleNextArrow(props) {
@@ -31,7 +33,7 @@ function SecondSlider() {
     customPaging: function (i) {
       return (
         <a>
-          <img src={`src/images/secondSlider/image${i + 1}.jpg`} />
+          <img src={`${baseUrl}/src/images/secondSlider/image${i + 1}.jpg`} />
         </a>
       );
     },
@@ -89,7 +91,7 @@ function SecondSlider() {
         <Slider {...settings}>
           {data.map((item) => (
             <div className="second-slider" key={item.id}>
-              <img src={item.imageUrl} alt={item.title} />
+              <img src={`${baseUrl}/${item.imageUrl}`} alt={item.title} />
               <div className="shadow"></div>
               <div className="zoom-picture" onClick={() => setPopupImage(item)}>
                 <img src={SearchIcon} alt="search-icon" />
@@ -103,7 +105,7 @@ function SecondSlider() {
         style={{ display: popupImage ? "block" : "none" }}
       >
         <span onClick={() => setPopupImage(null)}>&times;</span>
-        <img src={popupImage?.imageUrl} alt={popupImage?.title} />
+        <img src={`${baseUrl}/${popupImage?.imageUrl}`} alt={popupImage?.title} />
       </div>
     </>
   );

@@ -9,6 +9,7 @@ import Twitter from "../../assets/Twitter.jpg";
 import YouTube from "../../assets/YouTube.jpg";
 import TwitterBird from "../../assets/twitter-bird.png";
 import PostsContainer from "./PostsContainer";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   const [activeDivs, setActiveDivs] = useState([]);
@@ -71,10 +72,10 @@ function Footer() {
         <div className="wrapper">
           <div className="first-wrapper">
             <div className="social">
-              <a className="logo" href="">
+              <NavLink className="logo" to="/">
                 <img src={Logo} alt="logo" />
                 <h1>Kenaz</h1>
-              </a>
+              </NavLink>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 leo ante.
@@ -123,7 +124,9 @@ function Footer() {
                 {tags.map((item, index) => (
                   <div
                     key={index}
-                    className={`div ${activeDivs.includes(item.title) ? "active" : ""}`}
+                    className={`div ${
+                      activeDivs.includes(item.title) ? "active" : ""
+                    }`}
                     onClick={() => toggleClass(item.title)}
                   >
                     {item.title}

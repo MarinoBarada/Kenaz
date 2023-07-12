@@ -1,16 +1,19 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-function Post({ imageUrl, title, date, className }) {
+function Post({ imageUrl, title, date, className, category, id }) {
+  const baseUrl = "http://localhost:5173";
+
   return (
-    <div className={`${className} const`}>
+    <NavLink className={`${className} const`} to={`/${category}/${id}`}>
       <div className="image">
-        <img src={imageUrl} alt="image" />
+        <img src={`${baseUrl}/${imageUrl}`} alt="image" />
       </div>
       <div className="info">
         <p>{date}</p>
         <h3>{title}</h3>
       </div>
-    </div>
+    </NavLink>
   );
 }
 
