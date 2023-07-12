@@ -21,7 +21,6 @@ nav {
 
                 span {
                     z-index: 2;
-                    margin-bottom: 10px;
                     transition: all 0.35s;
                 }
 
@@ -37,10 +36,6 @@ nav {
 
                 &.active::after {
                     height: 100%;
-                }
-
-                &.active span {
-                    margin-bottom: 0;
                 }
             }
 

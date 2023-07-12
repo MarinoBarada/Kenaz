@@ -11,26 +11,36 @@ import TwitterBird from "../../assets/twitter-bird.png";
 import PostsContainer from "./PostsContainer";
 
 function Footer() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeDivs, setActiveDivs] = useState([]);
 
-  const handleItemClick = (index) => {
-    setActiveIndex(index);
+  const toggleClass = (divId) => {
+    setActiveDivs((prevActiveDivs) => {
+      if (prevActiveDivs.includes(divId)) {
+        return prevActiveDivs.filter((id) => id !== divId);
+      } else {
+        return [...prevActiveDivs, divId];
+      }
+    });
   };
 
   const tags = [
-    { title: "assueverit" },
-    { title: "utroquoe" },
-    { title: "probo" },
-    { title: "assuev" },
-    { title: "probo" },
-    { title: "assueverit" },
-    { title: "ittl" },
-    { title: "assueverit" },
-    { title: "assueverit" },
-    { title: "utroquoe" },
-    { title: "probo" },
-    { title: "assueverit" },
-    { title: "utroquoe" },
+    { title: "Breaking News" },
+    { title: "Current Events" },
+    { title: "Headlines" },
+    { title: "Finance" },
+    { title: "Economy" },
+    { title: "Market Analysis" },
+    { title: "Football" },
+    { title: "Basketball" },
+    { title: "Tennis" },
+    { title: "Health" },
+    { title: "Wellness" },
+    { title: "Relationships" },
+    { title: "Gadgets" },
+    { title: "Innovation" },
+    { title: "Adventure" },
+    { title: "Destinations" },
+    { title: "Vacation" },
   ];
 
   const data = [
@@ -113,8 +123,8 @@ function Footer() {
                 {tags.map((item, index) => (
                   <div
                     key={index}
-                    className={activeIndex === index ? "active" : ""}
-                    onClick={() => handleItemClick(index)}
+                    className={`div ${activeDivs.includes(item.title) ? "active" : ""}`}
+                    onClick={() => toggleClass(item.title)}
                   >
                     {item.title}
                   </div>

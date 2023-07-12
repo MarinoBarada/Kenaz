@@ -1,15 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import CommentIcon from "../../assets/comment-ico.png";
 import Articles from "../../data/articles.json";
 
 function PostContainer({ title }) {
-  const randomArticles = Articles.sort(() => Math.random() - 0.5).slice(0, 3);
+  const [randomArticles, setRandomArticles] = useState([]);
+
+  useEffect(() => {
+    const generatedRandomArticles = generateRandomArticles();
+    setRandomArticles(generatedRandomArticles);
+  }, []);
+
+  const generateRandomArticles = () => {
+    const shuffledArticles = Articles.sort(() => Math.random() - 0.5);
+    const selectedArticles = shuffledArticles.slice(0, 3);
+    return selectedArticles;
+  };
 
   return (
     <div className="footer-posts-container">
       <h1>{title}</h1>
       <div className="posts">
-        {randomArticles.slice(0, 3).map((item) => (
+        {randomArticles.map((item) => (
           <div className="post" key={item.id}>
             <div className="info">
               <div className="date-comments">
