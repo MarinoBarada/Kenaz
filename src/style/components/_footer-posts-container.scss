@@ -22,7 +22,7 @@
             text-decoration: none;
 
             .info {
-                max-width: 215px;
+                width: 215px;
                 @include flex-column;
                 gap: 10px;
 
