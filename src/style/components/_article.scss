@@ -6,7 +6,7 @@
     padding-bottom: 62px;
     border-bottom: solid 2px $background-color-social;
 
-    h1 {
+    .title {
         @include bitter-24-bold;
         padding: 0;
         max-width: 496px;

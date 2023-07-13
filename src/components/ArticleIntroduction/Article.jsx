@@ -16,7 +16,7 @@ function Article({
 
   return (
     <div className="article">
-      <h1>{title}</h1>
+      <h1 className="title">{title}</h1>
       <div className="calendar-info">
         <div className="date">
           <img src={CalendarIcon} alt="CalendarIcon" />
