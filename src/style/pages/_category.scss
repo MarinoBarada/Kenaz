@@ -1,0 +1,43 @@
+.articles-wrapper {
+    color: $title-color;
+    background-color: $white-color;
+
+    h1 {
+        @include bitter-24-bold;
+        text-transform: capitalize;
+        margin-top: 15px;
+        margin-bottom: 12px;
+        @include container-wrapper;
+    }
+
+    .articles {
+        @include flex-column;
+    }
+
+    .pagination {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 4px;
+        padding: 30px;
+
+        button {
+            width: 30px;
+            height: 30px;
+            @include flex-center;
+            background-color: #dddddd;
+            color: #4d4382;
+            border: none;
+            cursor: pointer;
+            transition:
+                background-color 0.3s,
+                color 0.3s;
+
+            &.active {
+                background-color: #4d4382;
+                color: white;
+            }
+        }
+    }
+}

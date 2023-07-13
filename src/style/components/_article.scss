@@ -1,0 +1,70 @@
+.article {
+    @include flex-column;
+    gap: 15px;
+    @include container-wrapper;
+    padding-top: 24px;
+    padding-bottom: 62px;
+    border-bottom: solid 2px $background-color-social;
+
+    h1 {
+        @include bitter-24-bold;
+        padding: 0;
+        max-width: 496px;
+    }
+
+    .calendar-info {
+        display: flex;
+        gap: 15px;
+
+        p {
+            @include varela-12;
+            color: #666666;
+        }
+
+        .date {
+            display: flex;
+            align-items: end;
+            gap: 4px;
+
+            img {
+                width: 16px;
+                height: 16px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .info {
+        display: flex;
+        gap: 20px;
+
+        .image {
+            img {
+                width: 170px;
+                height: 128px;
+                object-fit: cover;
+            }
+        }
+
+        .intraduction {
+            @include flex-column;
+            gap: 15px;
+            justify-content: start;
+            align-items: start;
+
+            p {
+                font-size: 14px;
+                line-height: 22px;
+                color: #444444;
+            }
+
+            a {
+                padding: 8px 22px;
+                background-color: $primary-color;
+                @include varela-14;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+}
