@@ -1,14 +1,12 @@
-import React, { useState, useContext } from "react";
-import baseURL from "../../context/baseURL";
+import React, { useState } from "react";
 
 function Comments({ comments }) {
-  const baseUrl = useContext(baseURL);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     comment: "",
     date: "",
-    imageUrl: "src/images/authorImages/avatar.jpg",
+    imageUrl: "/src/assets/avatar.jpg",
   });
   const [newComment, setNewComment] = useState({}); // new commentar data
 
@@ -35,7 +33,7 @@ function Comments({ comments }) {
       email: "",
       comment: "",
       date: "",
-      imageUrl: "src/images/authorImages/avatar.jpg",
+      imageUrl: "/src/assets/avatar.jpg",
     });
   };
 
@@ -53,7 +51,7 @@ function Comments({ comments }) {
           .map((item) => (
             <div className="comment" key={item.id}>
               <div className="image">
-                <img src={`${baseUrl}/${item.imageUrl}`} alt={item.name} />
+                <img src={item.imageUrl} alt={item.name} />
               </div>
               <div className="content">
                 <div className="info">

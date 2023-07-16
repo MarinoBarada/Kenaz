@@ -1,12 +1,10 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import CommentIcon from "../../assets/comment-ico.png";
 import Articles from "../../data/articles.json";
 import { NavLink } from "react-router-dom";
-import baseURL from "../../context/baseURL";
 
 function PostContainer({ title }) {
   const [randomArticles, setRandomArticles] = useState([]);
-  const baseUrl = useContext(baseURL);
 
   useEffect(() => {
     const generatedRandomArticles = generateRandomArticles();
@@ -41,7 +39,7 @@ function PostContainer({ title }) {
               <p>{item.title}</p>
             </div>
             <div className="image">
-              <img src={`${baseUrl}/${item.imageUrl}`} alt="image" />
+              <img src={item.imageUrl} alt="image" />
             </div>
           </NavLink>
         ))}

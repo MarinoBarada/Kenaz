@@ -1,7 +1,6 @@
-import React, { useContext } from "react";
+import React from "react";
 import CommentIcon from "../../assets/comment-ico.png";
 import { Link } from "react-router-dom";
-import baseURL from "../../context/baseURL";
 
 function FirstSliderCard({
   date,
@@ -12,11 +11,9 @@ function FirstSliderCard({
   id,
   article,
 }) {
-  const baseUrl = useContext(baseURL);
-
   return (
     <div className="first-slider">
-      <img src={`${baseUrl}/${imageUrl}`} alt="image" />
+      <img src={imageUrl} alt="image" />
       <div className="info">
         <div className="comments">
           <p>{date}</p>

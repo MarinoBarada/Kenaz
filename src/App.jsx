@@ -7,12 +7,9 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import Category from "./pages/Category";
 import SingleArticle from "./pages/SingleArticle";
-import baseURL from "./context/baseURL";
 
 function App() {
   const location = useLocation();
-  const baseLocatoion = window.location;
-  const path = baseLocatoion.protocol + "//" + baseLocatoion.host;
 
   useEffect(() => {
     const scrollToTop = () => {
@@ -36,28 +33,23 @@ function App() {
 
   return (
     <>
-      <baseURL.Provider value={path}>
-        <Header />
-        <Categories />
-        <div className="wrapper flex-column">
-          <Banner />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            {validCategories.map((categoryName) => (
-              <Route
-                key={categoryName}
-                path={`/${categoryName}`}
-                element={<Category />}
-              />
-            ))}
+      <Header />
+      <Categories />
+      <div className="wrapper flex-column">
+        <Banner />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {validCategories.map((categoryName) => (
             <Route
-              path="/:categoryName/:articleId"
-              element={<SingleArticle />}
+              key={categoryName}
+              path={`/${categoryName}`}
+              element={<Category />}
             />
-          </Routes>
-        </div>
-        <Footer />
-      </baseURL.Provider>
+          ))}
+          <Route path="/:categoryName/:articleId" element={<SingleArticle />} />
+        </Routes>
+      </div>
+      <Footer />
     </>
   );
 }

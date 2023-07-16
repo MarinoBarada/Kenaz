@@ -1,7 +1,6 @@
-import React, { useContext } from "react";
+import React from "react";
 import CommentIcon from "../../assets/comment-ico.png";
 import { NavLink } from "react-router-dom";
-import baseURL from "../../context/baseURL";
 
 function SideBarPost({
   date,
@@ -12,8 +11,6 @@ function SideBarPost({
   id,
   article,
 }) {
-  const baseUrl = useContext(baseURL);
-
   return (
     <NavLink
       className="sidebar-post"
@@ -29,7 +26,7 @@ function SideBarPost({
         <h2>{title}</h2>
       </div>
       <div className="image">
-        <img src={`${baseUrl}/${imageUrl}`} alt="image"></img>
+        <img src={imageUrl} alt="image"></img>
       </div>
     </NavLink>
   );

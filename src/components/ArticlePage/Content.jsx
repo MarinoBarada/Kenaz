@@ -1,16 +1,13 @@
-import React, { useContext } from "react";
-import baseURL from "../../context/baseURL";
+import React from "react";
 
 function Content({ content }) {
-  const baseUrl = useContext(baseURL);
-
   return (
     <div className="content-container">
       {content.map((item, index) => {
         if (item.type === "image") {
           return (
             <div className="image" key={index}>
-              <img src={`${baseUrl}/${item.content}`} alt={`Image ${index}`} />
+              <img src={item.content} alt={`Image ${index}`} />
             </div>
           );
         } else if (item.type === "paragraph") {

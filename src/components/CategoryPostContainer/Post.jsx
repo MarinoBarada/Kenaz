@@ -1,10 +1,7 @@
-import React, { useContext } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
-import baseURL from "../../context/baseURL";
 
 function Post({ imageUrl, title, date, className, category, id, article }) {
-  const baseUrl = useContext(baseURL);
-
   return (
     <NavLink
       className={`${className} const`}
@@ -12,7 +9,7 @@ function Post({ imageUrl, title, date, className, category, id, article }) {
       state={{ data: article }}
     >
       <div className="image">
-        <img src={`${baseUrl}/${imageUrl}`} alt="image" />
+        <img src={imageUrl} alt="image" />
       </div>
       <div className="info">
         <p>{date}</p>

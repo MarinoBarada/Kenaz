@@ -1,10 +1,8 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import SearchIcon from "../../assets/searc-big.png";
-import baseURL from "../../context/baseURL";
 
 function SecondSlider() {
-  const baseUrl = useContext(baseURL);
   const [popupImage, setPopupImage] = useState(null);
 
   function SampleNextArrow(props) {
@@ -33,7 +31,7 @@ function SecondSlider() {
     customPaging: function (i) {
       return (
         <a>
-          <img src={`${baseUrl}/src/images/secondSlider/image${i + 1}.jpg`} />
+          <img src={`/src/assets/secondSlider/image${i + 1}.jpg`} />
         </a>
       );
     },
@@ -51,37 +49,37 @@ function SecondSlider() {
     {
       id: 1,
       title: "image1",
-      imageUrl: "src/images/secondSlider/image1.jpg",
+      imageUrl: "/src/assets/secondSlider/image1.jpg",
     },
     {
       id: 2,
       title: "image2",
-      imageUrl: "src/images/secondSlider/image2.jpg",
+      imageUrl: "/src/assets/secondSlider/image2.jpg",
     },
     {
       id: 3,
       title: "image3",
-      imageUrl: "src/images/secondSlider/image3.jpg",
+      imageUrl: "/src/assets/secondSlider/image3.jpg",
     },
     {
       id: 4,
       title: "image4",
-      imageUrl: "src/images/secondSlider/image4.jpg",
+      imageUrl: "/src/assets/secondSlider/image4.jpg",
     },
     {
       id: 5,
       title: "image5",
-      imageUrl: "src/images/secondSlider/image5.jpg",
+      imageUrl: "/src/assets/secondSlider/image5.jpg",
     },
     {
       id: 6,
       title: "image6",
-      imageUrl: "src/images/secondSlider/image6.jpg",
+      imageUrl: "/src/assets/secondSlider/image6.jpg",
     },
     {
       id: 7,
       title: "image7",
-      imageUrl: "src/images/secondSlider/image7.jpg",
+      imageUrl: "/src/assets/secondSlider/image7.jpg",
     },
   ];
 
@@ -91,7 +89,7 @@ function SecondSlider() {
         <Slider {...settings}>
           {data.map((item) => (
             <div className="second-slider" key={item.id}>
-              <img src={`${baseUrl}/${item.imageUrl}`} alt={item.title} />
+              <img src={item.imageUrl} alt={item.title} />
               <div className="shadow"></div>
               <div className="zoom-picture" onClick={() => setPopupImage(item)}>
                 <img src={SearchIcon} alt="search-icon" />
@@ -105,10 +103,7 @@ function SecondSlider() {
         style={{ display: popupImage ? "block" : "none" }}
       >
         <span onClick={() => setPopupImage(null)}>&times;</span>
-        <img
-          src={`${baseUrl}/${popupImage?.imageUrl}`}
-          alt={popupImage?.title}
-        />
+        <img src={popupImage?.imageUrl} alt={popupImage?.title} />
       </div>
     </>
   );

@@ -1,8 +1,7 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import CalendarIcon from "../../assets/calendar.png";
 import Authors from "../../data/authors.json";
-import baseURL from "../../context/baseURL";
 
 function Article({
   id,
@@ -15,7 +14,6 @@ function Article({
   introduction,
   article,
 }) {
-  const baseUrl = useContext(baseURL);
   const authorName = Authors.find((author) => author.id === authorId)?.name;
 
   return (
@@ -31,7 +29,7 @@ function Article({
       </div>
       <div className="info">
         <div className="image">
-          <img src={`${baseUrl}/${imageUrl}`} alt="image" />
+          <img src={imageUrl} alt="image" />
         </div>
         <div className="intraduction">
           <p>{introduction}</p>
