@@ -1,15 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import FirstSlider from "../components/Sliders/FirstSlider";
 import SideSectionLayout from "../layouts/SideSectionLayout";
 import Banner from "../components/Banners/Banner";
 import { useLocation } from "react-router-dom";
 import Articles from "../data/articles.json";
+import Authors from "../data/authors.json";
 import Article from "../components/ArticleIntroduction/Article";
 
 function Category() {
   const location = useLocation();
   const path = location.pathname;
   const categoryName = path.split("/")[1];
+  const componentRef = useRef(null);
 
   const filteredArticles = Articles.filter(
     (article) => article.category === categoryName
@@ -24,6 +26,12 @@ function Category() {
   const currentData = filteredArticles.slice(startIndex, endIndex);
 
   const handlePageClick = (page) => {
+    if (componentRef.current) {
+      componentRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
     setCurrentPage(page);
   };
 
@@ -32,7 +40,7 @@ function Category() {
       <FirstSlider />
 
       <SideSectionLayout>
-        <div className="articles-wrapper">
+        <div className="articles-wrapper" ref={componentRef}>
           <h1>{categoryName}</h1>
           <div className="articles">
             {currentData.map((item) => (
@@ -40,12 +48,13 @@ function Category() {
                 key={item.id}
                 date={item.date}
                 comments={item.comments}
-                author={item["author-name"]}
+                authorId={item.authorId}
                 introduction={item.introduction}
                 title={item.title}
                 imageUrl={item.imageUrl}
                 category={item.category}
                 id={item.id}
+                article={item}
               />
             ))}
           </div>

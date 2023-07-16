@@ -2,7 +2,7 @@ import React from "react";
 import CommentIcon from "../../assets/comment-ico.png";
 import { Link } from "react-router-dom";
 
-function FirstSliderCard({ date, comments, title, imageUrl ,category, id}) {
+function FirstSliderCard({ date, comments, title, imageUrl ,category, id, article}) {
   const baseUrl = "http://localhost:5173";
 
   return (
@@ -13,11 +13,11 @@ function FirstSliderCard({ date, comments, title, imageUrl ,category, id}) {
           <p>{date}</p>
           <div className="comment">
             <img src={CommentIcon} alt="CommentIcon" />
-            <p>{comments} Comments</p>
+            <p>{comments.length} Comments</p>
           </div>
         </div>
         <h1>{title}</h1>
-        <Link to={`/${category}/${id}`}>Read article</Link>
+        <Link to={`/${category}/${id}`} state={{ data: article }}>Read article</Link>
       </div>
     </div>
   );

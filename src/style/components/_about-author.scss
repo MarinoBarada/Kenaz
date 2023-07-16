@@ -1,0 +1,33 @@
+.author {
+    padding: 18px 30px 30px 30px;
+    background-color: $white-color;
+    @include flex-column;
+    gap: 30px;
+
+    h2 {
+        @include bitter-24-bold;
+        color: $title-color;
+    }
+
+    .about-info {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        .image {
+            img {
+                width: 110px;
+                height: 110px;
+                object-fit: cover;
+            }
+        }
+
+        p {
+            font-family: $text-font;
+            font-weight: 400;
+            font-size: 13px;
+            color: #444444;
+            line-height: 20px;
+        }
+    }
+}

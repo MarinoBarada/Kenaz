@@ -27,6 +27,7 @@ function Home() {
                 className={"post"}
                 category={item.category}
                 id={item.id}
+                article={item}
               />
             ))}
         </ContainerCategoryLayout>
@@ -44,6 +45,7 @@ function Home() {
                 className={"post"}
                 category={item.category}
                 id={item.id}
+                article={item}
               />
             ))}
         </ContainerCategoryLayout>
@@ -67,6 +69,7 @@ function Home() {
                 className={"post-2"}
                 category={item.category}
                 id={item.id}
+                article={item}
               />
             ))}
         </ContainerCategoryLayout>
@@ -92,6 +95,7 @@ function Home() {
                 className={"post-3"}
                 category={item.category}
                 id={item.id}
+                article={item}
               />
             ))}
         </SmallSlidersLayout>
@@ -117,6 +121,7 @@ function Home() {
                     className={"post-4"}
                     category={item.category}
                     id={item.id}
+                    article={item}
                   />
                 ))}
             </SmallSlidersLayout>
@@ -142,6 +147,7 @@ function Home() {
                     className={"post-4"}
                     category={item.category}
                     id={item.id}
+                    article={item}
                   />
                 ))}
             </SmallSlidersLayout>

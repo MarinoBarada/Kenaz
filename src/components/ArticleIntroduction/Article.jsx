@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CalendarIcon from "../../assets/calendar.png";
+import Authors from "../../data/authors.json"
 
 function Article({
   id,
@@ -8,11 +9,13 @@ function Article({
   category,
   date,
   comments,
-  author,
+  authorId,
   imageUrl,
   introduction,
+  article
 }) {
   const baseUrl = "http://localhost:5173";
+  const authorName = Authors.find(author => author.id === authorId)?.name;
 
   return (
     <div className="article">
@@ -22,8 +25,8 @@ function Article({
           <img src={CalendarIcon} alt="CalendarIcon" />
           <p>{date}</p>
         </div>
-        <p>Author: {author}</p>
-        <p>{comments} Comments</p>
+        <p>Author: {authorName}</p>
+        <p>{comments.length} Comments</p>
       </div>
       <div className="info">
         <div className="image">
@@ -31,7 +34,7 @@ function Article({
         </div>
         <div className="intraduction">
           <p>{introduction}</p>
-          <Link to={`/${category}/${id}`}>Read article</Link>
+          <Link to={`/${category}/${id}`} state={{ data: article }}>Read article</Link>
         </div>
       </div>
     </div>

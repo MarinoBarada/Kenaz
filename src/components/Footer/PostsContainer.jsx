@@ -23,13 +23,13 @@ function PostContainer({ title }) {
       <h1>{title}</h1>
       <div className="posts">
         {randomArticles.map((item) => (
-          <NavLink className="post" key={item.id} to={`/${item.category}/${item.id}`}>
+          <NavLink className="post" key={item.id} to={`/${item.category}/${item.id}`} state={{ data: item }}>
             <div className="info">
               <div className="date-comments">
                 <p>{item.date}</p>
                 <div className="comments">
                   <img src={CommentIcon} alt="CommentIcon" />
-                  <p>{item.comments}</p>
+                  <p>{item.comments.length}</p>
                 </div>
               </div>
               <p>{item.title}</p>

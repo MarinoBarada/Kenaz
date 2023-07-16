@@ -30,7 +30,7 @@ function SideBar() {
           ))}
         </ul>
       </div>
-      {Articles.sort((a, b) => b.likes - a.likes)
+      {Articles.sort((a, b) => b.date - a.date)
         .slice(0, 5)
         .map((item) => (
           <SideBarPost
@@ -41,6 +41,7 @@ function SideBar() {
             imageUrl={item.imageUrl}
             category={item.category}
             id={item.id}
+            article={item}
           />
         ))}
     </div>

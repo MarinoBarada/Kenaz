@@ -49,6 +49,7 @@ function firstSlider() {
               imageUrl={item.imageUrl}
               category={item.category}
               id={item.id}
+              article={item}
             />
           ))}
       </Slider>
