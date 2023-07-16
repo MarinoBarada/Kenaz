@@ -7,17 +7,35 @@ function Comments({ comments }) {
     name: "",
     email: "",
     comment: "",
+    date: "",
+    imageUrl: "src/images/authorImages/avatar.jpg",
   });
-  const [newComment, setNewComment] = useState({});
+  const [newComment, setNewComment] = useState({}); // new commentar data
 
   const commentData = (event) => {
     event.preventDefault();
-    setNewComment(formData);
+    const currentDate = new Date();
+    const formattedDate = currentDate
+      .toLocaleString("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+        hour: "numeric",
+        minute: "numeric",
+        hour12: true,
+      })
+      .replace("PM", "pm")
+      .replace("AM", "am")
+      .replace(" at", "");
+
+    setNewComment({ ...formData, date: formattedDate });
 
     setFormData({
       name: "",
       email: "",
       comment: "",
+      date: "",
+      imageUrl: "src/images/authorImages/avatar.jpg",
     });
   };
 
@@ -30,23 +48,25 @@ function Comments({ comments }) {
     <div className="comments-container">
       <h1>Comments</h1>
       <div className="comments-wrapper">
-        {comments.map((item) => (
-          <div className="comment" key={item.id}>
-            <div className="image">
-              <img src={`${baseUrl}/${item.imageUrl}`} alt={item.name} />
-            </div>
-            <div className="content">
-              <div className="info">
-                <div className="name-date">
-                  <h2>{item.name}</h2>
-                  <p>{item.date}</p>
-                </div>
-                <button>Replay</button>
+        {comments
+          .sort((a, b) => a.date - b.date)
+          .map((item) => (
+            <div className="comment" key={item.id}>
+              <div className="image">
+                <img src={`${baseUrl}/${item.imageUrl}`} alt={item.name} />
               </div>
-              <p>{item.content}</p>
+              <div className="content">
+                <div className="info">
+                  <div className="name-date">
+                    <h2>{item.name}</h2>
+                    <p>{item.date}</p>
+                  </div>
+                  <button>Replay</button>
+                </div>
+                <p>{item.content}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
       </div>
       <h1 className="add-comment">Add Your Comment</h1>
       <p>

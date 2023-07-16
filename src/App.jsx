@@ -1,6 +1,5 @@
-import { Route, Routes } from "react-router-dom";
-import React, { useEffect, useContext } from "react";
-import { useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 import Header from "./components/NavHeader/Header";
 import Categories from "./components/NavHeader/Categories";
 import Banner from "./components/Banners/Banner";
@@ -12,6 +11,8 @@ import baseURL from "./context/baseURL";
 
 function App() {
   const location = useLocation();
+  const baseLocatoion = window.location;
+  const path = baseLocatoion.protocol + "//" + baseLocatoion.host;
 
   useEffect(() => {
     const scrollToTop = () => {
@@ -35,7 +36,7 @@ function App() {
 
   return (
     <>
-      <baseURL.Provider>
+      <baseURL.Provider value={path}>
         <Header />
         <Categories />
         <div className="wrapper flex-column">

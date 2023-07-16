@@ -1,5 +1,5 @@
-import React from "react";
-import { useLocation, useContext } from "react-router-dom";
+import React, { useContext } from "react";
+import { useLocation } from "react-router-dom";
 import SideSectionLayout from "../layouts/SideSectionLayout";
 import Banner from "../components/Banners/Banner";
 import Author from "../data/authors.json";

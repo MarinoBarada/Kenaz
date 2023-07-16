@@ -1,9 +1,5 @@
-import React, { createContext } from "react";
-import { useLocation } from "react-router-dom";
+import React, { createContext } from 'react';
 
-const location = useLocation();
-const path = location.protocol + "//" + location.host;
-
-const baseURL = createContext(path);
+const baseURL = createContext();
 
 export default baseURL;
