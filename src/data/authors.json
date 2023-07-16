@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "John Smith",
+      "imageUrl": "src/images/authorImages/author1.jpg",
+      "about": "John Smith is an experienced writer specializing in technology topics. With a passion for exploring the latest advancements, he brings a unique perspective to his articles."
+    },
+    {
+      "id": 2,
+      "name": "Emily Johnson",
+      "imageUrl": "src/images/authorImages/author2.jpg",
+      "about": "Emily Johnson is a freelance journalist with expertise in business and finance. She enjoys investigating industry trends and providing insightful analysis for readers."
+    },
+    {
+      "id": 3,
+      "name": "David Thompson",
+      "imageUrl": "src/images/authorImages/author3.jpg",
+      "about": "David Thompson is a travel enthusiast and writer who has visited numerous countries worldwide. His captivating travel accounts offer readers a glimpse into unique destinations and cultural experiences."
+    },
+    {
+      "id": 4,
+      "name": "Sarah Davis",
+      "imageUrl": "src/images/authorImages/author4.jpg",
+      "about": "Sarah Davis is a health and wellness expert, passionate about promoting holistic living and self-care practices. Through her articles, she aims to inspire readers to prioritize their well-being."
+    },
+    {
+      "id": 5,
+      "name": "Michael Wilson",
+      "imageUrl": "src/images/authorImages/author5.jpg",
+      "about": "Michael Wilson is a sports journalist covering a wide range of athletic events. With a keen eye for detail, he delivers engaging sports stories that capture the excitement of the game."
+    }
+  ]
+  
