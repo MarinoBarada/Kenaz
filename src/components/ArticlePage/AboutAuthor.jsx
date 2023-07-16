@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import baseURL from "../../context/baseURL";
 
-function AboutAuthor({author}) {
-  const baseUrl = "http://localhost:5173";
+function AboutAuthor({ author }) {
+  const baseUrl = useContext(baseURL);
 
   return (
     <div className="author">

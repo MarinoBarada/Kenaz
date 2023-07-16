@@ -4,7 +4,6 @@ import SideSectionLayout from "../layouts/SideSectionLayout";
 import Banner from "../components/Banners/Banner";
 import { useLocation } from "react-router-dom";
 import Articles from "../data/articles.json";
-import Authors from "../data/authors.json";
 import Article from "../components/ArticleIntroduction/Article";
 
 function Category() {

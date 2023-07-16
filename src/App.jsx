@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import { useLocation } from "react-router-dom";
 import Header from "./components/NavHeader/Header";
 import Categories from "./components/NavHeader/Categories";
@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import Category from "./pages/Category";
 import SingleArticle from "./pages/SingleArticle";
+import baseURL from "./context/baseURL";
 
 function App() {
   const location = useLocation();
@@ -34,23 +35,28 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Categories />
-      <div className="wrapper flex-column">
-        <Banner />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          {validCategories.map((categoryName) => (
+      <baseURL.Provider>
+        <Header />
+        <Categories />
+        <div className="wrapper flex-column">
+          <Banner />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            {validCategories.map((categoryName) => (
+              <Route
+                key={categoryName}
+                path={`/${categoryName}`}
+                element={<Category />}
+              />
+            ))}
             <Route
-              key={categoryName}
-              path={`/${categoryName}`}
-              element={<Category />}
+              path="/:categoryName/:articleId"
+              element={<SingleArticle />}
             />
-          ))}
-          <Route path="/:categoryName/:articleId" element={<SingleArticle />} />
-        </Routes>
-      </div>
-      <Footer />
+          </Routes>
+        </div>
+        <Footer />
+      </baseURL.Provider>
     </>
   );
 }

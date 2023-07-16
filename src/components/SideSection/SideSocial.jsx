@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import baseURL from "../../context/baseURL";
 
 function SideSocial() {
-  const baseUrl = "http://localhost:5173";
+  const baseUrl = useContext(baseURL);
 
   const data = [
     {

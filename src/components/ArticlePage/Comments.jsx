@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import baseURL from "../../context/baseURL";
 
 function Comments({ comments }) {
-  const baseUrl = "http://localhost:5173";
+  const baseUrl = useContext(baseURL);
   const [formData, setFormData] = useState({
     name: "",
     email: "",

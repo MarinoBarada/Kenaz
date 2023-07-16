@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import baseURL from "../../context/baseURL";
 
 function Post({ imageUrl, title, date, className, category, id, article }) {
-  const baseUrl = "http://localhost:5173";
+  const baseUrl = useContext(baseURL);
 
   return (
-    <NavLink className={`${className} const`} to={`/${category}/${id}`} state={{ data: article }}>
+    <NavLink
+      className={`${className} const`}
+      to={`/${category}/${id}`}
+      state={{ data: article }}
+    >
       <div className="image">
         <img src={`${baseUrl}/${imageUrl}`} alt="image" />
       </div>

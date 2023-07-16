@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import CalendarIcon from "../../assets/calendar.png";
-import Authors from "../../data/authors.json"
+import Authors from "../../data/authors.json";
+import baseURL from "../../context/baseURL";
 
 function Article({
   id,
@@ -12,10 +13,10 @@ function Article({
   authorId,
   imageUrl,
   introduction,
-  article
+  article,
 }) {
-  const baseUrl = "http://localhost:5173";
-  const authorName = Authors.find(author => author.id === authorId)?.name;
+  const baseUrl = useContext(baseURL);
+  const authorName = Authors.find((author) => author.id === authorId)?.name;
 
   return (
     <div className="article">
@@ -34,7 +35,9 @@ function Article({
         </div>
         <div className="intraduction">
           <p>{introduction}</p>
-          <Link to={`/${category}/${id}`} state={{ data: article }}>Read article</Link>
+          <Link to={`/${category}/${id}`} state={{ data: article }}>
+            Read article
+          </Link>
         </div>
       </div>
     </div>

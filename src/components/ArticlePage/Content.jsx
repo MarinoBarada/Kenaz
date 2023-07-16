@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import baseURL from "../../context/baseURL";
 
 function Content({ content }) {
-  const baseUrl = "http://localhost:5173";
+  const baseUrl = useContext(baseURL);
 
   return (
     <div className="content-container">

@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import CommentIcon from "../../assets/comment-ico.png";
 import { Link } from "react-router-dom";
+import baseURL from "../../context/baseURL";
 
-function FirstSliderCard({ date, comments, title, imageUrl ,category, id, article}) {
-  const baseUrl = "http://localhost:5173";
+function FirstSliderCard({
+  date,
+  comments,
+  title,
+  imageUrl,
+  category,
+  id,
+  article,
+}) {
+  const baseUrl = useContext(baseURL);
 
   return (
     <div className="first-slider">
@@ -17,7 +26,9 @@ function FirstSliderCard({ date, comments, title, imageUrl ,category, id, articl
           </div>
         </div>
         <h1>{title}</h1>
-        <Link to={`/${category}/${id}`} state={{ data: article }}>Read article</Link>
+        <Link to={`/${category}/${id}`} state={{ data: article }}>
+          Read article
+        </Link>
       </div>
     </div>
   );

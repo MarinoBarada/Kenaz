@@ -1,9 +1,10 @@
-import React from "react";
-import { Player, BigPlayButton, PosterImage  } from "video-react";
+import React, { useContext } from "react";
+import { Player, BigPlayButton, PosterImage } from "video-react";
+import baseURL from "../../context/baseURL";
 
 function Video() {
-  const baseUrl = "http://localhost:5173";
-  
+  const baseUrl = useContext(baseURL);
+
   return (
     <div className="video-container">
       <h2>Kenaz TV</h2>

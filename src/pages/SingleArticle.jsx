@@ -1,14 +1,15 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useContext } from "react-router-dom";
 import SideSectionLayout from "../layouts/SideSectionLayout";
 import Banner from "../components/Banners/Banner";
 import Author from "../data/authors.json";
 import AboutAuthor from "../components/ArticlePage/AboutAuthor";
 import Content from "../components/ArticlePage/Content";
 import Comments from "../components/ArticlePage/Comments";
+import baseURL from "../context/baseURL";
 
 function SingleArticle() {
-  const baseUrl = "http://localhost:5173";
+  const baseUrl = useContext(baseURL);
   const loction = useLocation();
   const article = loction.state?.data;
   const content = article.content;
@@ -32,7 +33,7 @@ function SingleArticle() {
 
         <AboutAuthor author={author} />
 
-        <Comments comments={comments}/>
+        <Comments comments={comments} />
       </SideSectionLayout>
     </>
   );

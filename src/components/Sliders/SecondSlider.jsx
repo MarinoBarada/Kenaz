@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import Slider from "react-slick";
 import SearchIcon from "../../assets/searc-big.png";
-import Articles from "../../data/articles.json";
+import baseURL from "../../context/baseURL";
 
 function SecondSlider() {
-  const baseUrl = "http://localhost:5173";
+  const baseUrl = useContext(baseURL);
   const [popupImage, setPopupImage] = useState(null);
 
   function SampleNextArrow(props) {
@@ -105,7 +105,10 @@ function SecondSlider() {
         style={{ display: popupImage ? "block" : "none" }}
       >
         <span onClick={() => setPopupImage(null)}>&times;</span>
-        <img src={`${baseUrl}/${popupImage?.imageUrl}`} alt={popupImage?.title} />
+        <img
+          src={`${baseUrl}/${popupImage?.imageUrl}`}
+          alt={popupImage?.title}
+        />
       </div>
     </>
   );
