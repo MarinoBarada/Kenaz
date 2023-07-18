@@ -45,7 +45,6 @@
     .sidebar-post {
         height: 114px;
         @include container-wrapper;
-        border-top: solid 2px $darker-primary-color;
         border-bottom: solid 2px $darker-primary-color;
         @include flex-center;
         gap: 10px;
@@ -89,6 +88,10 @@
             }
 
             h2 {
+                display: -webkit-box;
+                -webkit-line-clamp: $max-lines-slider;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
                 @include bitter-14-bold;
             }
         }

@@ -56,5 +56,12 @@
             height: 150px;
             object-fit: cover;
         }
+
+        h3 {
+            display: -webkit-box;
+            -webkit-line-clamp: $max-lines-slider;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
     }
 }

@@ -15,9 +15,16 @@
         .social {
             height: 40px;
             display: flex;
+            overflow: hidden;
             justify-content: start;
             background-color: $background-color-social;
             cursor: pointer;
+
+            img {
+                width: 40px;
+                height: 42px;
+                object-fit: cover;
+            }
 
             .lfs {
                 @include flex-center;

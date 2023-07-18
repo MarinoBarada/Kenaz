@@ -133,9 +133,10 @@
             color: $white-color;
             @include varela-14;
             line-height: 16.86px;
-            padding: 15px 50px;
+            padding: 17px 50px;
             margin-top: 8px;
             cursor: pointer;
+            border: none;
         }
     }
 }

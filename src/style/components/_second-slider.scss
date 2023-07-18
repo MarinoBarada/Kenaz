@@ -22,15 +22,44 @@
             bottom: 0;
         }
 
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
         .zoom-picture {
             position: absolute;
             z-index: 10;
             top: calc(50% - 40px);
             left: calc(50% - 40px);
+            transition: opacity 400ms ease-in-out;
 
             img {
                 width: 80px;
                 height: 80px;
+            }
+
+            &.fade-out {
+                opacity: 0;
+                animation: fadeOut 400ms ease-in-out;
+            }
+
+            &.fade-in {
+                opacity: 1;
+                animation: fadeIn 400ms ease-in-out;
             }
         }
     }

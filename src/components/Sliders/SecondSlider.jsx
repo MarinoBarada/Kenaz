@@ -4,6 +4,15 @@ import SearchIcon from "../../assets/searc-big.png";
 
 function SecondSlider() {
   const [popupImage, setPopupImage] = useState(null);
+  const [isVisible, setIsVisible] = useState(true);
+
+  const handleButtonClick = () => {
+    setIsVisible(false);
+  };
+
+  const handleAnimationEnd = () => {
+    setIsVisible(true);
+  };
 
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -11,7 +20,10 @@ function SecondSlider() {
       <div
         className={className}
         style={{ ...style, display: "block" }}
-        onClick={onClick}
+        onClick={() => {
+          onClick();
+          handleButtonClick();
+        }}
       />
     );
   }
@@ -22,7 +34,10 @@ function SecondSlider() {
       <div
         className={className}
         style={{ ...style, display: "block" }}
-        onClick={onClick}
+        onClick={() => {
+          onClick();
+          handleButtonClick();
+        }}
       />
     );
   }
@@ -31,7 +46,12 @@ function SecondSlider() {
     customPaging: function (i) {
       return (
         <a>
-          <img src={`/src/assets/secondSlider/image${i + 1}.jpg`} />
+          <img
+            src={`/src/assets/secondSlider/image${i + 1}.jpg`}
+            onClick={() => {
+              handleButtonClick();
+            }}
+          />
         </a>
       );
     },
@@ -91,7 +111,11 @@ function SecondSlider() {
             <div className="second-slider" key={item.id}>
               <img src={item.imageUrl} alt={item.title} />
               <div className="shadow"></div>
-              <div className="zoom-picture" onClick={() => setPopupImage(item)}>
+              <div
+                className={`zoom-picture ${isVisible ? "fade-in" : "fade-out"}`}
+                onClick={() => setPopupImage(item)}
+                onAnimationEnd={handleAnimationEnd}
+              >
                 <img src={SearchIcon} alt="search-icon" />
               </div>
             </div>

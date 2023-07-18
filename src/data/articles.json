@@ -768,7 +768,7 @@
         "content": [
             {
                 "type": "paragraph",
-                "content": "The Olympic Games' closing ceremony marked the end of two weeks filled with extraordinary sporting achievements and captivating moments. Athletes from around the world gathered in a grand celebration of athletic prowess and unity. The closing ceremony, a culmination of the Games' spirit, showcased breathtaking performances, vibrant cultural displays, and a shared sense of camaraderie. As the Olympic flame extinguished, it symbolized the conclusion of this global sporting extravaganza, leaving behind memories of triumphs, records broken, and the power of sports to bring nations together."
+                "content": "The Olympic Games' closing ceremony marked the end of two weeks filled with extraordinary sporting achievements and captivating moments. Athletes from around the world gathered in a grand celebration of athletic prowess and unity. The closing ceremony, a culmination of the Games' spirit, showcased breathtaking performances, vibrant cultural displays, and a shared sense of camaraderie. As the Olympic flame extinguished, it symbolized the conclusion of this global sporting extravaganza, leaving behind memories of triumphs, records broken, and the power of sport to bring nations together."
             },
             {
                 "type": "image",
@@ -1597,7 +1597,7 @@
         "content": [
             {
                 "type": "paragraph",
-                "content": "Machu Picchu, the ancient Incan citadel nestled high in the Andes Mountains of Peru, continues to captivate travelers from around the world. Its stunning architecture, intricate stone structures, and breathtaking mountain views make it an unparalleled destination for adventure seekers and history enthusiasts alike. As you traverse the well-preserved ruins, you can't help but feel a sense of awe and wonder at the engineering marvels crafted by the Inca civilization centuries ago. The terraced landscapes, mysterious temples, and stone pathways create a mystical atmosphere that transports you back in time. Exploring Machu Picchu is like unraveling the secrets of a lost civilization, as you discover the remnants of an ancient world."
+                "content": "Machu Picchu, the ancient Incan citadel nestled high in the Andes Mountains of Peru, continues to captivate travelers from around the world. Its stunning architecture, intricate stone structures, and breathtaking mountain views make it an unparalleled destination for adventure seekers and history enthusiasts alike. As you traverse the well-preserved ruins, you can't help but feel a sense of awe and wonder at the engineering marvels crafted by the Inca civilization centuries ago. The terraced landscapes, mysterious temples, and stone pathways create a mystical atmosphere that transport you back in time. Exploring Machu Picchu is like unraveling the secrets of a lost civilization, as you discover the remnants of an ancient world."
             },
             {
                 "type": "image",
@@ -1982,13 +1982,13 @@
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/1006965/pexels-photo-1006965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
         "introduction": "An extraordinary display of skill and determination resulted in an athlete achieving a remarkable feat, breaking a long-standing record in their respective sport. This article delves into the intense competition, highlighting the pivotal moments that led to the record-breaking performance. The athlete's exceptional abilities and unwavering focus set them apart, etching their name in the annals of sporting history.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The world of sports witnessed an awe-inspiring display of talent as an athlete shattered a long-standing record, leaving spectators and fellow competitors in awe. The event was marked by fierce competition, with athletes pushing their limits to achieve greatness. Amidst the intensity, one individual rose above the rest, showcasing unparalleled skill, resilience, and mental fortitude. Their record-breaking performance will forever be etched in the minds of sports enthusiasts, inspiring future generations of athletes to strive for greatness."
+                "content": "The world of sport witnessed an awe-inspiring display of talent as an athlete shattered a long-standing record, leaving spectators and fellow competitors in awe. The event was marked by fierce competition, with athletes pushing their limits to achieve greatness. Amidst the intensity, one individual rose above the rest, showcasing unparalleled skill, resilience, and mental fortitude. Their record-breaking performance will forever be etched in the minds of sport enthusiasts, inspiring future generations of athletes to strive for greatness."
             },
             {
                 "type": "image",
@@ -1996,7 +1996,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The significance of this record-breaking achievement cannot be understated. It symbolizes the pinnacle of human potential in the realm of sports and serves as a testament to the power of perseverance and dedication. The athlete's accomplishment reverberates across the sporting world, motivating others to push beyond perceived limitations and redefine what is possible. As the record books are updated and new goals are set, this extraordinary feat will forever stand as a testament to the indomitable spirit of athletic excellence."
+                "content": "The significance of this record-breaking achievement cannot be understated. It symbolizes the pinnacle of human potential in the realm of sport and serves as a testament to the power of perseverance and dedication. The athlete's accomplishment reverberates across the sporting world, motivating others to push beyond perceived limitations and redefine what is possible. As the record books are updated and new goals are set, this extraordinary feat will forever stand as a testament to the indomitable spirit of athletic excellence."
             }
         ]
     },
@@ -2228,7 +2228,7 @@
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
         "introduction": "A rising star in the world of tennis recently achieved a breakthrough performance that captivated audiences worldwide. This article celebrates the player's remarkable journey, highlighting their exceptional skills, determination, and unwavering spirit. From their early beginnings to the defining moments of the tournament, the article provides an in-depth look at the rise of a new tennis sensation.",
         "content": [
@@ -2242,7 +2242,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The breakthrough performance of this rising star serves as an inspiration to aspiring athletes and a reminder of the limitless potential within each of us. Their success story exemplifies the power of hard work, resilience, and a relentless pursuit of excellence. As they continue to make their mark in the tennis world, fans eagerly anticipate witnessing the evolution of a true champion. Their journey serves as a testament to the transformative power of sports and the enduring spirit of athletic achievement."
+                "content": "The breakthrough performance of this rising star serves as an inspiration to aspiring athletes and a reminder of the limitless potential within each of us. Their success story exemplifies the power of hard work, resilience, and a relentless pursuit of excellence. As they continue to make their mark in the tennis world, fans eagerly anticipate witnessing the evolution of a true champion. Their journey serves as a testament to the transformative power of sport and the enduring spirit of athletic achievement."
             }
         ]
     },
@@ -2474,13 +2474,13 @@
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 5,
-        "introduction": "The Olympic Games are a celebration of athletic excellence, unity, and the pursuit of dreams. This article showcases unforgettable moments from the Olympic Games, capturing the triumphs, inspirational stories, and record-breaking performances that have left a lasting impact on sports history. From legendary comebacks to displays of extraordinary skill and sportsmanship, these moments remind us of the power of human determination and the indomitable spirit of athletes from around the world.",
+        "introduction": "The Olympic Games are a celebration of athletic excellence, unity, and the pursuit of dreams. This article showcases unforgettable moments from the Olympic Games, capturing the triumphs, inspirational stories, and record-breaking performances that have left a lasting impact on sport history. From legendary comebacks to displays of extraordinary skill and sportmanship, these moments remind us of the power of human determination and the indomitable spirit of athletes from around the world.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The Olympic Games have been the stage for countless unforgettable moments that have transcended the boundaries of sport. This article highlights some of the most remarkable moments in Olympic history, from Jesse Owens' triumph at the 1936 Berlin Olympics to Usain Bolt's lightning-fast sprints. It explores the inspiring stories of athletes who have overcome adversity, shattered records, and captivated the world with their passion and dedication. These moments not only symbolize the pursuit of athletic excellence but also serve as a testament to the unifying power of sports in bringing people together."
+                "content": "The Olympic Games have been the stage for countless unforgettable moments that have transcended the boundaries of sport. This article highlights some of the most remarkable moments in Olympic history, from Jesse Owens' triumph at the 1936 Berlin Olympics to Usain Bolt's lightning-fast sprints. It explores the inspiring stories of athletes who have overcome adversity, shattered records, and captivated the world with their passion and dedication. These moments not only symbolize the pursuit of athletic excellence but also serve as a testament to the unifying power of sport in bringing people together."
             },
             {
                 "type": "image",
@@ -2699,7 +2699,7 @@
     },
     {
         "id": 51,
-        "title": "The Evolution of Sports: Adapting to Changing Times",
+        "title": "The Evolution of sport: Adapting to Changing Times",
         "date": "August 01, 2023",
         "comments": [
             {
@@ -2708,7 +2708,7 @@
                 "date": "August 01, 2023 2:00 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article provides an interesting perspective on the evolution of sports. Well done!"
+                "content": "This article provides an interesting perspective on the evolution of sport. Well done!"
             },
             {
                 "id": 2,
@@ -2716,17 +2716,17 @@
                 "date": "August 02, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports have come a long way in adapting to changing times. Enjoyed reading this article!"
+                "content": "sport have come a long way in adapting to changing times. Enjoyed reading this article!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/1006965/pexels-photo-1006965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 1,
-        "introduction": "Sports have continuously evolved over time, reflecting societal changes and technological advancements. This article traces the journey of sports, highlighting the transformations and innovations that have shaped various athletic disciplines. From advancements in training techniques and equipment to the introduction of video replay technology and fan engagement through social media, the evolution of sports showcases the dynamic nature of competition and the enduring passion of athletes and fans alike.",
+        "introduction": "sport have continuously evolved over time, reflecting societal changes and technological advancements. This article traces the journey of sport, highlighting the transformations and innovations that have shaped various athletic disciplines. From advancements in training techniques and equipment to the introduction of video replay technology and fan engagement through social media, the evolution of sport showcases the dynamic nature of competition and the enduring passion of athletes and fans alike.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Sports have undergone significant transformations, adapting to changing times and embracing new technologies. This article explores the evolution of sports, examining how training methods, equipment, and rules have evolved to enhance performance and ensure fair competition. It delves into the introduction of innovations such as video replay technology, which has revolutionized officiating and brought new levels of accuracy to game decisions. Additionally, it discusses the role of social media in shaping fan engagement and amplifying the global reach of sports. The evolution of sports reflects the remarkable progress of human achievement and the indomitable spirit of athletes striving for greatness."
+                "content": "sport have undergone significant transformations, adapting to changing times and embracing new technologies. This article explores the evolution of sport, examining how training methods, equipment, and rules have evolved to enhance performance and ensure fair competition. It delves into the introduction of innovations such as video replay technology, which has revolutionized officiating and brought new levels of accuracy to game decisions. Additionally, it discusses the role of social media in shaping fan engagement and amplifying the global reach of sport. The evolution of sport reflects the remarkable progress of human achievement and the indomitable spirit of athletes striving for greatness."
             },
             {
                 "type": "image",
@@ -2734,7 +2734,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "As technology continues to advance, sports will undoubtedly continue to evolve. From the use of data analytics to improve player performance to the integration of virtual reality and augmented reality experiences for fans, the future holds exciting possibilities for the world of sports. However, amidst all the advancements, it is essential to uphold the core values of sportsmanship, fair play, and inclusivity. The evolution of sports is a testament to the human drive for innovation and excellence, reminding us of the power of athletic pursuits to inspire and unite people across the globe."
+                "content": "As technology continues to advance, sport will undoubtedly continue to evolve. From the use of data analytics to improve player performance to the integration of virtual reality and augmented reality experiences for fans, the future holds exciting possibilities for the world of sport. However, amidst all the advancements, it is essential to uphold the core values of sportmanship, fair play, and inclusivity. The evolution of sport is a testament to the human drive for innovation and excellence, reminding us of the power of athletic pursuits to inspire and unite people across the globe."
             }
         ]
     },
@@ -2945,7 +2945,7 @@
     },
     {
         "id": 57,
-        "title": "The Role of Sports in Social Change: Inspiring Movements and Driving Progress",
+        "title": "The Role of sport in Social Change: Inspiring Movements and Driving Progress",
         "date": "August 07, 2023",
         "comments": [
             {
@@ -2954,7 +2954,7 @@
                 "date": "August 07, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article beautifully captures the transformative power of sports. Well done!"
+                "content": "This article beautifully captures the transformative power of sport. Well done!"
             },
             {
                 "id": 2,
@@ -2962,17 +2962,17 @@
                 "date": "August 08, 2023 2:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports have the potential to drive social change and inspire unity. Great read!"
+                "content": "sport have the potential to drive social change and inspire unity. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 2,
-        "introduction": "Sports have a profound impact beyond the field of play, serving as catalysts for social change and inspiring movements that transcend boundaries. This article explores the role of sports in driving progress, from promoting equality and inclusivity to challenging societal norms and sparking conversations on important issues. Through the stories of athletes and iconic moments in sports history, we witness the transformative power of sports in shaping our collective consciousness.",
+        "introduction": "sport have a profound impact beyond the field of play, serving as catalysts for social change and inspiring movements that transcend boundaries. This article explores the role of sport in driving progress, from promoting equality and inclusivity to challenging societal norms and sparking conversations on important issues. Through the stories of athletes and iconic moments in sport history, we witness the transformative power of sport in shaping our collective consciousness.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Sports have always held the potential to be a platform for social change. This article delves into the historical and contemporary examples of sports playing a pivotal role in inspiring movements and driving progress. It highlights how athletes have used their platform to advocate for equality, challenge discrimination, and amplify important social causes. From groundbreaking moments in Olympic history to the impact of athletes' activism, sports have the power to unite people, challenge the status quo, and create a positive impact on society."
+                "content": "sport have always held the potential to be a platform for social change. This article delves into the historical and contemporary examples of sport playing a pivotal role in inspiring movements and driving progress. It highlights how athletes have used their platform to advocate for equality, challenge discrimination, and amplify important social causes. From groundbreaking moments in Olympic history to the impact of athletes' activism, sport have the power to unite people, challenge the status quo, and create a positive impact on society."
             },
             {
                 "type": "image",
@@ -2980,7 +2980,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The influence of sports extends far beyond the game itself. This article explores how sports can spark conversations and effect change in areas such as gender equality, racial justice, and LGBTQ+ rights. It highlights the importance of inclusivity in sports and showcases the efforts of organizations and individuals working to create a more equitable playing field. By celebrating the transformative power of sports, we can inspire a new generation of athletes and fans to use their passion for sports as a force for positive change in the world."
+                "content": "The influence of sport extends far beyond the game itself. This article explores how sport can spark conversations and effect change in areas such as gender equality, racial justice, and LGBTQ+ rights. It highlights the importance of inclusivity in sport and showcases the efforts of organizations and individuals working to create a more equitable playing field. By celebrating the transformative power of sport, we can inspire a new generation of athletes and fans to use their passion for sport as a force for positive change in the world."
             }
         ]
     },
@@ -3191,7 +3191,7 @@
     },
     {
         "id": 63,
-        "title": "The Evolution of Women's Sports: Empowering Athletes and Inspiring Generations",
+        "title": "The Evolution of Women's sport: Empowering Athletes and Inspiring Generations",
         "date": "August 13, 2023",
         "comments": [
             {
@@ -3200,7 +3200,7 @@
                 "date": "August 13, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article celebrates the progress of women's sports. Well-done!"
+                "content": "This article celebrates the progress of women's sport. Well-done!"
             },
             {
                 "id": 2,
@@ -3208,17 +3208,17 @@
                 "date": "August 14, 2023 2:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Women's sports have come a long way. Inspiring and informative article!"
+                "content": "Women's sport have come a long way. Inspiring and informative article!"
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
-        "introduction": "Women's sports have experienced tremendous growth and recognition, empowering athletes and inspiring generations. This article traces the evolution of women's sports, from early pioneers who broke barriers to the present-day achievements and the ongoing fight for gender equality in sports. It celebrates the progress made, highlights the remarkable achievements of female athletes, and emphasizes the importance of creating inclusive opportunities for women in sports at all levels.",
+        "introduction": "Women's sport have experienced tremendous growth and recognition, empowering athletes and inspiring generations. This article traces the evolution of women's sport, from early pioneers who broke barriers to the present-day achievements and the ongoing fight for gender equality in sport. It celebrates the progress made, highlights the remarkable achievements of female athletes, and emphasizes the importance of creating inclusive opportunities for women in sport at all levels.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Women's sports have overcome numerous challenges to reach their current status. This article explores the historical milestones of women's sports, from the struggles for participation and recognition to the breakthrough moments that paved the way for future generations of female athletes. It celebrates the achievements of trailblazers and highlights the significance of events such as the Women's World Cup and the Olympics in showcasing the talents and inspiring millions of girls and women around the world."
+                "content": "Women's sport have overcome numerous challenges to reach their current status. This article explores the historical milestones of women's sport, from the struggles for participation and recognition to the breakthrough moments that paved the way for future generations of female athletes. It celebrates the achievements of trailblazers and highlights the significance of events such as the Women's World Cup and the Olympics in showcasing the talents and inspiring millions of girls and women around the world."
             },
             {
                 "type": "image",
@@ -3226,7 +3226,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "While progress has been made, there are still barriers to overcome in achieving gender equality in sports. This article addresses the ongoing challenges and discusses initiatives aimed at promoting women's participation and representation in sports. It emphasizes the importance of equal opportunities, pay parity, and media coverage for female athletes. By continuing to champion women's sports and supporting female athletes, we can create a future where women's achievements in sports are celebrated and valued on an equal footing with men's."
+                "content": "While progress has been made, there are still barriers to overcome in achieving gender equality in sport. This article addresses the ongoing challenges and discusses initiatives aimed at promoting women's participation and representation in sport. It emphasizes the importance of equal opportunities, pay parity, and media coverage for female athletes. By continuing to champion women's sport and supporting female athletes, we can create a future where women's achievements in sport are celebrated and valued on an equal footing with men's."
             }
         ]
     },
@@ -3437,7 +3437,7 @@
     },
     {
         "id": 69,
-        "title": "The Mental Game: Unlocking Peak Performance in Sports",
+        "title": "The Mental Game: Unlocking Peak Performance in sport",
         "date": "August 19, 2023",
         "comments": [
             {
@@ -3446,7 +3446,7 @@
                 "date": "August 19, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article highlights the importance of mental resilience in sports. Well-done!"
+                "content": "This article highlights the importance of mental resilience in sport. Well-done!"
             },
             {
                 "id": 2,
@@ -3454,17 +3454,17 @@
                 "date": "August 20, 2023 2:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "The mental game is a crucial aspect of sports. Enjoyed reading this!"
+                "content": "The mental game is a crucial aspect of sport. Enjoyed reading this!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/913215/pexels-photo-913215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
-        "introduction": "Sports performance is not just about physical abilities; it also relies heavily on mental resilience and focus. This article explores the importance of the mental game in sports, discussing strategies and techniques that athletes can use to unlock peak performance. From visualization and goal setting to managing pressure and building mental strength, understanding and harnessing the power of the mind can make a significant difference in athletic performance.",
+        "introduction": "sport performance is not just about physical abilities; it also relies heavily on mental resilience and focus. This article explores the importance of the mental game in sport, discussing strategies and techniques that athletes can use to unlock peak performance. From visualization and goal setting to managing pressure and building mental strength, understanding and harnessing the power of the mind can make a significant difference in athletic performance.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The mental game plays a crucial role in sports performance. This article delves into the mindset of successful athletes, discussing the power of visualization and positive self-talk in enhancing performance. It explores the importance of goal setting and developing a strong mental framework to overcome challenges and setbacks. By training the mind, athletes can tap into their full potential and achieve peak performance on the field or court."
+                "content": "The mental game plays a crucial role in sport performance. This article delves into the mindset of successful athletes, discussing the power of visualization and positive self-talk in enhancing performance. It explores the importance of goal setting and developing a strong mental framework to overcome challenges and setbacks. By training the mind, athletes can tap into their full potential and achieve peak performance on the field or court."
             },
             {
                 "type": "image",
@@ -3472,7 +3472,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Managing pressure and building resilience are essential in sports. This article provides strategies for athletes to cope with performance anxiety, handle high-pressure situations, and bounce back from failures. It emphasizes the importance of self-care, mental rest, and seeking support when needed. By cultivating mental resilience, athletes can maintain focus, stay motivated, and perform at their best, even in the face of adversity."
+                "content": "Managing pressure and building resilience are essential in sport. This article provides strategies for athletes to cope with performance anxiety, handle high-pressure situations, and bounce back from failures. It emphasizes the importance of self-care, mental rest, and seeking support when needed. By cultivating mental resilience, athletes can maintain focus, stay motivated, and perform at their best, even in the face of adversity."
             }
         ]
     },
@@ -3683,7 +3683,7 @@
     },
     {
         "id": 75,
-        "title": "Beyond the Game: The Impact of Sports in Society",
+        "title": "Beyond the Game: The Impact of sport in Society",
         "date": "August 25, 2023",
         "comments": [
             {
@@ -3692,7 +3692,7 @@
                 "date": "August 25, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports have a powerful influence on society. Well-researched article!"
+                "content": "sport have a powerful influence on society. Well-researched article!"
             },
             {
                 "id": 2,
@@ -3700,17 +3700,17 @@
                 "date": "August 26, 2023 2:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article highlights the broader impact of sports. Great read!"
+                "content": "This article highlights the broader impact of sport. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 5,
-        "introduction": "Sports have a profound influence that extends beyond the field or court, shaping society in various ways. This article explores the impact of sports in society, from fostering community engagement and promoting physical well-being to driving social change and inspiring individuals. It highlights the unifying power of sports and how they can serve as a platform for positive transformation and the pursuit of excellence.",
+        "introduction": "sport have a profound influence that extends beyond the field or court, shaping society in various ways. This article explores the impact of sport in society, from fostering community engagement and promoting physical well-being to driving social change and inspiring individuals. It highlights the unifying power of sport and how they can serve as a platform for positive transformation and the pursuit of excellence.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Sports bring people together and foster community spirit. This article delves into the role of sports in creating a sense of belonging, promoting teamwork, and instilling values like discipline and perseverance. It discusses how sports can bridge cultural divides, break down barriers, and promote social inclusion. By embracing the unifying power of sports, communities can create a shared sense of identity and strengthen social cohesion."
+                "content": "sport bring people together and foster community spirit. This article delves into the role of sport in creating a sense of belonging, promoting teamwork, and instilling values like discipline and perseverance. It discusses how sport can bridge cultural divides, break down barriers, and promote social inclusion. By embracing the unifying power of sport, communities can create a shared sense of identity and strengthen social cohesion."
             },
             {
                 "type": "image",
@@ -3718,7 +3718,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Sports also have the power to drive social change. This article explores the influence of athletes as role models, discussing how they can inspire individuals, challenge societal norms, and advocate for important causes. It highlights examples of sports initiatives and campaigns that address issues like equality, diversity, and sustainability. By harnessing the platform of sports, individuals and organizations can contribute to positive social impact and create a more inclusive and equitable society."
+                "content": "sport also have the power to drive social change. This article explores the influence of athletes as role models, discussing how they can inspire individuals, challenge societal norms, and advocate for important causes. It highlights examples of sport initiatives and campaigns that address issues like equality, diversity, and sustainability. By harnessing the platform of sport, individuals and organizations can contribute to positive social impact and create a more inclusive and equitable society."
             }
         ]
     },
@@ -3929,7 +3929,7 @@
     },
     {
         "id": 81,
-        "title": "The Evolution of Sports Broadcasting: Transforming the Way We Experience Games",
+        "title": "The Evolution of sport Broadcasting: Transforming the Way We Experience Games",
         "date": "August 31, 2023",
         "comments": [
             {
@@ -3938,7 +3938,7 @@
                 "date": "August 31, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports broadcasting has come a long way. Well-researched article!"
+                "content": "sport broadcasting has come a long way. Well-researched article!"
             },
             {
                 "id": 2,
@@ -3946,17 +3946,17 @@
                 "date": "September 01, 2023 2:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "The evolution of sports broadcasting is fascinating. Enjoyed reading this!"
+                "content": "The evolution of sport broadcasting is fascinating. Enjoyed reading this!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/236937/pexels-photo-236937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 1,
-        "introduction": "Sports broadcasting has undergone a remarkable transformation, revolutionizing the way we consume and experience sports events. This article explores the evolution of sports broadcasting, from traditional television coverage to live streaming, virtual reality, and interactive experiences. It discusses the impact of technology on sports viewing, the rise of over-the-top (OTT) platforms, and the changing dynamics of fan engagement in the digital age.",
+        "introduction": "sport broadcasting has undergone a remarkable transformation, revolutionizing the way we consume and experience sport events. This article explores the evolution of sport broadcasting, from traditional television coverage to live streaming, virtual reality, and interactive experiences. It discusses the impact of technology on sport viewing, the rise of over-the-top (OTT) platforms, and the changing dynamics of fan engagement in the digital age.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The digital era has revolutionized sports broadcasting. This article delves into the advancements in technology that have transformed the way we consume sports content. It explores the shift towards online streaming platforms, enabling fans to watch games anytime, anywhere, on various devices. It also discusses the immersive experiences offered by virtual reality and augmented reality, bringing fans closer to the action. By embracing these innovations, sports broadcasting has become more accessible, interactive, and tailored to individual preferences."
+                "content": "The digital era has revolutionized sport broadcasting. This article delves into the advancements in technology that have transformed the way we consume sport content. It explores the shift towards online streaming platforms, enabling fans to watch games anytime, anywhere, on various devices. It also discusses the immersive experiences offered by virtual reality and augmented reality, bringing fans closer to the action. By embracing these innovations, sport broadcasting has become more accessible, interactive, and tailored to individual preferences."
             },
             {
                 "type": "image",
@@ -3964,7 +3964,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Sports broadcasting is no longer limited to passive viewing. This article highlights the rise of interactive experiences, including live commentary, real-time statistics, and social media integration. It discusses how fans can actively engage with their favorite teams and fellow supporters, creating a sense of community and shared enthusiasm. By embracing these interactive elements, sports broadcasting has become a dynamic and participatory experience that transcends geographical boundaries and connects fans worldwide."
+                "content": "sport broadcasting is no longer limited to passive viewing. This article highlights the rise of interactive experiences, including live commentary, real-time statistics, and social media integration. It discusses how fans can actively engage with their favorite teams and fellow supporters, creating a sense of community and shared enthusiasm. By embracing these interactive elements, sport broadcasting has become a dynamic and participatory experience that transcends geographical boundaries and connects fans worldwide."
             }
         ]
     },
@@ -4175,7 +4175,7 @@
     },
     {
         "id": 87,
-        "title": "The Mental Game: Exploring the Psychology of Sports Performance",
+        "title": "The Mental Game: Exploring the Psychology of sport Performance",
         "date": "September 06, 2023",
         "comments": [
             {
@@ -4184,7 +4184,7 @@
                 "date": "September 06, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "The psychology of sports performance is fascinating. Well-written article!"
+                "content": "The psychology of sport performance is fascinating. Well-written article!"
             },
             {
                 "id": 2,
@@ -4192,17 +4192,17 @@
                 "date": "September 06, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article offers valuable insights into the mental aspect of sports. Great read!"
+                "content": "This article offers valuable insights into the mental aspect of sport. Great read!"
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/2440021/pexels-photo-2440021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 2,
-        "introduction": "Sports performance is not just about physical abilities; the mental aspect plays a crucial role as well. This article explores the psychology of sports performance, delving into the mindset, focus, motivation, and resilience required for peak athletic achievement. It highlights the techniques and strategies that athletes can employ to optimize their mental game and enhance their overall performance.",
+        "introduction": "sport performance is not just about physical abilities; the mental aspect plays a crucial role as well. This article explores the psychology of sport performance, delving into the mindset, focus, motivation, and resilience required for peak athletic achievement. It highlights the techniques and strategies that athletes can employ to optimize their mental game and enhance their overall performance.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The mind is a powerful tool in sports. This article explores the psychological factors that influence performance, such as self-confidence, goal-setting, and concentration. It discusses the impact of mental preparation and visualization techniques in improving performance under pressure. It also emphasizes the importance of managing stress, building resilience, and maintaining a positive mindset to overcome challenges and maximize athletic potential."
+                "content": "The mind is a powerful tool in sport. This article explores the psychological factors that influence performance, such as self-confidence, goal-setting, and concentration. It discusses the impact of mental preparation and visualization techniques in improving performance under pressure. It also emphasizes the importance of managing stress, building resilience, and maintaining a positive mindset to overcome challenges and maximize athletic potential."
             },
             {
                 "type": "image",
@@ -4210,7 +4210,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Mental skills training is integral to sports success. This article discusses various psychological techniques, such as mindfulness, imagery, and self-talk, that athletes can utilize to enhance their performance. It explores the role of sports psychology professionals in supporting athletes' mental well-being and performance optimization. By integrating mental training into their routines, athletes can gain a competitive edge and achieve their goals on and off the field."
+                "content": "Mental skills training is integral to sport success. This article discusses various psychological techniques, such as mindfulness, imagery, and self-talk, that athletes can utilize to enhance their performance. It explores the role of sport psychology professionals in supporting athletes' mental well-being and performance optimization. By integrating mental training into their routines, athletes can gain a competitive edge and achieve their goals on and off the field."
             }
         ]
     },
@@ -4421,7 +4421,7 @@
     },
     {
         "id": 93,
-        "title": "The Evolution of Sports Analytics: Unleashing the Power of Data",
+        "title": "The Evolution of sport Analytics: Unleashing the Power of Data",
         "date": "September 12, 2023",
         "comments": [
             {
@@ -4430,7 +4430,7 @@
                 "date": "September 12, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports analytics is revolutionizing the way we understand and analyze sports. Well-written article!"
+                "content": "sport analytics is revolutionizing the way we understand and analyze sport. Well-written article!"
             },
             {
                 "id": 2,
@@ -4438,17 +4438,17 @@
                 "date": "September 12, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article provides valuable insights into the power of sports analytics. Great read!"
+                "content": "This article provides valuable insights into the power of sport analytics. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/3153198/pexels-photo-3153198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
-        "introduction": "Data analytics has transformed the world of sports, offering unprecedented insights into player performance, team strategies, and game outcomes. This article explores the evolution of sports analytics, discussing the role of data collection, statistical modeling, and advanced technologies in revolutionizing how sports are analyzed, coached, and experienced. It highlights the benefits and challenges of sports analytics and its impact on the future of sports.",
+        "introduction": "Data analytics has transformed the world of sport, offering unprecedented insights into player performance, team strategies, and game outcomes. This article explores the evolution of sport analytics, discussing the role of data collection, statistical modeling, and advanced technologies in revolutionizing how sport are analyzed, coached, and experienced. It highlights the benefits and challenges of sport analytics and its impact on the future of sport.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Sports analytics is a game-changer. This article delves into the use of data in sports, from player tracking technologies and wearables to in-depth statistical analysis. It explores how sports organizations and teams leverage analytics to gain a competitive edge, make data-driven decisions, and optimize player performance. By harnessing the power of data, sports analytics enhances fan engagement and revolutionizes the way we understand and appreciate sports."
+                "content": "sport analytics is a game-changer. This article delves into the use of data in sport, from player tracking technologies and wearables to in-depth statistical analysis. It explores how sport organizations and teams leverage analytics to gain a competitive edge, make data-driven decisions, and optimize player performance. By harnessing the power of data, sport analytics enhances fan engagement and revolutionizes the way we understand and appreciate sport."
             },
             {
                 "type": "image",
@@ -4456,7 +4456,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The rise of sports analytics presents challenges and ethical considerations. This article discusses privacy concerns, data interpretation, and the need for responsible use of analytics in sports. It also explores the future possibilities of artificial intelligence and machine learning in sports analytics, from predictive modeling to virtual reality experiences. By embracing sports analytics responsibly, we can unlock new dimensions of sports performance, strategy, and fan engagement."
+                "content": "The rise of sport analytics presents challenges and ethical considerations. This article discusses privacy concerns, data interpretation, and the need for responsible use of analytics in sport. It also explores the future possibilities of artificial intelligence and machine learning in sport analytics, from predictive modeling to virtual reality experiences. By embracing sport analytics responsibly, we can unlock new dimensions of sport performance, strategy, and fan engagement."
             }
         ]
     },
@@ -4667,7 +4667,7 @@
     },
     {
         "id": 99,
-        "title": "Sports and Mental Health: Breaking the Stigma and Promoting Well-being",
+        "title": "sport and Mental Health: Breaking the Stigma and Promoting Well-being",
         "date": "September 18, 2023",
         "comments": [
             {
@@ -4676,7 +4676,7 @@
                 "date": "September 18, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article sheds light on the crucial connection between sports and mental health. Well-written!"
+                "content": "This article sheds light on the crucial connection between sport and mental health. Well-written!"
             },
             {
                 "id": 2,
@@ -4684,17 +4684,17 @@
                 "date": "September 18, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports can play a transformative role in promoting mental well-being. Great article!"
+                "content": "sport can play a transformative role in promoting mental well-being. Great article!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
-        "introduction": "Sports have the power to positively impact mental health and well-being. This article explores the connection between sports and mental health, discussing the benefits of physical activity, team support, and the role of sports in promoting resilience and breaking the stigma surrounding mental health issues. It emphasizes the importance of creating inclusive and supportive sports environments that prioritize athletes' mental well-being.",
+        "introduction": "sport have the power to positively impact mental health and well-being. This article explores the connection between sport and mental health, discussing the benefits of physical activity, team support, and the role of sport in promoting resilience and breaking the stigma surrounding mental health issues. It emphasizes the importance of creating inclusive and supportive sport environments that prioritize athletes' mental well-being.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Sports contribute to mental well-being. This article delves into the psychological benefits of sports, such as stress reduction, mood enhancement, and improved self-esteem. It explores the role of physical activity in alleviating symptoms of anxiety and depression, and the importance of creating safe spaces where athletes can openly discuss and seek support for their mental health challenges. By fostering a positive sports culture, we can promote mental well-being among athletes."
+                "content": "sport contribute to mental well-being. This article delves into the psychological benefits of sport, such as stress reduction, mood enhancement, and improved self-esteem. It explores the role of physical activity in alleviating symptoms of anxiety and depression, and the importance of creating safe spaces where athletes can openly discuss and seek support for their mental health challenges. By fostering a positive sport culture, we can promote mental well-being among athletes."
             },
             {
                 "type": "image",
@@ -4702,7 +4702,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Athletes as mental health advocates. This article discusses the importance of athlete role models in raising awareness about mental health and promoting help-seeking behaviors. It highlights initiatives that prioritize mental health support in sports organizations, including access to mental health professionals, education on mental well-being, and destigmatization efforts. By embracing a holistic approach to sports, we can create an environment where athletes thrive both physically and mentally."
+                "content": "Athletes as mental health advocates. This article discusses the importance of athlete role models in raising awareness about mental health and promoting help-seeking behaviors. It highlights initiatives that prioritize mental health support in sport organizations, including access to mental health professionals, education on mental well-being, and destigmatization efforts. By embracing a holistic approach to sport, we can create an environment where athletes thrive both physically and mentally."
             }
         ]
     },
@@ -4913,7 +4913,7 @@
     },
     {
         "id": 105,
-        "title": "The Evolution of Sports Broadcasting: Transforming the Fan Experience",
+        "title": "The Evolution of sport Broadcasting: Transforming the Fan Experience",
         "date": "September 24, 2023",
         "comments": [
             {
@@ -4922,7 +4922,7 @@
                 "date": "September 24, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article highlights the exciting developments in sports broadcasting. Well-written!"
+                "content": "This article highlights the exciting developments in sport broadcasting. Well-written!"
             },
             {
                 "id": 2,
@@ -4930,17 +4930,17 @@
                 "date": "September 24, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "The fan experience has been revolutionized by advancements in sports broadcasting. Great article!"
+                "content": "The fan experience has been revolutionized by advancements in sport broadcasting. Great article!"
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/1302242/pexels-photo-1302242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 5,
-        "introduction": "Sports broadcasting has undergone a significant transformation, revolutionizing how fans engage with their favorite sports. This article explores the evolution of sports broadcasting, from traditional television coverage to streaming platforms, virtual reality experiences, and interactive features. It discusses the impact of these advancements on the fan experience, the future of sports consumption, and the opportunities they create for sports enthusiasts.",
+        "introduction": "sport broadcasting has undergone a significant transformation, revolutionizing how fans engage with their favorite sport. This article explores the evolution of sport broadcasting, from traditional television coverage to streaming platforms, virtual reality experiences, and interactive features. It discusses the impact of these advancements on the fan experience, the future of sport consumption, and the opportunities they create for sport enthusiasts.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The digital revolution in sports broadcasting. This article delves into the technological advancements that have reshaped sports viewing, including high-definition broadcasts, multi-camera angles, and immersive experiences. It explores the rise of streaming services and the shift towards personalized and on-demand content. It also discusses the integration of augmented reality and virtual reality technologies, enhancing fan engagement and interactivity."
+                "content": "The digital revolution in sport broadcasting. This article delves into the technological advancements that have reshaped sport viewing, including high-definition broadcasts, multi-camera angles, and immersive experiences. It explores the rise of streaming services and the shift towards personalized and on-demand content. It also discusses the integration of augmented reality and virtual reality technologies, enhancing fan engagement and interactivity."
             },
             {
                 "type": "image",
@@ -4948,7 +4948,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The fan-centric future of sports broadcasting. This article highlights the benefits for fans, such as access to a wider range of sports, interactive features, and enhanced social connectivity. It discusses the challenges and opportunities for sports leagues, broadcasters, and advertisers in navigating this changing landscape. By embracing innovative sports broadcasting technologies, we can create a more immersive and engaging fan experience, blurring the boundaries between live events and digital platforms."
+                "content": "The fan-centric future of sport broadcasting. This article highlights the benefits for fans, such as access to a wider range of sport, interactive features, and enhanced social connectivity. It discusses the challenges and opportunities for sport leagues, broadcasters, and advertisers in navigating this changing landscape. By embracing innovative sport broadcasting technologies, we can create a more immersive and engaging fan experience, blurring the boundaries between live events and digital platforms."
             }
         ]
     },
@@ -5241,7 +5241,7 @@
     },
     {
         "id": 113,
-        "title": "The Future of Esports: Redefining Competitive Gaming",
+        "title": "The Future of Esport: Redefining Competitive Gaming",
         "date": "October 2, 2023",
         "comments": [
             {
@@ -5250,7 +5250,7 @@
                 "date": "October 2, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Esports is reshaping the world of competitive gaming. Well-written article!"
+                "content": "Esport is reshaping the world of competitive gaming. Well-written article!"
             },
             {
                 "id": 2,
@@ -5258,17 +5258,17 @@
                 "date": "October 2, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article provides valuable insights into the future of esports. Great read!"
+                "content": "This article provides valuable insights into the future of esport. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
-        "introduction": "Esports, or competitive video gaming, has emerged as a global phenomenon with a rapidly growing fanbase. This article explores the future of esports, discussing its impact on the sports industry, the rise of professional gaming leagues, and the opportunities and challenges for aspiring esports athletes. It highlights the potential of esports to redefine the landscape of competitive gaming.",
+        "introduction": "Esport, or competitive video gaming, has emerged as a global phenomenon with a rapidly growing fanbase. This article explores the future of esport, discussing its impact on the sport industry, the rise of professional gaming leagues, and the opportunities and challenges for aspiring esport athletes. It highlights the potential of esport to redefine the landscape of competitive gaming.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The rise of esports. This article delves into the factors contributing to the popularity of esports, including advancements in gaming technology, online streaming platforms, and the engagement of a passionate fanbase. It discusses the emergence of esports leagues, major tournaments, and the professionalization of competitive gaming. By blurring the lines between traditional sports and gaming, esports is reshaping the future of entertainment."
+                "content": "The rise of esport. This article delves into the factors contributing to the popularity of esport, including advancements in gaming technology, online streaming platforms, and the engagement of a passionate fanbase. It discusses the emergence of esport leagues, major tournaments, and the professionalization of competitive gaming. By blurring the lines between traditional sport and gaming, esport is reshaping the future of entertainment."
             },
             {
                 "type": "image",
@@ -5276,7 +5276,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Opportunities and challenges in esports. This article explores the potential career paths in esports, from professional players to coaches, analysts, and content creators. It discusses the importance of skill development, teamwork, and mental resilience in the world of competitive gaming. It also addresses the challenges of player burnout, ensuring player well-being, and maintaining the integrity of esports competitions."
+                "content": "Opportunities and challenges in esport. This article explores the potential career paths in esport, from professional players to coaches, analysts, and content creators. It discusses the importance of skill development, teamwork, and mental resilience in the world of competitive gaming. It also addresses the challenges of player burnout, ensuring player well-being, and maintaining the integrity of esport competitions."
             }
         ]
     },
@@ -5487,7 +5487,7 @@
     },
     {
         "id": 119,
-        "title": "The Evolution of Sports: Adapting to a Changing World",
+        "title": "The Evolution of sport: Adapting to a Changing World",
         "date": "October 8, 2023",
         "comments": [
             {
@@ -5496,7 +5496,7 @@
                 "date": "October 8, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports are constantly evolving. Well-written article!"
+                "content": "sport are constantly evolving. Well-written article!"
             },
             {
                 "id": 2,
@@ -5504,17 +5504,17 @@
                 "date": "October 8, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article provides valuable insights into the changing landscape of sports. Great read!"
+                "content": "This article provides valuable insights into the changing landscape of sport. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/236937/pexels-photo-236937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
-        "introduction": "Sports have always reflected the spirit of human competitiveness and camaraderie. This article explores the evolution of sports in a changing world, discussing advancements in technology, changing audience preferences, and the impact of globalization. It emphasizes the need for innovation, inclusivity, and sustainable practices in the world of sports.",
+        "introduction": "sport have always reflected the spirit of human competitiveness and camaraderie. This article explores the evolution of sport in a changing world, discussing advancements in technology, changing audience preferences, and the impact of globalization. It emphasizes the need for innovation, inclusivity, and sustainable practices in the world of sport.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Technological advancements in sports. This article delves into how technology has transformed the sports industry, from instant replays and data analytics to virtual reality and wearable devices. It discusses the impact of technology on athlete performance, fan engagement, and the spectator experience. By embracing technology, sports can reach new heights and attract a wider audience."
+                "content": "Technological advancements in sport. This article delves into how technology has transformed the sport industry, from instant replays and data analytics to virtual reality and wearable devices. It discusses the impact of technology on athlete performance, fan engagement, and the spectator experience. By embracing technology, sport can reach new heights and attract a wider audience."
             },
             {
                 "type": "image",
@@ -5522,7 +5522,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Embracing diversity and inclusivity in sports. This article highlights the importance of inclusivity and diversity in sports, addressing gender equality, accessibility, and representation. It discusses initiatives that promote equal opportunities for all, breaking down barriers and challenging stereotypes. It also explores the role of sports in fostering social cohesion, promoting health and well-being, and inspiring future generations."
+                "content": "Embracing diversity and inclusivity in sport. This article highlights the importance of inclusivity and diversity in sport, addressing gender equality, accessibility, and representation. It discusses initiatives that promote equal opportunities for all, breaking down barriers and challenging stereotypes. It also explores the role of sport in fostering social cohesion, promoting health and well-being, and inspiring future generations."
             }
         ]
     },
@@ -5651,7 +5651,7 @@
     },
     {
         "id": 123,
-        "title": "The Impact of Sports on Mental Health: Breaking the Stigma",
+        "title": "The Impact of sport on Mental Health: Breaking the Stigma",
         "date": "October 12, 2023",
         "comments": [
             {
@@ -5660,7 +5660,7 @@
                 "date": "October 12, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports play a crucial role in promoting mental health. Well-written article!"
+                "content": "sport play a crucial role in promoting mental health. Well-written article!"
             },
             {
                 "id": 2,
@@ -5668,17 +5668,17 @@
                 "date": "October 12, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article sheds light on the impact of sports on mental well-being. Great read!"
+                "content": "This article sheds light on the impact of sport on mental well-being. Great read!"
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/2440021/pexels-photo-2440021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
-        "introduction": "Sports not only contribute to physical fitness but also have a significant impact on mental health. This article explores the relationship between sports and mental well-being, highlighting the positive effects of sports participation, the role of sports in reducing stigma around mental health, and the importance of promoting mental well-being in sports environments.",
+        "introduction": "sport not only contribute to physical fitness but also have a significant impact on mental health. This article explores the relationship between sport and mental well-being, highlighting the positive effects of sport participation, the role of sport in reducing stigma around mental health, and the importance of promoting mental well-being in sport environments.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The positive effects of sports on mental health. This article discusses how sports participation can improve mental well-being, including reducing stress, boosting self-esteem, and promoting a sense of belonging and social connection. It explores the release of endorphins during physical activity and the role of sports as an outlet for emotional expression."
+                "content": "The positive effects of sport on mental health. This article discusses how sport participation can improve mental well-being, including reducing stress, boosting self-esteem, and promoting a sense of belonging and social connection. It explores the release of endorphins during physical activity and the role of sport as an outlet for emotional expression."
             },
             {
                 "type": "image",
@@ -5686,7 +5686,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Breaking the stigma. This article highlights the role of sports in breaking the stigma around mental health. It discusses initiatives within the sports community that promote mental well-being, such as athlete support programs, mental health awareness campaigns, and the integration of mental health professionals within sports teams and organizations."
+                "content": "Breaking the stigma. This article highlights the role of sport in breaking the stigma around mental health. It discusses initiatives within the sport community that promote mental well-being, such as athlete support programs, mental health awareness campaigns, and the integration of mental health professionals within sport teams and organizations."
             }
         ]
     },
@@ -5897,7 +5897,7 @@
     },
     {
         "id": 129,
-        "title": "Women in Sports: Paving the Way for Equality",
+        "title": "Women in sport: Paving the Way for Equality",
         "date": "October 18, 2023",
         "comments": [
             {
@@ -5906,7 +5906,7 @@
                 "date": "October 18, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article highlights the importance of gender equality in sports. Well-written!"
+                "content": "This article highlights the importance of gender equality in sport. Well-written!"
             },
             {
                 "id": 2,
@@ -5914,17 +5914,17 @@
                 "date": "October 18, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Women in sports continue to inspire and break barriers. Great read!"
+                "content": "Women in sport continue to inspire and break barriers. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/4031818/pexels-photo-4031818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
-        "introduction": "Women's participation and achievements in sports have made significant strides, yet challenges remain in achieving true gender equality. This article celebrates women in sports, discussing the importance of representation, equal opportunities, and empowering the next generation of female athletes.",
+        "introduction": "Women's participation and achievements in sport have made significant strides, yet challenges remain in achieving true gender equality. This article celebrates women in sport, discussing the importance of representation, equal opportunities, and empowering the next generation of female athletes.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The power of representation. This article highlights the impact of female athletes as role models, breaking down gender stereotypes, and inspiring future generations. It discusses the importance of media coverage, equal pay, and the need for inclusive sports environments that encourage girls and women to participate."
+                "content": "The power of representation. This article highlights the impact of female athletes as role models, breaking down gender stereotypes, and inspiring future generations. It discusses the importance of media coverage, equal pay, and the need for inclusive sport environments that encourage girls and women to participate."
             },
             {
                 "type": "image",
@@ -5932,7 +5932,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Challenges and progress. This article addresses the challenges women face in sports, including unequal opportunities, gender bias, and societal expectations. It highlights initiatives that promote gender equality in sports, such as women's sports leagues, mentoring programs, and advocacy for policy changes."
+                "content": "Challenges and progress. This article addresses the challenges women face in sport, including unequal opportunities, gender bias, and societal expectations. It highlights initiatives that promote gender equality in sport, such as women's sport leagues, mentoring programs, and advocacy for policy changes."
             }
         ]
     },
@@ -6061,7 +6061,7 @@
     },
     {
         "id": 133,
-        "title": "The Evolution of Esports: The Future of Competitive Gaming",
+        "title": "The Evolution of Esport: The Future of Competitive Gaming",
         "date": "October 22, 2023",
         "comments": [
             {
@@ -6070,7 +6070,7 @@
                 "date": "October 22, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Esports is reshaping the world of competitive gaming. Well-written article!"
+                "content": "Esport is reshaping the world of competitive gaming. Well-written article!"
             },
             {
                 "id": 2,
@@ -6078,17 +6078,17 @@
                 "date": "October 22, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article provides valuable insights into the future of esports. Great read!"
+                "content": "This article provides valuable insights into the future of esport. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/4642383/pexels-photo-4642383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
-        "introduction": "Esports has emerged as a global phenomenon, transforming the landscape of competitive gaming. This article explores the evolution of esports, its growing popularity, the impact on traditional sports, and the potential it holds for the future of entertainment and professional gaming.",
+        "introduction": "Esport has emerged as a global phenomenon, transforming the landscape of competitive gaming. This article explores the evolution of esport, its growing popularity, the impact on traditional sport, and the potential it holds for the future of entertainment and professional gaming.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Understanding esports. This article provides an overview of esports, including competitive video gaming, organized tournaments, and professional players. It discusses the rapid growth of esports, the dedicated fan base, and the rise of esports as a spectator sport."
+                "content": "Understanding esport. This article provides an overview of esport, including competitive video gaming, organized tournaments, and professional players. It discusses the rapid growth of esport, the dedicated fan base, and the rise of esport as a spectator sport."
             },
             {
                 "type": "image",
@@ -6096,7 +6096,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The future of competitive gaming. This article explores the potential of esports to become a mainstream form of entertainment, rivaling traditional sports. It discusses the investment in esports infrastructure, the professionalization of players, and the integration of virtual reality and augmented reality technologies in enhancing the esports experience."
+                "content": "The future of competitive gaming. This article explores the potential of esport to become a mainstream form of entertainment, rivaling traditional sport. It discusses the investment in esport infrastructure, the professionalization of players, and the integration of virtual reality and augmented reality technologies in enhancing the esport experience."
             }
         ]
     },
@@ -6307,7 +6307,7 @@
     },
     {
         "id": 139,
-        "title": "The Mental Game: Psychology in Sports and Peak Performance",
+        "title": "The Mental Game: Psychology in sport and Peak Performance",
         "date": "October 28, 2023",
         "comments": [
             {
@@ -6316,7 +6316,7 @@
                 "date": "October 28, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article sheds light on the importance of the mental game in sports. Well-written!"
+                "content": "This article sheds light on the importance of the mental game in sport. Well-written!"
             },
             {
                 "id": 2,
@@ -6324,17 +6324,17 @@
                 "date": "October 28, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Psychology plays a crucial role in achieving peak performance in sports. Great read!"
+                "content": "Psychology plays a crucial role in achieving peak performance in sport. Great read!"
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/1432039/pexels-photo-1432039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
-        "introduction": "Sports performance is not only determined by physical skills but also by the mental game. This article explores the role of psychology in sports, discussing techniques to enhance mental toughness, strategies for achieving peak performance, and the importance of mindset in athletic success.",
+        "introduction": "sport performance is not only determined by physical skills but also by the mental game. This article explores the role of psychology in sport, discussing techniques to enhance mental toughness, strategies for achieving peak performance, and the importance of mindset in athletic success.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Understanding the mental game. This article explains the psychological aspects of sports performance, such as goal setting, visualization, and managing pressure. It discusses the impact of mindset, self-confidence, and resilience on athletic success."
+                "content": "Understanding the mental game. This article explains the psychological aspects of sport performance, such as goal setting, visualization, and managing pressure. It discusses the impact of mindset, self-confidence, and resilience on athletic success."
             },
             {
                 "type": "image",
@@ -7238,7 +7238,7 @@
         "content": [
             {
                 "type": "paragraph",
-                "content": "The Olympic Games' closing ceremony marked the end of two weeks filled with extraordinary sporting achievements and captivating moments. Athletes from around the world gathered in a grand celebration of athletic prowess and unity. The closing ceremony, a culmination of the Games' spirit, showcased breathtaking performances, vibrant cultural displays, and a shared sense of camaraderie. As the Olympic flame extinguished, it symbolized the conclusion of this global sporting extravaganza, leaving behind memories of triumphs, records broken, and the power of sports to bring nations together."
+                "content": "The Olympic Games' closing ceremony marked the end of two weeks filled with extraordinary sporting achievements and captivating moments. Athletes from around the world gathered in a grand celebration of athletic prowess and unity. The closing ceremony, a culmination of the Games' spirit, showcased breathtaking performances, vibrant cultural displays, and a shared sense of camaraderie. As the Olympic flame extinguished, it symbolized the conclusion of this global sporting extravaganza, leaving behind memories of triumphs, records broken, and the power of sport to bring nations together."
             },
             {
                 "type": "image",
@@ -8067,7 +8067,7 @@
         "content": [
             {
                 "type": "paragraph",
-                "content": "Machu Picchu, the ancient Incan citadel nestled high in the Andes Mountains of Peru, continues to captivate travelers from around the world. Its stunning architecture, intricate stone structures, and breathtaking mountain views make it an unparalleled destination for adventure seekers and history enthusiasts alike. As you traverse the well-preserved ruins, you can't help but feel a sense of awe and wonder at the engineering marvels crafted by the Inca civilization centuries ago. The terraced landscapes, mysterious temples, and stone pathways create a mystical atmosphere that transports you back in time. Exploring Machu Picchu is like unraveling the secrets of a lost civilization, as you discover the remnants of an ancient world."
+                "content": "Machu Picchu, the ancient Incan citadel nestled high in the Andes Mountains of Peru, continues to captivate travelers from around the world. Its stunning architecture, intricate stone structures, and breathtaking mountain views make it an unparalleled destination for adventure seekers and history enthusiasts alike. As you traverse the well-preserved ruins, you can't help but feel a sense of awe and wonder at the engineering marvels crafted by the Inca civilization centuries ago. The terraced landscapes, mysterious temples, and stone pathways create a mystical atmosphere that transport you back in time. Exploring Machu Picchu is like unraveling the secrets of a lost civilization, as you discover the remnants of an ancient world."
             },
             {
                 "type": "image",
@@ -8452,13 +8452,13 @@
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/1006965/pexels-photo-1006965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
         "introduction": "An extraordinary display of skill and determination resulted in an athlete achieving a remarkable feat, breaking a long-standing record in their respective sport. This article delves into the intense competition, highlighting the pivotal moments that led to the record-breaking performance. The athlete's exceptional abilities and unwavering focus set them apart, etching their name in the annals of sporting history.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The world of sports witnessed an awe-inspiring display of talent as an athlete shattered a long-standing record, leaving spectators and fellow competitors in awe. The event was marked by fierce competition, with athletes pushing their limits to achieve greatness. Amidst the intensity, one individual rose above the rest, showcasing unparalleled skill, resilience, and mental fortitude. Their record-breaking performance will forever be etched in the minds of sports enthusiasts, inspiring future generations of athletes to strive for greatness."
+                "content": "The world of sport witnessed an awe-inspiring display of talent as an athlete shattered a long-standing record, leaving spectators and fellow competitors in awe. The event was marked by fierce competition, with athletes pushing their limits to achieve greatness. Amidst the intensity, one individual rose above the rest, showcasing unparalleled skill, resilience, and mental fortitude. Their record-breaking performance will forever be etched in the minds of sport enthusiasts, inspiring future generations of athletes to strive for greatness."
             },
             {
                 "type": "image",
@@ -8466,7 +8466,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The significance of this record-breaking achievement cannot be understated. It symbolizes the pinnacle of human potential in the realm of sports and serves as a testament to the power of perseverance and dedication. The athlete's accomplishment reverberates across the sporting world, motivating others to push beyond perceived limitations and redefine what is possible. As the record books are updated and new goals are set, this extraordinary feat will forever stand as a testament to the indomitable spirit of athletic excellence."
+                "content": "The significance of this record-breaking achievement cannot be understated. It symbolizes the pinnacle of human potential in the realm of sport and serves as a testament to the power of perseverance and dedication. The athlete's accomplishment reverberates across the sporting world, motivating others to push beyond perceived limitations and redefine what is possible. As the record books are updated and new goals are set, this extraordinary feat will forever stand as a testament to the indomitable spirit of athletic excellence."
             }
         ]
     },
@@ -8698,7 +8698,7 @@
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
         "introduction": "A rising star in the world of tennis recently achieved a breakthrough performance that captivated audiences worldwide. This article celebrates the player's remarkable journey, highlighting their exceptional skills, determination, and unwavering spirit. From their early beginnings to the defining moments of the tournament, the article provides an in-depth look at the rise of a new tennis sensation.",
         "content": [
@@ -8712,7 +8712,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The breakthrough performance of this rising star serves as an inspiration to aspiring athletes and a reminder of the limitless potential within each of us. Their success story exemplifies the power of hard work, resilience, and a relentless pursuit of excellence. As they continue to make their mark in the tennis world, fans eagerly anticipate witnessing the evolution of a true champion. Their journey serves as a testament to the transformative power of sports and the enduring spirit of athletic achievement."
+                "content": "The breakthrough performance of this rising star serves as an inspiration to aspiring athletes and a reminder of the limitless potential within each of us. Their success story exemplifies the power of hard work, resilience, and a relentless pursuit of excellence. As they continue to make their mark in the tennis world, fans eagerly anticipate witnessing the evolution of a true champion. Their journey serves as a testament to the transformative power of sport and the enduring spirit of athletic achievement."
             }
         ]
     },
@@ -8944,13 +8944,13 @@
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 5,
-        "introduction": "The Olympic Games are a celebration of athletic excellence, unity, and the pursuit of dreams. This article showcases unforgettable moments from the Olympic Games, capturing the triumphs, inspirational stories, and record-breaking performances that have left a lasting impact on sports history. From legendary comebacks to displays of extraordinary skill and sportsmanship, these moments remind us of the power of human determination and the indomitable spirit of athletes from around the world.",
+        "introduction": "The Olympic Games are a celebration of athletic excellence, unity, and the pursuit of dreams. This article showcases unforgettable moments from the Olympic Games, capturing the triumphs, inspirational stories, and record-breaking performances that have left a lasting impact on sport history. From legendary comebacks to displays of extraordinary skill and sportmanship, these moments remind us of the power of human determination and the indomitable spirit of athletes from around the world.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The Olympic Games have been the stage for countless unforgettable moments that have transcended the boundaries of sport. This article highlights some of the most remarkable moments in Olympic history, from Jesse Owens' triumph at the 1936 Berlin Olympics to Usain Bolt's lightning-fast sprints. It explores the inspiring stories of athletes who have overcome adversity, shattered records, and captivated the world with their passion and dedication. These moments not only symbolize the pursuit of athletic excellence but also serve as a testament to the unifying power of sports in bringing people together."
+                "content": "The Olympic Games have been the stage for countless unforgettable moments that have transcended the boundaries of sport. This article highlights some of the most remarkable moments in Olympic history, from Jesse Owens' triumph at the 1936 Berlin Olympics to Usain Bolt's lightning-fast sprints. It explores the inspiring stories of athletes who have overcome adversity, shattered records, and captivated the world with their passion and dedication. These moments not only symbolize the pursuit of athletic excellence but also serve as a testament to the unifying power of sport in bringing people together."
             },
             {
                 "type": "image",
@@ -9169,7 +9169,7 @@
     },
     {
         "id": 193,
-        "title": "The Evolution of Sports: Adapting to Changing Times",
+        "title": "The Evolution of sport: Adapting to Changing Times",
         "date": "August 01, 2021",
         "comments": [
             {
@@ -9178,7 +9178,7 @@
                 "date": "August 01, 2023 2:00 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article provides an interesting perspective on the evolution of sports. Well done!"
+                "content": "This article provides an interesting perspective on the evolution of sport. Well done!"
             },
             {
                 "id": 2,
@@ -9186,17 +9186,17 @@
                 "date": "August 02, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports have come a long way in adapting to changing times. Enjoyed reading this article!"
+                "content": "sport have come a long way in adapting to changing times. Enjoyed reading this article!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/1006965/pexels-photo-1006965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 1,
-        "introduction": "Sports have continuously evolved over time, reflecting societal changes and technological advancements. This article traces the journey of sports, highlighting the transformations and innovations that have shaped various athletic disciplines. From advancements in training techniques and equipment to the introduction of video replay technology and fan engagement through social media, the evolution of sports showcases the dynamic nature of competition and the enduring passion of athletes and fans alike.",
+        "introduction": "sport have continuously evolved over time, reflecting societal changes and technological advancements. This article traces the journey of sport, highlighting the transformations and innovations that have shaped various athletic disciplines. From advancements in training techniques and equipment to the introduction of video replay technology and fan engagement through social media, the evolution of sport showcases the dynamic nature of competition and the enduring passion of athletes and fans alike.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Sports have undergone significant transformations, adapting to changing times and embracing new technologies. This article explores the evolution of sports, examining how training methods, equipment, and rules have evolved to enhance performance and ensure fair competition. It delves into the introduction of innovations such as video replay technology, which has revolutionized officiating and brought new levels of accuracy to game decisions. Additionally, it discusses the role of social media in shaping fan engagement and amplifying the global reach of sports. The evolution of sports reflects the remarkable progress of human achievement and the indomitable spirit of athletes striving for greatness."
+                "content": "sport have undergone significant transformations, adapting to changing times and embracing new technologies. This article explores the evolution of sport, examining how training methods, equipment, and rules have evolved to enhance performance and ensure fair competition. It delves into the introduction of innovations such as video replay technology, which has revolutionized officiating and brought new levels of accuracy to game decisions. Additionally, it discusses the role of social media in shaping fan engagement and amplifying the global reach of sport. The evolution of sport reflects the remarkable progress of human achievement and the indomitable spirit of athletes striving for greatness."
             },
             {
                 "type": "image",
@@ -9204,7 +9204,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "As technology continues to advance, sports will undoubtedly continue to evolve. From the use of data analytics to improve player performance to the integration of virtual reality and augmented reality experiences for fans, the future holds exciting possibilities for the world of sports. However, amidst all the advancements, it is essential to uphold the core values of sportsmanship, fair play, and inclusivity. The evolution of sports is a testament to the human drive for innovation and excellence, reminding us of the power of athletic pursuits to inspire and unite people across the globe."
+                "content": "As technology continues to advance, sport will undoubtedly continue to evolve. From the use of data analytics to improve player performance to the integration of virtual reality and augmented reality experiences for fans, the future holds exciting possibilities for the world of sport. However, amidst all the advancements, it is essential to uphold the core values of sportmanship, fair play, and inclusivity. The evolution of sport is a testament to the human drive for innovation and excellence, reminding us of the power of athletic pursuits to inspire and unite people across the globe."
             }
         ]
     },
@@ -9415,7 +9415,7 @@
     },
     {
         "id": 199,
-        "title": "The Role of Sports in Social Change: Inspiring Movements and Driving Progress",
+        "title": "The Role of sport in Social Change: Inspiring Movements and Driving Progress",
         "date": "August 07, 2021",
         "comments": [
             {
@@ -9424,7 +9424,7 @@
                 "date": "August 07, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article beautifully captures the transformative power of sports. Well done!"
+                "content": "This article beautifully captures the transformative power of sport. Well done!"
             },
             {
                 "id": 2,
@@ -9432,17 +9432,17 @@
                 "date": "August 08, 2023 2:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports have the potential to drive social change and inspire unity. Great read!"
+                "content": "sport have the potential to drive social change and inspire unity. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 2,
-        "introduction": "Sports have a profound impact beyond the field of play, serving as catalysts for social change and inspiring movements that transcend boundaries. This article explores the role of sports in driving progress, from promoting equality and inclusivity to challenging societal norms and sparking conversations on important issues. Through the stories of athletes and iconic moments in sports history, we witness the transformative power of sports in shaping our collective consciousness.",
+        "introduction": "sport have a profound impact beyond the field of play, serving as catalysts for social change and inspiring movements that transcend boundaries. This article explores the role of sport in driving progress, from promoting equality and inclusivity to challenging societal norms and sparking conversations on important issues. Through the stories of athletes and iconic moments in sport history, we witness the transformative power of sport in shaping our collective consciousness.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Sports have always held the potential to be a platform for social change. This article delves into the historical and contemporary examples of sports playing a pivotal role in inspiring movements and driving progress. It highlights how athletes have used their platform to advocate for equality, challenge discrimination, and amplify important social causes. From groundbreaking moments in Olympic history to the impact of athletes' activism, sports have the power to unite people, challenge the status quo, and create a positive impact on society."
+                "content": "sport have always held the potential to be a platform for social change. This article delves into the historical and contemporary examples of sport playing a pivotal role in inspiring movements and driving progress. It highlights how athletes have used their platform to advocate for equality, challenge discrimination, and amplify important social causes. From groundbreaking moments in Olympic history to the impact of athletes' activism, sport have the power to unite people, challenge the status quo, and create a positive impact on society."
             },
             {
                 "type": "image",
@@ -9450,7 +9450,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The influence of sports extends far beyond the game itself. This article explores how sports can spark conversations and effect change in areas such as gender equality, racial justice, and LGBTQ+ rights. It highlights the importance of inclusivity in sports and showcases the efforts of organizations and individuals working to create a more equitable playing field. By celebrating the transformative power of sports, we can inspire a new generation of athletes and fans to use their passion for sports as a force for positive change in the world."
+                "content": "The influence of sport extends far beyond the game itself. This article explores how sport can spark conversations and effect change in areas such as gender equality, racial justice, and LGBTQ+ rights. It highlights the importance of inclusivity in sport and showcases the efforts of organizations and individuals working to create a more equitable playing field. By celebrating the transformative power of sport, we can inspire a new generation of athletes and fans to use their passion for sport as a force for positive change in the world."
             }
         ]
     },
@@ -9661,7 +9661,7 @@
     },
     {
         "id": 205,
-        "title": "The Evolution of Women's Sports: Empowering Athletes and Inspiring Generations",
+        "title": "The Evolution of Women's sport: Empowering Athletes and Inspiring Generations",
         "date": "August 13, 2021",
         "comments": [
             {
@@ -9670,7 +9670,7 @@
                 "date": "August 13, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article celebrates the progress of women's sports. Well-done!"
+                "content": "This article celebrates the progress of women's sport. Well-done!"
             },
             {
                 "id": 2,
@@ -9678,17 +9678,17 @@
                 "date": "August 14, 2023 2:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Women's sports have come a long way. Inspiring and informative article!"
+                "content": "Women's sport have come a long way. Inspiring and informative article!"
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
-        "introduction": "Women's sports have experienced tremendous growth and recognition, empowering athletes and inspiring generations. This article traces the evolution of women's sports, from early pioneers who broke barriers to the present-day achievements and the ongoing fight for gender equality in sports. It celebrates the progress made, highlights the remarkable achievements of female athletes, and emphasizes the importance of creating inclusive opportunities for women in sports at all levels.",
+        "introduction": "Women's sport have experienced tremendous growth and recognition, empowering athletes and inspiring generations. This article traces the evolution of women's sport, from early pioneers who broke barriers to the present-day achievements and the ongoing fight for gender equality in sport. It celebrates the progress made, highlights the remarkable achievements of female athletes, and emphasizes the importance of creating inclusive opportunities for women in sport at all levels.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Women's sports have overcome numerous challenges to reach their current status. This article explores the historical milestones of women's sports, from the struggles for participation and recognition to the breakthrough moments that paved the way for future generations of female athletes. It celebrates the achievements of trailblazers and highlights the significance of events such as the Women's World Cup and the Olympics in showcasing the talents and inspiring millions of girls and women around the world."
+                "content": "Women's sport have overcome numerous challenges to reach their current status. This article explores the historical milestones of women's sport, from the struggles for participation and recognition to the breakthrough moments that paved the way for future generations of female athletes. It celebrates the achievements of trailblazers and highlights the significance of events such as the Women's World Cup and the Olympics in showcasing the talents and inspiring millions of girls and women around the world."
             },
             {
                 "type": "image",
@@ -9696,7 +9696,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "While progress has been made, there are still barriers to overcome in achieving gender equality in sports. This article addresses the ongoing challenges and discusses initiatives aimed at promoting women's participation and representation in sports. It emphasizes the importance of equal opportunities, pay parity, and media coverage for female athletes. By continuing to champion women's sports and supporting female athletes, we can create a future where women's achievements in sports are celebrated and valued on an equal footing with men's."
+                "content": "While progress has been made, there are still barriers to overcome in achieving gender equality in sport. This article addresses the ongoing challenges and discusses initiatives aimed at promoting women's participation and representation in sport. It emphasizes the importance of equal opportunities, pay parity, and media coverage for female athletes. By continuing to champion women's sport and supporting female athletes, we can create a future where women's achievements in sport are celebrated and valued on an equal footing with men's."
             }
         ]
     },
@@ -9907,7 +9907,7 @@
     },
     {
         "id": 211,
-        "title": "The Mental Game: Unlocking Peak Performance in Sports",
+        "title": "The Mental Game: Unlocking Peak Performance in sport",
         "date": "August 12, 2023",
         "comments": [
             {
@@ -9916,7 +9916,7 @@
                 "date": "August 19, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article highlights the importance of mental resilience in sports. Well-done!"
+                "content": "This article highlights the importance of mental resilience in sport. Well-done!"
             },
             {
                 "id": 2,
@@ -9924,17 +9924,17 @@
                 "date": "August 20, 2023 2:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "The mental game is a crucial aspect of sports. Enjoyed reading this!"
+                "content": "The mental game is a crucial aspect of sport. Enjoyed reading this!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/913215/pexels-photo-913215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
-        "introduction": "Sports performance is not just about physical abilities; it also relies heavily on mental resilience and focus. This article explores the importance of the mental game in sports, discussing strategies and techniques that athletes can use to unlock peak performance. From visualization and goal setting to managing pressure and building mental strength, understanding and harnessing the power of the mind can make a significant difference in athletic performance.",
+        "introduction": "sport performance is not just about physical abilities; it also relies heavily on mental resilience and focus. This article explores the importance of the mental game in sport, discussing strategies and techniques that athletes can use to unlock peak performance. From visualization and goal setting to managing pressure and building mental strength, understanding and harnessing the power of the mind can make a significant difference in athletic performance.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The mental game plays a crucial role in sports performance. This article delves into the mindset of successful athletes, discussing the power of visualization and positive self-talk in enhancing performance. It explores the importance of goal setting and developing a strong mental framework to overcome challenges and setbacks. By training the mind, athletes can tap into their full potential and achieve peak performance on the field or court."
+                "content": "The mental game plays a crucial role in sport performance. This article delves into the mindset of successful athletes, discussing the power of visualization and positive self-talk in enhancing performance. It explores the importance of goal setting and developing a strong mental framework to overcome challenges and setbacks. By training the mind, athletes can tap into their full potential and achieve peak performance on the field or court."
             },
             {
                 "type": "image",
@@ -9942,7 +9942,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Managing pressure and building resilience are essential in sports. This article provides strategies for athletes to cope with performance anxiety, handle high-pressure situations, and bounce back from failures. It emphasizes the importance of self-care, mental rest, and seeking support when needed. By cultivating mental resilience, athletes can maintain focus, stay motivated, and perform at their best, even in the face of adversity."
+                "content": "Managing pressure and building resilience are essential in sport. This article provides strategies for athletes to cope with performance anxiety, handle high-pressure situations, and bounce back from failures. It emphasizes the importance of self-care, mental rest, and seeking support when needed. By cultivating mental resilience, athletes can maintain focus, stay motivated, and perform at their best, even in the face of adversity."
             }
         ]
     },
@@ -10153,7 +10153,7 @@
     },
     {
         "id": 217,
-        "title": "Beyond the Game: The Impact of Sports in Society",
+        "title": "Beyond the Game: The Impact of sport in Society",
         "date": "August 25, 2021",
         "comments": [
             {
@@ -10162,7 +10162,7 @@
                 "date": "August 25, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports have a powerful influence on society. Well-researched article!"
+                "content": "sport have a powerful influence on society. Well-researched article!"
             },
             {
                 "id": 2,
@@ -10170,17 +10170,17 @@
                 "date": "August 26, 2023 2:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article highlights the broader impact of sports. Great read!"
+                "content": "This article highlights the broader impact of sport. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 5,
-        "introduction": "Sports have a profound influence that extends beyond the field or court, shaping society in various ways. This article explores the impact of sports in society, from fostering community engagement and promoting physical well-being to driving social change and inspiring individuals. It highlights the unifying power of sports and how they can serve as a platform for positive transformation and the pursuit of excellence.",
+        "introduction": "sport have a profound influence that extends beyond the field or court, shaping society in various ways. This article explores the impact of sport in society, from fostering community engagement and promoting physical well-being to driving social change and inspiring individuals. It highlights the unifying power of sport and how they can serve as a platform for positive transformation and the pursuit of excellence.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Sports bring people together and foster community spirit. This article delves into the role of sports in creating a sense of belonging, promoting teamwork, and instilling values like discipline and perseverance. It discusses how sports can bridge cultural divides, break down barriers, and promote social inclusion. By embracing the unifying power of sports, communities can create a shared sense of identity and strengthen social cohesion."
+                "content": "sport bring people together and foster community spirit. This article delves into the role of sport in creating a sense of belonging, promoting teamwork, and instilling values like discipline and perseverance. It discusses how sport can bridge cultural divides, break down barriers, and promote social inclusion. By embracing the unifying power of sport, communities can create a shared sense of identity and strengthen social cohesion."
             },
             {
                 "type": "image",
@@ -10188,7 +10188,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Sports also have the power to drive social change. This article explores the influence of athletes as role models, discussing how they can inspire individuals, challenge societal norms, and advocate for important causes. It highlights examples of sports initiatives and campaigns that address issues like equality, diversity, and sustainability. By harnessing the platform of sports, individuals and organizations can contribute to positive social impact and create a more inclusive and equitable society."
+                "content": "sport also have the power to drive social change. This article explores the influence of athletes as role models, discussing how they can inspire individuals, challenge societal norms, and advocate for important causes. It highlights examples of sport initiatives and campaigns that address issues like equality, diversity, and sustainability. By harnessing the platform of sport, individuals and organizations can contribute to positive social impact and create a more inclusive and equitable society."
             }
         ]
     },
@@ -10399,7 +10399,7 @@
     },
     {
         "id": 223,
-        "title": "The Evolution of Sports Broadcasting: Transforming the Way We Experience Games",
+        "title": "The Evolution of sport Broadcasting: Transforming the Way We Experience Games",
         "date": "August 31, 2022",
         "comments": [
             {
@@ -10408,7 +10408,7 @@
                 "date": "August 31, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports broadcasting has come a long way. Well-researched article!"
+                "content": "sport broadcasting has come a long way. Well-researched article!"
             },
             {
                 "id": 2,
@@ -10416,17 +10416,17 @@
                 "date": "September 01, 2023 2:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "The evolution of sports broadcasting is fascinating. Enjoyed reading this!"
+                "content": "The evolution of sport broadcasting is fascinating. Enjoyed reading this!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/236937/pexels-photo-236937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 1,
-        "introduction": "Sports broadcasting has undergone a remarkable transformation, revolutionizing the way we consume and experience sports events. This article explores the evolution of sports broadcasting, from traditional television coverage to live streaming, virtual reality, and interactive experiences. It discusses the impact of technology on sports viewing, the rise of over-the-top (OTT) platforms, and the changing dynamics of fan engagement in the digital age.",
+        "introduction": "sport broadcasting has undergone a remarkable transformation, revolutionizing the way we consume and experience sport events. This article explores the evolution of sport broadcasting, from traditional television coverage to live streaming, virtual reality, and interactive experiences. It discusses the impact of technology on sport viewing, the rise of over-the-top (OTT) platforms, and the changing dynamics of fan engagement in the digital age.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The digital era has revolutionized sports broadcasting. This article delves into the advancements in technology that have transformed the way we consume sports content. It explores the shift towards online streaming platforms, enabling fans to watch games anytime, anywhere, on various devices. It also discusses the immersive experiences offered by virtual reality and augmented reality, bringing fans closer to the action. By embracing these innovations, sports broadcasting has become more accessible, interactive, and tailored to individual preferences."
+                "content": "The digital era has revolutionized sport broadcasting. This article delves into the advancements in technology that have transformed the way we consume sport content. It explores the shift towards online streaming platforms, enabling fans to watch games anytime, anywhere, on various devices. It also discusses the immersive experiences offered by virtual reality and augmented reality, bringing fans closer to the action. By embracing these innovations, sport broadcasting has become more accessible, interactive, and tailored to individual preferences."
             },
             {
                 "type": "image",
@@ -10434,7 +10434,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Sports broadcasting is no longer limited to passive viewing. This article highlights the rise of interactive experiences, including live commentary, real-time statistics, and social media integration. It discusses how fans can actively engage with their favorite teams and fellow supporters, creating a sense of community and shared enthusiasm. By embracing these interactive elements, sports broadcasting has become a dynamic and participatory experience that transcends geographical boundaries and connects fans worldwide."
+                "content": "sport broadcasting is no longer limited to passive viewing. This article highlights the rise of interactive experiences, including live commentary, real-time statistics, and social media integration. It discusses how fans can actively engage with their favorite teams and fellow supporters, creating a sense of community and shared enthusiasm. By embracing these interactive elements, sport broadcasting has become a dynamic and participatory experience that transcends geographical boundaries and connects fans worldwide."
             }
         ]
     },
@@ -10645,7 +10645,7 @@
     },
     {
         "id": 229,
-        "title": "The Mental Game: Exploring the Psychology of Sports Performance",
+        "title": "The Mental Game: Exploring the Psychology of sport Performance",
         "date": "September 06, 2022",
         "comments": [
             {
@@ -10654,7 +10654,7 @@
                 "date": "September 06, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "The psychology of sports performance is fascinating. Well-written article!"
+                "content": "The psychology of sport performance is fascinating. Well-written article!"
             },
             {
                 "id": 2,
@@ -10662,17 +10662,17 @@
                 "date": "September 06, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article offers valuable insights into the mental aspect of sports. Great read!"
+                "content": "This article offers valuable insights into the mental aspect of sport. Great read!"
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/2440021/pexels-photo-2440021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 2,
-        "introduction": "Sports performance is not just about physical abilities; the mental aspect plays a crucial role as well. This article explores the psychology of sports performance, delving into the mindset, focus, motivation, and resilience required for peak athletic achievement. It highlights the techniques and strategies that athletes can employ to optimize their mental game and enhance their overall performance.",
+        "introduction": "sport performance is not just about physical abilities; the mental aspect plays a crucial role as well. This article explores the psychology of sport performance, delving into the mindset, focus, motivation, and resilience required for peak athletic achievement. It highlights the techniques and strategies that athletes can employ to optimize their mental game and enhance their overall performance.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The mind is a powerful tool in sports. This article explores the psychological factors that influence performance, such as self-confidence, goal-setting, and concentration. It discusses the impact of mental preparation and visualization techniques in improving performance under pressure. It also emphasizes the importance of managing stress, building resilience, and maintaining a positive mindset to overcome challenges and maximize athletic potential."
+                "content": "The mind is a powerful tool in sport. This article explores the psychological factors that influence performance, such as self-confidence, goal-setting, and concentration. It discusses the impact of mental preparation and visualization techniques in improving performance under pressure. It also emphasizes the importance of managing stress, building resilience, and maintaining a positive mindset to overcome challenges and maximize athletic potential."
             },
             {
                 "type": "image",
@@ -10680,7 +10680,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Mental skills training is integral to sports success. This article discusses various psychological techniques, such as mindfulness, imagery, and self-talk, that athletes can utilize to enhance their performance. It explores the role of sports psychology professionals in supporting athletes' mental well-being and performance optimization. By integrating mental training into their routines, athletes can gain a competitive edge and achieve their goals on and off the field."
+                "content": "Mental skills training is integral to sport success. This article discusses various psychological techniques, such as mindfulness, imagery, and self-talk, that athletes can utilize to enhance their performance. It explores the role of sport psychology professionals in supporting athletes' mental well-being and performance optimization. By integrating mental training into their routines, athletes can gain a competitive edge and achieve their goals on and off the field."
             }
         ]
     },
@@ -10891,7 +10891,7 @@
     },
     {
         "id": 235,
-        "title": "The Evolution of Sports Analytics: Unleashing the Power of Data",
+        "title": "The Evolution of sport Analytics: Unleashing the Power of Data",
         "date": "September 12, 2022",
         "comments": [
             {
@@ -10900,7 +10900,7 @@
                 "date": "September 12, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports analytics is revolutionizing the way we understand and analyze sports. Well-written article!"
+                "content": "sport analytics is revolutionizing the way we understand and analyze sport. Well-written article!"
             },
             {
                 "id": 2,
@@ -10908,17 +10908,17 @@
                 "date": "September 12, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article provides valuable insights into the power of sports analytics. Great read!"
+                "content": "This article provides valuable insights into the power of sport analytics. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/3153198/pexels-photo-3153198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
-        "introduction": "Data analytics has transformed the world of sports, offering unprecedented insights into player performance, team strategies, and game outcomes. This article explores the evolution of sports analytics, discussing the role of data collection, statistical modeling, and advanced technologies in revolutionizing how sports are analyzed, coached, and experienced. It highlights the benefits and challenges of sports analytics and its impact on the future of sports.",
+        "introduction": "Data analytics has transformed the world of sport, offering unprecedented insights into player performance, team strategies, and game outcomes. This article explores the evolution of sport analytics, discussing the role of data collection, statistical modeling, and advanced technologies in revolutionizing how sport are analyzed, coached, and experienced. It highlights the benefits and challenges of sport analytics and its impact on the future of sport.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Sports analytics is a game-changer. This article delves into the use of data in sports, from player tracking technologies and wearables to in-depth statistical analysis. It explores how sports organizations and teams leverage analytics to gain a competitive edge, make data-driven decisions, and optimize player performance. By harnessing the power of data, sports analytics enhances fan engagement and revolutionizes the way we understand and appreciate sports."
+                "content": "sport analytics is a game-changer. This article delves into the use of data in sport, from player tracking technologies and wearables to in-depth statistical analysis. It explores how sport organizations and teams leverage analytics to gain a competitive edge, make data-driven decisions, and optimize player performance. By harnessing the power of data, sport analytics enhances fan engagement and revolutionizes the way we understand and appreciate sport."
             },
             {
                 "type": "image",
@@ -10926,7 +10926,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The rise of sports analytics presents challenges and ethical considerations. This article discusses privacy concerns, data interpretation, and the need for responsible use of analytics in sports. It also explores the future possibilities of artificial intelligence and machine learning in sports analytics, from predictive modeling to virtual reality experiences. By embracing sports analytics responsibly, we can unlock new dimensions of sports performance, strategy, and fan engagement."
+                "content": "The rise of sport analytics presents challenges and ethical considerations. This article discusses privacy concerns, data interpretation, and the need for responsible use of analytics in sport. It also explores the future possibilities of artificial intelligence and machine learning in sport analytics, from predictive modeling to virtual reality experiences. By embracing sport analytics responsibly, we can unlock new dimensions of sport performance, strategy, and fan engagement."
             }
         ]
     },
@@ -11137,7 +11137,7 @@
     },
     {
         "id": 241,
-        "title": "Sports and Mental Health: Breaking the Stigma and Promoting Well-being",
+        "title": "sport and Mental Health: Breaking the Stigma and Promoting Well-being",
         "date": "September 18, 2019",
         "comments": [
             {
@@ -11146,7 +11146,7 @@
                 "date": "September 18, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article sheds light on the crucial connection between sports and mental health. Well-written!"
+                "content": "This article sheds light on the crucial connection between sport and mental health. Well-written!"
             },
             {
                 "id": 2,
@@ -11154,17 +11154,17 @@
                 "date": "September 18, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports can play a transformative role in promoting mental well-being. Great article!"
+                "content": "sport can play a transformative role in promoting mental well-being. Great article!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
-        "introduction": "Sports have the power to positively impact mental health and well-being. This article explores the connection between sports and mental health, discussing the benefits of physical activity, team support, and the role of sports in promoting resilience and breaking the stigma surrounding mental health issues. It emphasizes the importance of creating inclusive and supportive sports environments that prioritize athletes' mental well-being.",
+        "introduction": "sport have the power to positively impact mental health and well-being. This article explores the connection between sport and mental health, discussing the benefits of physical activity, team support, and the role of sport in promoting resilience and breaking the stigma surrounding mental health issues. It emphasizes the importance of creating inclusive and supportive sport environments that prioritize athletes' mental well-being.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Sports contribute to mental well-being. This article delves into the psychological benefits of sports, such as stress reduction, mood enhancement, and improved self-esteem. It explores the role of physical activity in alleviating symptoms of anxiety and depression, and the importance of creating safe spaces where athletes can openly discuss and seek support for their mental health challenges. By fostering a positive sports culture, we can promote mental well-being among athletes."
+                "content": "sport contribute to mental well-being. This article delves into the psychological benefits of sport, such as stress reduction, mood enhancement, and improved self-esteem. It explores the role of physical activity in alleviating symptoms of anxiety and depression, and the importance of creating safe spaces where athletes can openly discuss and seek support for their mental health challenges. By fostering a positive sport culture, we can promote mental well-being among athletes."
             },
             {
                 "type": "image",
@@ -11172,7 +11172,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Athletes as mental health advocates. This article discusses the importance of athlete role models in raising awareness about mental health and promoting help-seeking behaviors. It highlights initiatives that prioritize mental health support in sports organizations, including access to mental health professionals, education on mental well-being, and destigmatization efforts. By embracing a holistic approach to sports, we can create an environment where athletes thrive both physically and mentally."
+                "content": "Athletes as mental health advocates. This article discusses the importance of athlete role models in raising awareness about mental health and promoting help-seeking behaviors. It highlights initiatives that prioritize mental health support in sport organizations, including access to mental health professionals, education on mental well-being, and destigmatization efforts. By embracing a holistic approach to sport, we can create an environment where athletes thrive both physically and mentally."
             }
         ]
     },
@@ -11383,7 +11383,7 @@
     },
     {
         "id": 247,
-        "title": "The Evolution of Sports Broadcasting: Transforming the Fan Experience",
+        "title": "The Evolution of sport Broadcasting: Transforming the Fan Experience",
         "date": "September 24, 2022",
         "comments": [
             {
@@ -11392,7 +11392,7 @@
                 "date": "September 24, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article highlights the exciting developments in sports broadcasting. Well-written!"
+                "content": "This article highlights the exciting developments in sport broadcasting. Well-written!"
             },
             {
                 "id": 2,
@@ -11400,17 +11400,17 @@
                 "date": "September 24, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "The fan experience has been revolutionized by advancements in sports broadcasting. Great article!"
+                "content": "The fan experience has been revolutionized by advancements in sport broadcasting. Great article!"
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/1302242/pexels-photo-1302242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 5,
-        "introduction": "Sports broadcasting has undergone a significant transformation, revolutionizing how fans engage with their favorite sports. This article explores the evolution of sports broadcasting, from traditional television coverage to streaming platforms, virtual reality experiences, and interactive features. It discusses the impact of these advancements on the fan experience, the future of sports consumption, and the opportunities they create for sports enthusiasts.",
+        "introduction": "sport broadcasting has undergone a significant transformation, revolutionizing how fans engage with their favorite sport. This article explores the evolution of sport broadcasting, from traditional television coverage to streaming platforms, virtual reality experiences, and interactive features. It discusses the impact of these advancements on the fan experience, the future of sport consumption, and the opportunities they create for sport enthusiasts.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The digital revolution in sports broadcasting. This article delves into the technological advancements that have reshaped sports viewing, including high-definition broadcasts, multi-camera angles, and immersive experiences. It explores the rise of streaming services and the shift towards personalized and on-demand content. It also discusses the integration of augmented reality and virtual reality technologies, enhancing fan engagement and interactivity."
+                "content": "The digital revolution in sport broadcasting. This article delves into the technological advancements that have reshaped sport viewing, including high-definition broadcasts, multi-camera angles, and immersive experiences. It explores the rise of streaming services and the shift towards personalized and on-demand content. It also discusses the integration of augmented reality and virtual reality technologies, enhancing fan engagement and interactivity."
             },
             {
                 "type": "image",
@@ -11418,7 +11418,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The fan-centric future of sports broadcasting. This article highlights the benefits for fans, such as access to a wider range of sports, interactive features, and enhanced social connectivity. It discusses the challenges and opportunities for sports leagues, broadcasters, and advertisers in navigating this changing landscape. By embracing innovative sports broadcasting technologies, we can create a more immersive and engaging fan experience, blurring the boundaries between live events and digital platforms."
+                "content": "The fan-centric future of sport broadcasting. This article highlights the benefits for fans, such as access to a wider range of sport, interactive features, and enhanced social connectivity. It discusses the challenges and opportunities for sport leagues, broadcasters, and advertisers in navigating this changing landscape. By embracing innovative sport broadcasting technologies, we can create a more immersive and engaging fan experience, blurring the boundaries between live events and digital platforms."
             }
         ]
     },
@@ -11711,7 +11711,7 @@
     },
     {
         "id": 255,
-        "title": "The Future of Esports: Redefining Competitive Gaming",
+        "title": "The Future of Esport: Redefining Competitive Gaming",
         "date": "October 20, 2021",
         "comments": [
             {
@@ -11720,7 +11720,7 @@
                 "date": "October 2, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Esports is reshaping the world of competitive gaming. Well-written article!"
+                "content": "Esport is reshaping the world of competitive gaming. Well-written article!"
             },
             {
                 "id": 2,
@@ -11728,17 +11728,17 @@
                 "date": "October 2, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article provides valuable insights into the future of esports. Great read!"
+                "content": "This article provides valuable insights into the future of esport. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
-        "introduction": "Esports, or competitive video gaming, has emerged as a global phenomenon with a rapidly growing fanbase. This article explores the future of esports, discussing its impact on the sports industry, the rise of professional gaming leagues, and the opportunities and challenges for aspiring esports athletes. It highlights the potential of esports to redefine the landscape of competitive gaming.",
+        "introduction": "Esport, or competitive video gaming, has emerged as a global phenomenon with a rapidly growing fanbase. This article explores the future of esport, discussing its impact on the sport industry, the rise of professional gaming leagues, and the opportunities and challenges for aspiring esport athletes. It highlights the potential of esport to redefine the landscape of competitive gaming.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The rise of esports. This article delves into the factors contributing to the popularity of esports, including advancements in gaming technology, online streaming platforms, and the engagement of a passionate fanbase. It discusses the emergence of esports leagues, major tournaments, and the professionalization of competitive gaming. By blurring the lines between traditional sports and gaming, esports is reshaping the future of entertainment."
+                "content": "The rise of esport. This article delves into the factors contributing to the popularity of esport, including advancements in gaming technology, online streaming platforms, and the engagement of a passionate fanbase. It discusses the emergence of esport leagues, major tournaments, and the professionalization of competitive gaming. By blurring the lines between traditional sport and gaming, esport is reshaping the future of entertainment."
             },
             {
                 "type": "image",
@@ -11746,7 +11746,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Opportunities and challenges in esports. This article explores the potential career paths in esports, from professional players to coaches, analysts, and content creators. It discusses the importance of skill development, teamwork, and mental resilience in the world of competitive gaming. It also addresses the challenges of player burnout, ensuring player well-being, and maintaining the integrity of esports competitions."
+                "content": "Opportunities and challenges in esport. This article explores the potential career paths in esport, from professional players to coaches, analysts, and content creators. It discusses the importance of skill development, teamwork, and mental resilience in the world of competitive gaming. It also addresses the challenges of player burnout, ensuring player well-being, and maintaining the integrity of esport competitions."
             }
         ]
     },
@@ -11957,7 +11957,7 @@
     },
     {
         "id": 261,
-        "title": "The Evolution of Sports: Adapting to a Changing World",
+        "title": "The Evolution of sport: Adapting to a Changing World",
         "date": "October 08, 2022",
         "comments": [
             {
@@ -11966,7 +11966,7 @@
                 "date": "October 8, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports are constantly evolving. Well-written article!"
+                "content": "sport are constantly evolving. Well-written article!"
             },
             {
                 "id": 2,
@@ -11974,17 +11974,17 @@
                 "date": "October 8, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article provides valuable insights into the changing landscape of sports. Great read!"
+                "content": "This article provides valuable insights into the changing landscape of sport. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/236937/pexels-photo-236937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
-        "introduction": "Sports have always reflected the spirit of human competitiveness and camaraderie. This article explores the evolution of sports in a changing world, discussing advancements in technology, changing audience preferences, and the impact of globalization. It emphasizes the need for innovation, inclusivity, and sustainable practices in the world of sports.",
+        "introduction": "sport have always reflected the spirit of human competitiveness and camaraderie. This article explores the evolution of sport in a changing world, discussing advancements in technology, changing audience preferences, and the impact of globalization. It emphasizes the need for innovation, inclusivity, and sustainable practices in the world of sport.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Technological advancements in sports. This article delves into how technology has transformed the sports industry, from instant replays and data analytics to virtual reality and wearable devices. It discusses the impact of technology on athlete performance, fan engagement, and the spectator experience. By embracing technology, sports can reach new heights and attract a wider audience."
+                "content": "Technological advancements in sport. This article delves into how technology has transformed the sport industry, from instant replays and data analytics to virtual reality and wearable devices. It discusses the impact of technology on athlete performance, fan engagement, and the spectator experience. By embracing technology, sport can reach new heights and attract a wider audience."
             },
             {
                 "type": "image",
@@ -11992,7 +11992,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Embracing diversity and inclusivity in sports. This article highlights the importance of inclusivity and diversity in sports, addressing gender equality, accessibility, and representation. It discusses initiatives that promote equal opportunities for all, breaking down barriers and challenging stereotypes. It also explores the role of sports in fostering social cohesion, promoting health and well-being, and inspiring future generations."
+                "content": "Embracing diversity and inclusivity in sport. This article highlights the importance of inclusivity and diversity in sport, addressing gender equality, accessibility, and representation. It discusses initiatives that promote equal opportunities for all, breaking down barriers and challenging stereotypes. It also explores the role of sport in fostering social cohesion, promoting health and well-being, and inspiring future generations."
             }
         ]
     },
@@ -12121,7 +12121,7 @@
     },
     {
         "id": 265,
-        "title": "The Impact of Sports on Mental Health: Breaking the Stigma",
+        "title": "The Impact of sport on Mental Health: Breaking the Stigma",
         "date": "October 12, 2022",
         "comments": [
             {
@@ -12130,7 +12130,7 @@
                 "date": "October 12, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Sports play a crucial role in promoting mental health. Well-written article!"
+                "content": "sport play a crucial role in promoting mental health. Well-written article!"
             },
             {
                 "id": 2,
@@ -12138,17 +12138,17 @@
                 "date": "October 12, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article sheds light on the impact of sports on mental well-being. Great read!"
+                "content": "This article sheds light on the impact of sport on mental well-being. Great read!"
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/2440021/pexels-photo-2440021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
-        "introduction": "Sports not only contribute to physical fitness but also have a significant impact on mental health. This article explores the relationship between sports and mental well-being, highlighting the positive effects of sports participation, the role of sports in reducing stigma around mental health, and the importance of promoting mental well-being in sports environments.",
+        "introduction": "sport not only contribute to physical fitness but also have a significant impact on mental health. This article explores the relationship between sport and mental well-being, highlighting the positive effects of sport participation, the role of sport in reducing stigma around mental health, and the importance of promoting mental well-being in sport environments.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The positive effects of sports on mental health. This article discusses how sports participation can improve mental well-being, including reducing stress, boosting self-esteem, and promoting a sense of belonging and social connection. It explores the release of endorphins during physical activity and the role of sports as an outlet for emotional expression."
+                "content": "The positive effects of sport on mental health. This article discusses how sport participation can improve mental well-being, including reducing stress, boosting self-esteem, and promoting a sense of belonging and social connection. It explores the release of endorphins during physical activity and the role of sport as an outlet for emotional expression."
             },
             {
                 "type": "image",
@@ -12156,7 +12156,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Breaking the stigma. This article highlights the role of sports in breaking the stigma around mental health. It discusses initiatives within the sports community that promote mental well-being, such as athlete support programs, mental health awareness campaigns, and the integration of mental health professionals within sports teams and organizations."
+                "content": "Breaking the stigma. This article highlights the role of sport in breaking the stigma around mental health. It discusses initiatives within the sport community that promote mental well-being, such as athlete support programs, mental health awareness campaigns, and the integration of mental health professionals within sport teams and organizations."
             }
         ]
     },
@@ -12367,7 +12367,7 @@
     },
     {
         "id": 271,
-        "title": "Women in Sports: Paving the Way for Equality",
+        "title": "Women in sport: Paving the Way for Equality",
         "date": "October 18, 2022",
         "comments": [
             {
@@ -12376,7 +12376,7 @@
                 "date": "October 18, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article highlights the importance of gender equality in sports. Well-written!"
+                "content": "This article highlights the importance of gender equality in sport. Well-written!"
             },
             {
                 "id": 2,
@@ -12384,17 +12384,17 @@
                 "date": "October 18, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Women in sports continue to inspire and break barriers. Great read!"
+                "content": "Women in sport continue to inspire and break barriers. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/4031818/pexels-photo-4031818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
-        "introduction": "Women's participation and achievements in sports have made significant strides, yet challenges remain in achieving true gender equality. This article celebrates women in sports, discussing the importance of representation, equal opportunities, and empowering the next generation of female athletes.",
+        "introduction": "Women's participation and achievements in sport have made significant strides, yet challenges remain in achieving true gender equality. This article celebrates women in sport, discussing the importance of representation, equal opportunities, and empowering the next generation of female athletes.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "The power of representation. This article highlights the impact of female athletes as role models, breaking down gender stereotypes, and inspiring future generations. It discusses the importance of media coverage, equal pay, and the need for inclusive sports environments that encourage girls and women to participate."
+                "content": "The power of representation. This article highlights the impact of female athletes as role models, breaking down gender stereotypes, and inspiring future generations. It discusses the importance of media coverage, equal pay, and the need for inclusive sport environments that encourage girls and women to participate."
             },
             {
                 "type": "image",
@@ -12402,7 +12402,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "Challenges and progress. This article addresses the challenges women face in sports, including unequal opportunities, gender bias, and societal expectations. It highlights initiatives that promote gender equality in sports, such as women's sports leagues, mentoring programs, and advocacy for policy changes."
+                "content": "Challenges and progress. This article addresses the challenges women face in sport, including unequal opportunities, gender bias, and societal expectations. It highlights initiatives that promote gender equality in sport, such as women's sport leagues, mentoring programs, and advocacy for policy changes."
             }
         ]
     },
@@ -12531,7 +12531,7 @@
     },
     {
         "id": 275,
-        "title": "The Evolution of Esports: The Future of Competitive Gaming",
+        "title": "The Evolution of Esport: The Future of Competitive Gaming",
         "date": "October 22, 2021",
         "comments": [
             {
@@ -12540,7 +12540,7 @@
                 "date": "October 22, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Esports is reshaping the world of competitive gaming. Well-written article!"
+                "content": "Esport is reshaping the world of competitive gaming. Well-written article!"
             },
             {
                 "id": 2,
@@ -12548,17 +12548,17 @@
                 "date": "October 22, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article provides valuable insights into the future of esports. Great read!"
+                "content": "This article provides valuable insights into the future of esport. Great read!"
             }
         ],
                 "imageUrl": "https://images.pexels.com/photos/4642383/pexels-photo-4642383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 3,
-        "introduction": "Esports has emerged as a global phenomenon, transforming the landscape of competitive gaming. This article explores the evolution of esports, its growing popularity, the impact on traditional sports, and the potential it holds for the future of entertainment and professional gaming.",
+        "introduction": "Esport has emerged as a global phenomenon, transforming the landscape of competitive gaming. This article explores the evolution of esport, its growing popularity, the impact on traditional sport, and the potential it holds for the future of entertainment and professional gaming.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Understanding esports. This article provides an overview of esports, including competitive video gaming, organized tournaments, and professional players. It discusses the rapid growth of esports, the dedicated fan base, and the rise of esports as a spectator sport."
+                "content": "Understanding esport. This article provides an overview of esport, including competitive video gaming, organized tournaments, and professional players. It discusses the rapid growth of esport, the dedicated fan base, and the rise of esport as a spectator sport."
             },
             {
                 "type": "image",
@@ -12566,7 +12566,7 @@
             },
             {
                 "type": "paragraph",
-                "content": "The future of competitive gaming. This article explores the potential of esports to become a mainstream form of entertainment, rivaling traditional sports. It discusses the investment in esports infrastructure, the professionalization of players, and the integration of virtual reality and augmented reality technologies in enhancing the esports experience."
+                "content": "The future of competitive gaming. This article explores the potential of esport to become a mainstream form of entertainment, rivaling traditional sport. It discusses the investment in esport infrastructure, the professionalization of players, and the integration of virtual reality and augmented reality technologies in enhancing the esport experience."
             }
         ]
     },
@@ -12777,7 +12777,7 @@
     },
     {
         "id": 281,
-        "title": "The Mental Game: Psychology in Sports and Peak Performance",
+        "title": "The Mental Game: Psychology in sport and Peak Performance",
         "date": "October 28, 2022",
         "comments": [
             {
@@ -12786,7 +12786,7 @@
                 "date": "October 28, 2023 9:35 am",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "This article sheds light on the importance of the mental game in sports. Well-written!"
+                "content": "This article sheds light on the importance of the mental game in sport. Well-written!"
             },
             {
                 "id": 2,
@@ -12794,17 +12794,17 @@
                 "date": "October 28, 2023 6:35 pm",
                 "email": "marino18barada@gmail.com",
                 "imageUrl": "/src/assets/avatar.jpg",
-                "content": "Psychology plays a crucial role in achieving peak performance in sports. Great read!"
+                "content": "Psychology plays a crucial role in achieving peak performance in sport. Great read!"
             }
         ],
         "imageUrl": "https://images.pexels.com/photos/1432039/pexels-photo-1432039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "category": "sports",
+        "category": "sport",
         "authorId": 4,
-        "introduction": "Sports performance is not only determined by physical skills but also by the mental game. This article explores the role of psychology in sports, discussing techniques to enhance mental toughness, strategies for achieving peak performance, and the importance of mindset in athletic success.",
+        "introduction": "sport performance is not only determined by physical skills but also by the mental game. This article explores the role of psychology in sport, discussing techniques to enhance mental toughness, strategies for achieving peak performance, and the importance of mindset in athletic success.",
         "content": [
             {
                 "type": "paragraph",
-                "content": "Understanding the mental game. This article explains the psychological aspects of sports performance, such as goal setting, visualization, and managing pressure. It discusses the impact of mindset, self-confidence, and resilience on athletic success."
+                "content": "Understanding the mental game. This article explains the psychological aspects of sport performance, such as goal setting, visualization, and managing pressure. It discusses the impact of mindset, self-confidence, and resilience on athletic success."
             },
             {
                 "type": "image",

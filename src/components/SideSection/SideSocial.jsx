@@ -1,7 +1,7 @@
 import React from "react";
-import Facebook from "../../assets/Facebook.jpg";
-import Twitter from "../../assets/Twitter.jpg";
-import YouTube from "../../assets/YouTube.jpg";
+import Facebook from "../../assets/Facebook.svg";
+import Twitter from "../../assets/Twitter.svg";
+import YouTube from "../../assets/YouTube.svg";
 
 function SideSocial() {
   const data = [

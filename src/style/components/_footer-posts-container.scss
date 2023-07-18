@@ -50,6 +50,10 @@
                 }
 
                 p {
+                    display: -webkit-box;
+                    -webkit-line-clamp: $max-lines-post;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
                     @include bitter-14-bold;
                     color: #cccccc;
                 }
