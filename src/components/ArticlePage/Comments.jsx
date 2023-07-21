@@ -1,14 +1,50 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { add } from "../../redux/addComment";
+import Comment from "./Comment";
 
-function Comments({ comments }) {
+function Comments({ comments, articleID }) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    comment: "",
+    content: "",
     date: "",
     imageUrl: "/src/assets/avatar.jpg",
+    articleID: articleID,
   });
-  const [newComment, setNewComment] = useState({}); // new commentar data
+
+  const dispatch = useDispatch();
+  const reduxComments = useSelector((state) => state.addNewComment);
+
+  useEffect(() => {
+    const commentsForArticle = reduxComments.filter(
+      (comment) => comment.articleID === articleID
+    );
+
+    if (commentsForArticle.length > 0) {
+      const lastCommentId = Math.max(
+        ...commentsForArticle.map((comment) => comment.id)
+      );
+      setFormData((prevFormData) => ({
+        ...prevFormData,
+        id: lastCommentId + 1,
+        articleID,
+      }));
+    } else if (comments.length > 0) {
+      const maxCommentId = Math.max(...comments.map((comment) => comment.id));
+      setFormData((prevFormData) => ({
+        ...prevFormData,
+        id: maxCommentId + 1,
+        articleID,
+      }));
+    } else {
+      setFormData((prevFormData) => ({
+        ...prevFormData,
+        id: 1,
+        articleID,
+      }));
+    }
+  }, [comments, articleID, reduxComments]);
 
   const commentData = (event) => {
     event.preventDefault();
@@ -26,12 +62,13 @@ function Comments({ comments }) {
       .replace("AM", "am")
       .replace(" at", "");
 
-    setNewComment({ ...formData, date: formattedDate });
+    const newComment = { ...formData, date: formattedDate };
+    dispatch(add(newComment));
 
     setFormData({
       name: "",
       email: "",
-      comment: "",
+      content: "",
       date: "",
       imageUrl: "/src/assets/avatar.jpg",
     });
@@ -49,21 +86,25 @@ function Comments({ comments }) {
         {comments
           .sort((a, b) => a.date - b.date)
           .map((item) => (
-            <div className="comment" key={item.id}>
-              <div className="image">
-                <img src={item.imageUrl} alt={item.name} />
-              </div>
-              <div className="content">
-                <div className="info">
-                  <div className="name-date">
-                    <h2>{item.name}</h2>
-                    <p>{item.date}</p>
-                  </div>
-                  <button>Replay</button>
-                </div>
-                <p>{item.content}</p>
-              </div>
-            </div>
+            <Comment
+              id={item.id}
+              imageUrl={item.imageUrl}
+              name={item.name}
+              date={item.date}
+              content={item.content}
+            />
+          ))}
+        {reduxComments
+          .filter((comment) => comment.articleID === articleID)
+          .sort((a, b) => a.date - b.date)
+          ?.map((item) => (
+            <Comment
+              id={item.id}
+              imageUrl={item.imageUrl}
+              name={item.name}
+              date={item.date}
+              content={item.content}
+            />
           ))}
       </div>
       <h1 className="add-comment">Add Your Comment</h1>
@@ -93,9 +134,9 @@ function Comments({ comments }) {
         <textarea
           rows={9}
           cols={60}
-          name="comment"
+          name="content"
           placeholder="Comment"
-          value={formData.comment}
+          value={formData.content}
           onChange={changeInput}
         />
         <button type="submit">Submit</button>

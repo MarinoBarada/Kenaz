@@ -13,6 +13,7 @@ function SingleArticle() {
   const content = article.content;
   const comments = article.comments;
   const author = Author.find((author) => author.id === article.authorId);
+  const articleID = article.id;
 
   return (
     <>
@@ -31,7 +32,7 @@ function SingleArticle() {
 
         <AboutAuthor author={author} />
 
-        <Comments comments={comments} />
+        <Comments comments={comments}  articleID={articleID}/>
       </SideSectionLayout>
     </>
   );
