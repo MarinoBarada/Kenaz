@@ -87,6 +87,7 @@ function Comments({ comments, articleID }) {
           .sort((a, b) => a.date - b.date)
           .map((item) => (
             <Comment
+              key={item.id}
               id={item.id}
               imageUrl={item.imageUrl}
               name={item.name}
@@ -99,6 +100,7 @@ function Comments({ comments, articleID }) {
           .sort((a, b) => a.date - b.date)
           ?.map((item) => (
             <Comment
+              key={item.id}
               id={item.id}
               imageUrl={item.imageUrl}
               name={item.name}

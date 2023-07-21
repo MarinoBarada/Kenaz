@@ -12,70 +12,6 @@
         @include flex-column;
         width: 100%;
         gap: 48px;
-
-        .comment {
-            display: flex;
-            flex-direction: row;
-            gap: 17px;
-
-            .image {
-                img {
-                    width: 57px;
-                    height: 58px;
-                    object-fit: cover;
-                }
-            }
-
-            .content {
-                @include flex-column;
-                gap: 4px;
-                flex-grow: 1;
-
-                .info {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    justify-content: space-between;
-
-                    .name-date {
-                        display: flex;
-                        flex-direction: row;
-                        align-items: end;
-                        gap: 10px;
-
-                        h2 {
-                            color: $primary-color;
-                            font-size: 18px;
-                            line-height: 20px;
-                            font-weight: 400;
-                        }
-
-                        p {
-                            font-family: $text-font;
-                            font-weight: 400;
-                            font-size: 11px;
-                            color: #666666;
-                        }
-                    }
-
-                    button {
-                        border: none;
-                        background-color: transparent;
-                        @include varela-14;
-                        color: $primary-color;
-                        cursor: pointer;
-                    }
-                }
-
-                p {
-                    font-family: $text-font;
-                    font-weight: 400;
-                    font-size: 13px;
-                    color: #444444;
-                    line-height: 20px;
-                }
-            }
-        }
     }
 
     .add-comment {
@@ -98,7 +34,7 @@
         gap: 10px;
 
         input {
-            background-color: #DDDDDD;
+            background-color: #dddddd;
             @include varela-14;
             color: #666666;
             line-height: 16.86px;
@@ -113,7 +49,7 @@
         }
 
         textarea {
-            background-color: #DDDDDD;
+            background-color: #dddddd;
             @include varela-14;
             color: #666666;
             line-height: 16.86px;
