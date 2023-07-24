@@ -1,17 +1,17 @@
 import React from "react";
-import FirstSlider from "../components/Sliders/FirstSlider";
+import ArticleSlider from "../components/Sliders/ArticleSlider";
 import SideSectionLayout from "../layouts/SideSectionLayout";
 import ContainerCategoryLayout from "../layouts/ContainerCategoryLayout";
 import Post from "../components/CategoryPostContainer/Post";
 import Banner from "../components/Banners/Banner";
 import SmallSlidersLayout from "../layouts/SmallSlidersLayout";
-import SecondSlider from "../components/Sliders/SecondSlider";
+import GallerySlider from "../components/Sliders/GallerySlider";
 import Articles from "../data/articles.json";
 
 function Home() {
   return (
     <>
-      <FirstSlider />
+      <ArticleSlider />
 
       <SideSectionLayout>
         <ContainerCategoryLayout title="News" color="#3677B5" clasName="posts">
@@ -157,7 +157,7 @@ function Home() {
 
       <Banner />
 
-      <SecondSlider />
+      <GallerySlider />
     </>
   );
 }

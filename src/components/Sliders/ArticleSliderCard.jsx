@@ -2,7 +2,7 @@ import React from "react";
 import CommentIcon from "../../assets/comment-ico.png";
 import { Link } from "react-router-dom";
 
-function FirstSliderCard({
+function ArticleSliderCard({
   date,
   comments,
   title,
@@ -31,4 +31,4 @@ function FirstSliderCard({
   );
 }
 
-export default FirstSliderCard;
+export default ArticleSliderCard;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import SearchIcon from "../../assets/searc-big.png";
 
-function SecondSlider() {
+function GallerySlider() {
   const [popupImage, setPopupImage] = useState(null);
   const [isVisible, setIsVisible] = useState(true);
 
@@ -47,7 +47,7 @@ function SecondSlider() {
       return (
         <a>
           <img
-            src={`/src/assets/secondSlider/image${i + 1}.jpg`}
+            src={`/src/assets/GallerySlider/image${i + 1}.jpg`}
             onClick={() => {
               handleButtonClick();
             }}
@@ -69,37 +69,37 @@ function SecondSlider() {
     {
       id: 1,
       title: "image1",
-      imageUrl: "/src/assets/secondSlider/image1.jpg",
+      imageUrl: "/src/assets/GallerySlider/image1.jpg",
     },
     {
       id: 2,
       title: "image2",
-      imageUrl: "/src/assets/secondSlider/image2.jpg",
+      imageUrl: "/src/assets/GallerySlider/image2.jpg",
     },
     {
       id: 3,
       title: "image3",
-      imageUrl: "/src/assets/secondSlider/image3.jpg",
+      imageUrl: "/src/assets/GallerySlider/image3.jpg",
     },
     {
       id: 4,
       title: "image4",
-      imageUrl: "/src/assets/secondSlider/image4.jpg",
+      imageUrl: "/src/assets/GallerySlider/image4.jpg",
     },
     {
       id: 5,
       title: "image5",
-      imageUrl: "/src/assets/secondSlider/image5.jpg",
+      imageUrl: "/src/assets/GallerySlider/image5.jpg",
     },
     {
       id: 6,
       title: "image6",
-      imageUrl: "/src/assets/secondSlider/image6.jpg",
+      imageUrl: "/src/assets/GallerySlider/image6.jpg",
     },
     {
       id: 7,
       title: "image7",
-      imageUrl: "/src/assets/secondSlider/image7.jpg",
+      imageUrl: "/src/assets/GallerySlider/image7.jpg",
     },
   ];
 
@@ -133,4 +133,4 @@ function SecondSlider() {
   );
 }
 
-export default SecondSlider;
+export default GallerySlider;

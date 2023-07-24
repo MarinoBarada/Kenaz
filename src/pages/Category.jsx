@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import FirstSlider from "../components/Sliders/FirstSlider";
+import ArticleSlider from "../components/Sliders/ArticleSlider";
 import SideSectionLayout from "../layouts/SideSectionLayout";
 import Banner from "../components/Banners/Banner";
 import { useLocation } from "react-router-dom";
@@ -36,7 +36,7 @@ function Category() {
 
   return (
     <>
-      <FirstSlider />
+      <ArticleSlider />
 
       <SideSectionLayout>
         <div className="articles-wrapper" ref={componentRef}>

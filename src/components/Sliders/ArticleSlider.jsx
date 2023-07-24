@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
-import FirstSliderCard from "./FirstSliderCard";
+import ArticleSliderCard from "./ArticleSliderCard";
 import Articles from "../../data/articles.json";
 
-function firstSlider() {
+function ArticleSlider() {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -41,7 +41,7 @@ function firstSlider() {
         {Articles.sort((a, b) => new Date(b.date) - new Date(a.date))
           .slice(0, 8)
           .map((item) => (
-            <FirstSliderCard
+            <ArticleSliderCard
               key={item.id}
               date={item.date}
               comments={item.comments}
@@ -57,4 +57,4 @@ function firstSlider() {
   );
 }
 
-export default firstSlider;
+export default ArticleSlider;
