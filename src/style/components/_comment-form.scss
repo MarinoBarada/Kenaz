@@ -1,0 +1,49 @@
+.comment-form {
+    @include flex-column;
+    margin-top: 25px;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+
+    input {
+        background-color: #dddddd;
+        @include varela-14;
+        color: #666666;
+        line-height: 16.86px;
+        border: none;
+        padding-left: 18px;
+        height: 43px;
+        width: 50%;
+
+        &:focus {
+            outline: solid 1px $primary-color;
+        }
+    }
+
+    textarea {
+        background-color: #dddddd;
+        @include varela-14;
+        color: #666666;
+        line-height: 16.86px;
+        border: none;
+        padding: 11px 18px;
+        resize: none;
+        width: calc(100% - 36px);
+        height: 187px;
+
+        &:focus {
+            outline: solid 1px $primary-color;
+        }
+    }
+
+    button {
+        background-color: $primary-color;
+        color: $white-color;
+        @include varela-14;
+        line-height: 16.86px;
+        padding: 17px 50px;
+        margin-top: 8px;
+        cursor: pointer;
+        border: none;
+    }
+}
