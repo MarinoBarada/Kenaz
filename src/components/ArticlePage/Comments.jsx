@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { add } from "../../redux/addComment";
 import Comment from "./Comment";
+import CommentForm from "./CommentForm";
 
 function Comments({ comments, articleID }) {
+  const commentsRef = useRef(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -15,6 +17,7 @@ function Comments({ comments, articleID }) {
 
   const dispatch = useDispatch();
   const reduxComments = useSelector((state) => state.addNewComment);
+  const reduxReplays = useSelector((state) => state.addReplay);
 
   useEffect(() => {
     const commentsForArticle = reduxComments.filter(
@@ -44,7 +47,7 @@ function Comments({ comments, articleID }) {
         articleID,
       }));
     }
-  }, [comments, articleID, reduxComments]);
+  }, [comments, articleID, reduxComments, reduxReplays]);
 
   const commentData = (event) => {
     event.preventDefault();
@@ -72,6 +75,8 @@ function Comments({ comments, articleID }) {
       date: "",
       imageUrl: "/src/assets/avatar.jpg",
     });
+
+    commentsRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
   function changeInput(event) {
@@ -82,18 +87,39 @@ function Comments({ comments, articleID }) {
   return (
     <div className="comments-container">
       <h1>Comments</h1>
-      <div className="comments-wrapper">
+      <div className="comments-wrapper" ref={commentsRef}>
         {comments
           .sort((a, b) => a.date - b.date)
           .map((item) => (
             <Comment
               key={item.id}
-              id={item.id}
+              commentID={item.id}
               imageUrl={item.imageUrl}
               name={item.name}
               date={item.date}
               content={item.content}
-            />
+              articleID={articleID}
+            >
+              {reduxReplays
+                .filter(
+                  (comment) =>
+                    comment.articleID === articleID &&
+                    comment.commentID === item.id
+                )
+                .sort((a, b) => a.date - b.date)
+                ?.map((item) => (
+                  <Comment
+                    key={item.id}
+                    commentID={item.id}
+                    imageUrl={item.imageUrl}
+                    name={item.name}
+                    date={item.date}
+                    content={item.content}
+                    articleID={articleID}
+                    commentReplay={true}
+                  />
+                ))}
+            </Comment>
           ))}
         {reduxComments
           .filter((comment) => comment.articleID === articleID)
@@ -101,12 +127,33 @@ function Comments({ comments, articleID }) {
           ?.map((item) => (
             <Comment
               key={item.id}
-              id={item.id}
+              commentID={item.id}
               imageUrl={item.imageUrl}
               name={item.name}
               date={item.date}
               content={item.content}
-            />
+              articleID={articleID}
+            >
+              {reduxReplays
+                .filter(
+                  (comment) =>
+                    comment.articleID === articleID &&
+                    comment.commentID === item.id
+                )
+                .sort((a, b) => a.date - b.date)
+                ?.map((item) => (
+                  <Comment
+                    key={item.id}
+                    commentID={item.id}
+                    imageUrl={item.imageUrl}
+                    name={item.name}
+                    date={item.date}
+                    content={item.content}
+                    articleID={articleID}
+                    commentReplay={true}
+                  />
+                ))}
+            </Comment>
           ))}
       </div>
       <h1 className="add-comment">Add Your Comment</h1>
@@ -116,33 +163,11 @@ function Comments({ comments, articleID }) {
         we cover. Share your feedback, ask questions, or provide additional
         information related to the blog post.
       </p>
-      <form onSubmit={commentData}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Name"
-          value={formData.name}
-          onChange={changeInput}
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Email Address"
-          value={formData.email}
-          onChange={changeInput}
-          required
-        />
-        <textarea
-          rows={9}
-          cols={60}
-          name="content"
-          placeholder="Comment"
-          value={formData.content}
-          onChange={changeInput}
-        />
-        <button type="submit">Submit</button>
-      </form>
+      <CommentForm
+        commentData={commentData}
+        formData={formData}
+        changeInput={changeInput}
+      />
     </div>
   );
 }
