@@ -55,7 +55,7 @@ footer {
         }
 
         p {
-            color: #666666;
+            color: $paragraf-color-category;
             font-weight: 400;
             font-size: 14px;
         }
@@ -78,7 +78,7 @@ footer {
                 input {
                     width: 100%;
                     background-color: #333333;
-                    color: #999999;
+                    color: $footer-bottom;
                     border: none;
                     padding-left: 20px;
                     @include varela-16;
@@ -121,13 +121,13 @@ footer {
                 div {
                     background-color: #333333;
                     @include varela-12;
-                    color: #666666;
+                    color: $paragraf-color-category;
                     padding: 4px 11px;
                     width: fit-content;
                     cursor: pointer;
 
                     &.active {
-                        color: #cccccc;
+                        color: $footer-paragraf;
                         background-color: $primary-color;
                     }
                 }
@@ -171,12 +171,12 @@ footer {
                         span {
                             font-weight: 400;
                             font-size: 14px;
-                            color: #666666;
+                            color: $paragraf-color-category;
                         }
 
                         p {
                             @include varela-14;
-                            color: #666666;
+                            color: $paragraf-color-category;
                         }
                     }
 
@@ -200,11 +200,11 @@ footer {
 
             p {
                 @include varela-12;
-                color: #999999;
+                color: $footer-bottom;
 
                 a {
                     text-decoration: none;
-                    color: #999999;
+                    color: $footer-bottom;
                 }
             }
         }

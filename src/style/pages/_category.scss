@@ -26,8 +26,8 @@
             width: 30px;
             height: 30px;
             @include flex-center;
-            background-color: #dddddd;
-            color: #4d4382;
+            background-color: $background-color-social;
+            color: $primary-color;
             border: none;
             cursor: pointer;
             transition:
@@ -35,8 +35,13 @@
                 color 0.3s;
 
             &.active {
-                background-color: #4d4382;
-                color: white;
+                background-color: $primary-color;
+                color: $white-color;
+            }
+
+            &:hover {
+                background-color: $light-prime-color;
+                color: $white-color;
             }
         }
     }

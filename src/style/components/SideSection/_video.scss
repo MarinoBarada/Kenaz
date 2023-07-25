@@ -19,7 +19,7 @@
     p {
         margin-top: 17px;
         @include varela-12;
-        color: #666666;
+        color: $paragraf-color-category;
         @include container-wrapper;
         padding-bottom: 5px;
     }

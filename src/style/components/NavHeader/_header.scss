@@ -56,6 +56,10 @@ header {
           font-size: 14px;
           line-height: 27px;
           cursor: pointer;
+
+          &:hover {
+            background-color: $header-light-color;
+          }
         }
       }
 

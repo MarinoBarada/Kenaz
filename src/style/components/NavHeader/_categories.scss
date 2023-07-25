@@ -13,7 +13,6 @@ nav {
                 width: 100%;
                 @include flex-center;
                 @include bitter-18-bold;
-                padding: 0 17px;
                 height: 100%;
                 text-transform: uppercase;
                 cursor: pointer;
@@ -25,9 +24,10 @@ nav {
                     z-index: 2;
                     align-items: center;
                     height: 100%;
-                    color: white;
+                    color: $white-color;
                     text-decoration: none;
                     transition: all 0.35s;
+                    padding: 0 17px;
                 }
 
                 &::after {

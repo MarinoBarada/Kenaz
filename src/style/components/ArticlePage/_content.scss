@@ -2,7 +2,7 @@
     background-color: $white-color;
     width: 100%;
     @include flex-column;
-    color: #444444;
+    color: $paragraf-color-author;
 
     .paragraph {
         width: fit-content;

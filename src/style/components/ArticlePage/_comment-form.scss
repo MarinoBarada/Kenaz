@@ -8,7 +8,7 @@
     input {
         background-color: #dddddd;
         @include varela-14;
-        color: #666666;
+        color: $paragraf-color-category;
         line-height: 16.86px;
         border: none;
         padding-left: 18px;
@@ -23,7 +23,7 @@
     textarea {
         background-color: #dddddd;
         @include varela-14;
-        color: #666666;
+        color: $paragraf-color-category;
         line-height: 16.86px;
         border: none;
         padding: 11px 18px;
@@ -45,5 +45,9 @@
         margin-top: 8px;
         cursor: pointer;
         border: none;
+
+        &:hover {
+            background-color: $darker-primary-color;
+        }
     }
 }

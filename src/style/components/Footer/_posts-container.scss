@@ -34,7 +34,7 @@
 
                     p {
                         @include varela-10;
-                        color: #666666;
+                        color: $paragraf-color-category;
                     }
 
                     .comments {
@@ -55,7 +55,7 @@
                     -webkit-box-orient: vertical;
                     overflow: hidden;
                     @include bitter-14-bold;
-                    color: #cccccc;
+                    color: $footer-paragraf;
                 }
             }
 

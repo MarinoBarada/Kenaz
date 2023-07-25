@@ -18,7 +18,7 @@
 
         p {
             @include varela-12;
-            color: #666666;
+            color: $paragraf-color-category;
         }
 
         .date {
@@ -55,7 +55,7 @@
             p {
                 font-size: 14px;
                 line-height: 22px;
-                color: #444444;
+                color: $paragraf-color-author;
             }
 
             a {
@@ -64,6 +64,10 @@
                 @include varela-14;
                 cursor: pointer;
                 text-decoration: none;
+
+                &:hover {
+                    background-color: $darker-primary-color;
+                }
             }
         }
     }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import CalendarIcon from "../../assets/calendar.png";
 import Authors from "../../data/authors.json";
 
@@ -28,9 +28,9 @@ function Article({
         <p>{comments.length} Comments</p>
       </div>
       <div className="info">
-        <div className="image">
+        <NavLink className="image" to={`/${category}/${id}`} state={{ data: article }}>
           <img src={imageUrl} alt="image" />
-        </div>
+        </NavLink>
         <div className="intraduction">
           <p>{introduction}</p>
           <Link to={`/${category}/${id}`} state={{ data: article }}>
