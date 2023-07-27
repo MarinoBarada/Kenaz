@@ -118,8 +118,8 @@ function Home() {
           title="News Carousel"
           color="#FCC44D"
           clasName="posts-3"
-          leftArrow="src/assets/leftArrowYello.svg"
-          rightArrow="src/assets/rightArrowYello.svg"
+          leftArrow="/src/assets/leftArrowYello.svg"
+          rightArrow="/src/assets/rightArrowYello.svg"
           postNumber={2}
         >
           {Articles.filter((item) => item.category === "life")
@@ -144,8 +144,8 @@ function Home() {
               title="Editorals"
               color="#A99765"
               clasName="posts-4"
-              leftArrow="src/assets/leftArrowBrown.svg"
-              rightArrow="src/assets/rightArrowBrown.svg"
+              leftArrow="/src/assets/leftArrowBrown.svg"
+              rightArrow="/src/assets/rightArrowBrown.svg"
               postNumber={1}
             >
               {Articles.filter((item) => item.category === "tech")
@@ -170,8 +170,8 @@ function Home() {
               title="Local News"
               color="#A99765"
               clasName="posts-4"
-              leftArrow="src/assets/leftArrowBrown.svg"
-              rightArrow="src/assets/rightArrowBrown.svg"
+              leftArrow="/src/assets/leftArrowBrown.svg"
+              rightArrow="/src/assets/rightArrowBrown.svg"
               postNumber={1}
             >
               {Articles.filter((item) => item.category === "travel")
