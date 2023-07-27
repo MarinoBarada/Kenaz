@@ -4,14 +4,39 @@
     gap: 18px;
 
     .news-wrapper {
-        width: 622px;
+        width: 66%;
         @include flex-column;
         gap: 18px;
     }
 
     .side-wrapper {
-        width: 300px;
+        width: 32%;
         padding: 0;
         gap: 18px;
+    }
+}
+
+@media (max-width: 940px) {
+    .news-sidebar-wrapper {
+        .news-wrapper {
+            width: 50%;
+        }
+
+        .side-wrapper {
+            width: 48%;
+        }
+    }
+}
+@media (max-width: 650px) {
+    .news-sidebar-wrapper {
+        @include flex-column;
+
+        .news-wrapper {
+            width: 100%;
+        }
+
+        .side-wrapper {
+            width: 100%;
+        }
     }
 }

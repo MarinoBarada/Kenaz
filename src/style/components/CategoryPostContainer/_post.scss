@@ -2,6 +2,7 @@
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 
     .post {
         width: 170px;
@@ -20,7 +21,6 @@
 }
 
 .posts-2 {
-    max-width: 610px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -61,5 +61,13 @@
             @include bitter-14-bold;
             color: $title-color;
         }
+    }
+}
+
+@media (max-width: 940px) {
+    .posts-2 {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
 }

@@ -7,3 +7,15 @@
         width: 50%;
     }
 }
+
+@media (max-width: 940px) {
+    .two-small-sliders {
+        height: fit-content;
+        @include flex-column;
+        gap: 18px;
+
+        .small-slider {
+            width: 100%;
+        }
+    }
+}

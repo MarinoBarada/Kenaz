@@ -53,3 +53,27 @@ nav {
         }
     }
 }
+
+@media (max-width: 650px) {
+    nav {
+        height: 100%;
+
+        .flex {
+            display: flex;
+            height: 100%;
+
+            ul {
+                @include flex-center;
+                list-style: none;
+                flex-wrap: wrap;
+                justify-content: start;
+
+                li {
+                    width: fit-content;
+                    @include bitter-18-bold;
+                    height: 53px;
+                }
+            }
+        }
+    }
+}

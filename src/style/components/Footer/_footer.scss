@@ -14,6 +14,7 @@ footer {
         margin-top: 57px;
         display: flex;
         gap: 18px;
+        flex-wrap: wrap;
 
         .social {
             @include flex-column;
@@ -139,6 +140,7 @@ footer {
         margin-top: 70px;
         display: flex;
         gap: 18px;
+        flex-wrap: wrap;
 
         .twitter-feed {
             width: 298px;
@@ -205,6 +207,31 @@ footer {
                 a {
                     text-decoration: none;
                     color: $footer-bottom;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 940px) {
+    footer {
+        .first-wrapper {
+            padding: 0 30px;
+        }
+
+        .second-wrapper {
+            padding: 0 30px;
+        }
+
+        .bottom {
+            .bottom-wrapper {
+                padding: 0 30px;
+                @include flex-column;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                p {
+                    text-align: center;
                 }
             }
         }

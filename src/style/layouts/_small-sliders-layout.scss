@@ -65,3 +65,45 @@
         }
     }
 }
+
+@media (max-width: 940px) {
+    .posts-3 {
+        max-width: calc(50vw - 90px);
+
+        .slick-slide > div {
+            margin: 0 5px;
+        }
+        .slick-list {
+            margin: 0 -5px;
+        }
+
+        .post-3 {
+            width: 100%;
+        }
+    }
+
+    .posts-4 {
+        max-width: calc(50vw - 100px);
+
+        .slick-slide > div {
+            margin: 0 5px;
+        }
+
+        .slick-list {
+            margin: 0 -5px;
+        }
+
+        .post-4 {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 650px) {
+    .posts-3 {
+        max-width: calc(100vw - 90px);
+    }
+
+    .posts-4 {
+        max-width: calc(100vw - 100px);
+    }
+}

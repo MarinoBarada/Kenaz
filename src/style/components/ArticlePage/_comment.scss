@@ -27,6 +27,7 @@
                 flex-direction: row;
                 align-items: end;
                 gap: 10px;
+                flex-wrap: wrap;
 
                 h2 {
                     color: $primary-color;

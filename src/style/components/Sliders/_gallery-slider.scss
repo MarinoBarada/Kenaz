@@ -88,14 +88,15 @@
     }
 
     ul.slick-dots {
-        height: 120px;
+        height: 100px;
         bottom: 20px;
-        left: 15px;
-        width: calc(100% - 30px);
+        left: 0px;
+        width: calc(100%);
 
         li {
-            height: 120px;
-            width: 120px;
+            height: 100%;
+            width: 13%;
+            margin: 0 2px;
             a {
                 img {
                     height: 100%;

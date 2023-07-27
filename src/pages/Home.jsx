@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ArticleSlider from "../components/Sliders/ArticleSlider";
 import SideSectionLayout from "../layouts/SideSectionLayout";
 import ContainerCategoryLayout from "../layouts/ContainerCategoryLayout";
@@ -9,6 +9,44 @@ import GallerySlider from "../components/Sliders/GallerySlider";
 import Articles from "../data/articles.json";
 
 function Home() {
+  const [variableValue, setVariableValue] = useState(3);
+  const [variableValue2, setVariableValue2] = useState(4);
+  const [screenSize, setScreenSize] = useState(getCurrentDimension());
+
+  function getCurrentDimension() {
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    };
+  }
+
+  useEffect(() => {
+    const updateDimension = () => {
+      setScreenSize(getCurrentDimension());
+    };
+    window.addEventListener("resize", updateDimension);
+
+    if (screenSize.width <= 940) {
+      setVariableValue(2);
+      setVariableValue2(2);
+    } else {
+      setVariableValue(3);
+      setVariableValue2(4);
+    }
+    if (screenSize.width <= 650) {
+      setVariableValue(3);
+      setVariableValue2(2);
+    }
+    if (screenSize.width <= 500) {
+      setVariableValue(2);
+      setVariableValue2(2);
+    }
+
+    return () => {
+      window.removeEventListener("resize", updateDimension);
+    };
+  }, [screenSize]);
+
   return (
     <>
       <ArticleSlider />
@@ -17,7 +55,7 @@ function Home() {
         <ContainerCategoryLayout title="News" color="#3677B5" clasName="posts">
           {Articles.filter((item) => item.category === "news")
             .sort((a, b) => new Date(b.date) - new Date(a.date))
-            .slice(0, 3)
+            .slice(0, variableValue)
             .map((item) => (
               <Post
                 key={item.id}
@@ -35,7 +73,7 @@ function Home() {
         <ContainerCategoryLayout title="Sport" color="#84C14F" clasName="posts">
           {Articles.filter((item) => item.category === "sport")
             .sort((a, b) => new Date(b.date) - new Date(a.date))
-            .slice(0, 3)
+            .slice(0, variableValue)
             .map((item) => (
               <Post
                 key={item.id}
@@ -59,7 +97,7 @@ function Home() {
         >
           {Articles.filter((item) => item.category === "business")
             .sort((a, b) => new Date(b.date) - new Date(a.date))
-            .slice(0, 4)
+            .slice(0, variableValue2)
             .map((item) => (
               <Post
                 key={item.id}
